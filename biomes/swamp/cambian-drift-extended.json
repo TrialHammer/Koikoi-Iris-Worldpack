@@ -1,0 +1,111 @@
+{
+  "name": "Swamp Cambian Drift",
+  "color": "#90B509",
+  "rarity": 1,
+  "derivative": "minecraft:dark_forest",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "swamp_cambian_drift",
+      "waterColor": "#684D1A",
+      "foliageColor": "2B4A00",
+      "grassColor": "#5C581A",
+      "spawnRarity": 20,
+      "spawns": [
+        {
+          "type": "minecraft:slime",
+          "group": "MONSTER"
+        }
+      ],
+      "tags": [
+        "minecraft:allows_surface_slime_spawns"
+      ]
+    }
+  ],
+  "generators": [
+    {
+      "min": 55,
+      "max": 95,
+      "generator": "mountain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "style": {
+        "style": "NOWHERE"
+      },
+      "zoom": 0.5,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:grass_block"
+        },
+        {
+          "block": "minecraft:podzol"
+        },
+        {
+          "block": "minecraft:coarse_dirt"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/darkoak-talldrift-c0-7-d2-dark-oak-leaves",
+    "snippet/object-placer/trees/mushroom-brown-red-mushclut-c0-02-d1",
+    "snippet/object-placer/trees/mushroom-brown-red-mushclut-c0-07-d1-brown-caps",
+    "snippet/object-placer/clutter/boulder-c0-135",
+    "snippet/object-placer/clutter/stump-paint-c0-1-dark-oak",
+    "snippet/object-placer/clutter/oakclutt-c0-3-dark-oak",
+    {
+      "chance": 0.001,
+      "rotation": {
+        "enabled": false
+      },
+      "place": [
+        "clutter/genericgrave1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/mushrooms/dead-bush-mix-c0-03",
+    {
+      "chance": 0.0002,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.45,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/hilly/amp24-nowhere-crack448"
+}

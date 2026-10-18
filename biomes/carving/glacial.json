@@ -1,0 +1,63 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-cave",
+  "name": "Glacial",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:tuff"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "minHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:powder_snow"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "stackMax": 60,
+      "stackMin": 30,
+      "absoluteMaxStack": 6,
+      "scaleStack": true,
+      "partOf": "CEILING",
+      "palette": [
+        {
+          "block": "minecraft:packed_ice"
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 3,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:packed_ice"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/rock-boulder-carve-c0-0972-d4-size0-375"
+  ],
+  "caveProfile": "snippet/cave-profile/frozen/shard-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/glacial-child"
+  ],
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 0.62
+  },
+  "childShrinkFactor": 1.3
+}

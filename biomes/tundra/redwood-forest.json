@@ -1,0 +1,161 @@
+{
+  "name": "Tundra Redwood Forest",
+  "color": "#2BBBCB",
+  "rarity": 3,
+  "derivative": "minecraft:taiga",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "tundra_redwood_forest",
+      "grassColor": "#AC7B1F",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    }
+  ],
+  "children": [
+    "tundra/redwood-extended-cliffs"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 10,
+      "generator": "smooth-dunes"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:coarse_dirt"
+      },
+      {
+        "block": "minecraft:dirt"
+      },
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:dirt"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/grass/podzol-coarse-mix",
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/boulder-paint-c0-4",
+    "snippet/object-placer/clutter/sbush-paint-c0-6",
+    "snippet/object-placer/trees/mixed-tredwood-c0-35",
+    "snippet/object-placer/clutter/srock-paint-c0-32-diorite",
+    "snippet/object-placer/trees/mixed-tredwoodsmol-c0-45-birch-leaves",
+    "snippet/object-placer/clutter/spruceclutt-c0-35",
+    {
+      "chance": 0.15,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/rshrub1",
+        "clutter/rshrub2"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -3,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/trees/mixed-tredwoodbee-c0-01",
+    "snippet/object-placer/clutter/stump-paint-c0-075-spruce"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/cool-mix-c0-003-z1",
+    "snippet/decorator/shrubs/sweet-berry-c0-01",
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:red_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:large_fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter"
+  ],
+  "childShrinkFactor": 2.4,
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
+}

@@ -1,0 +1,33 @@
+{
+  "version": 4023,
+  "layoutSeed": 3560224932,
+  "lakeColumns": 46080,
+  "lakeChunkArea": 180.0,
+  "biomeConvergence": {
+    "landWithin150Columns": 229103,
+    "dappledFamilyColumns": 221530,
+    "dappledFamilyFraction": 0.9669449985377756,
+    "minimumRequired": 0.85,
+    "passes": true
+  },
+  "surfaceMaskDappledFamilyFraction": 0.9193831037775787,
+  "heightAndLakeMapsUnchanged": {
+    "comparedTo": "koikoi-v4022-before-biome-convergence.tar.gz",
+    "changed": [
+      "surface-biomes.png"
+    ],
+    "unchanged": [
+      "lake-height.png",
+      "lake-biome.png",
+      "terrain-mask.png",
+      "forest-region.png"
+    ],
+    "sha256": {
+      "forest-region.png": "6a1cbe3428068ee576d482741859ac07dc34f567ba50f90d319e032711d95fee",
+      "lake-biome.png": "26f2eb30a01d1cc0396434fa8dae0adefb8bd44fafdaeb972f09d605ec14f5fc",
+      "lake-height.png": "0c85e6973d945e83e7970899ff922a1168e3976356d7575ecc593bc40f2c93e5",
+      "surface-biomes.png": "7650bcc8a5ea7bcf247364fb46439cf5d61d72f15cf7169788c4e5201f453fc9",
+      "terrain-mask.png": "06b2f2ed6c0a69ec2d930a61a6eca86a1534e5d9762bac86819bc5b1462be9ee"
+    }
+  }
+}

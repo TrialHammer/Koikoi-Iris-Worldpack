@@ -1,0 +1,106 @@
+{
+  "seed": 3808884213235150753,
+  "world": "iris:koikoi_preview",
+  "fullChunks": 220,
+  "chunkStatuses": {
+    "minecraft:structure_starts": 1190,
+    "minecraft:biomes": 96,
+    "minecraft:terrain": 84,
+    "minecraft:initialize_light": 83,
+    "minecraft:spawn": 44,
+    "minecraft:light": 14,
+    "minecraft:full": 220,
+    "minecraft:structure_references": 2
+  },
+  "waterByLevel": {
+    "48": {
+      "wetColumns": 8609,
+      "lakeConnectedColumns": 8609,
+      "chunkArea": 33.62890625
+    },
+    "49": {
+      "wetColumns": 9300,
+      "lakeConnectedColumns": 9300,
+      "chunkArea": 36.328125
+    },
+    "50": {
+      "wetColumns": 10239,
+      "lakeConnectedColumns": 10239,
+      "chunkArea": 39.99609375
+    },
+    "51": {
+      "wetColumns": 0,
+      "lakeConnectedColumns": 0,
+      "chunkArea": 0.0
+    }
+  },
+  "surfaceBiomes": {
+    "minecraft:savanna": 1680,
+    "minecraft:dappled_forest": 43936,
+    "minecraft:river": 10144,
+    "iris:biomes/fc7f01dfcbafaaa0e0f6c494d3a81e0193de13e1d9197ee21693c14a8947b75c": 560
+  },
+  "poplarCanopyOrTrunkColumns": 10981,
+  "groundHeightRange": [
+    11,
+    157
+  ],
+  "generatedChunkBounds": {
+    "minX": -8,
+    "maxX": 6,
+    "minZ": -8,
+    "maxZ": 7
+  },
+  "paper": "26.3-174",
+  "iris": "4.3.2-26.2",
+  "packVersion": 4017,
+  "layoutSeed": 3560224932,
+  "packValidation": {
+    "blockingErrors": 0,
+    "warnings": 0,
+    "method": "RCON iris pack validate pack=koikoi; persisted canonical result",
+    "resultSource": "plugins/Iris/cache/pack-validation.json",
+    "validatedAtServerMillis": 1791738623403
+  },
+  "newConfigurationSchemaErrors": 0,
+  "schemaConfigurationsChecked": 15,
+  "aboveWaterGroundHeightRange": [
+    51,
+    157
+  ],
+  "lakeFloorHeightRange": [
+    27,
+    49
+  ],
+  "lakeSurfaceBiomes": {
+    "minecraft:river": 9750,
+    "minecraft:dappled_forest": 489
+  },
+  "designSubmergedColumns": 10240,
+  "lakeBounds": {
+    "minX": -88,
+    "maxX": 72,
+    "minZ": -52,
+    "maxZ": 55
+  },
+  "designCellsOccupiedAtWaterLevel": [
+    {
+      "x": 42,
+      "z": 45,
+      "block": "minecraft:soul_sand"
+    }
+  ],
+  "centralRequestedChunksComplete": 196,
+  "unchangedResourceFilesComparedToV4016": 8199,
+  "measurementMethod": "Saved Anvil chunks after RCON save-all flush; native block and biome palettes decoded. Ground ignores vegetation and water, retaining caves and generated solid objects.",
+  "managementEndpoint": {
+    "host": "matcha-flavoured",
+    "port": 25575
+  },
+  "testCleanup": {
+    "forcedChunksRemoved": true,
+    "serverStopped": true,
+    "shutdownConfirmedBy": "Normal world save and RegionFile I/O completion in logs/latest.log; RCON/container endpoint no longer reachable"
+  },
+  "measuredAtUtc": "2026-10-11T17:09:11.306791+00:00"
+}

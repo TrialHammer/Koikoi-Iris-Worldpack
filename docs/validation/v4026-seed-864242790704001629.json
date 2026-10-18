@@ -1,0 +1,492 @@
+{
+  "seed": 864242790704001629,
+  "world": "iris:koikoi_preview_v4026",
+  "fullChunks": 4225,
+  "chunkStatuses": {
+    "minecraft:full": 4225,
+    "minecraft:structure_starts": 2528,
+    "minecraft:biomes": 280,
+    "minecraft:terrain": 272,
+    "minecraft:initialize_light": 264
+  },
+  "waterByLevel": {
+    "48": {
+      "wetColumns": 150623,
+      "lakeConnectedColumns": 36275,
+      "chunkArea": 141.69921875
+    },
+    "49": {
+      "wetColumns": 155682,
+      "lakeConnectedColumns": 39632,
+      "chunkArea": 154.8125
+    },
+    "50": {
+      "wetColumns": 163752,
+      "lakeConnectedColumns": 46068,
+      "chunkArea": 179.953125
+    },
+    "51": {
+      "wetColumns": 10,
+      "lakeConnectedColumns": 0,
+      "chunkArea": 0.0
+    }
+  },
+  "surfaceBiomes": {
+    "minecraft:dappled_forest": 357136,
+    "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 173632,
+    "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 85552,
+    "minecraft:old_growth_spruce_taiga": 77616,
+    "iris:biomes/4434cddd2d188b67bb9eff57e90b253af42c035d3b1164a2a672e08f093d421c": 30848,
+    "iris:biomes/3af65776fee0905f8969d0b0f6ad61dbe2a11f16bb6292b4a63355a52367d1e2": 18128,
+    "iris:biomes/1416070db372c77b9663409da039d51219f962c7e08504e11ea896be545fd736": 23552,
+    "iris:biomes/ebe55a8a89a93037e0e10c34eb6979fd210bf7f15c2e2c3e53ae1a18a55bf3ac": 30448,
+    "iris:biomes/3dc7ac3b712c1312b1e1e9fa28ae966df0a02c68f9815127e452cc4dec1e334e": 1056,
+    "iris:biomes/2d882e62c5ed55b831f9a185fa2c04223de113de9bf6e190c866cec109ec02e6": 38944,
+    "iris:biomes/2e9b3198db33a7028a57db00174638d0979984ec6971904667fa58dfe5e793b7": 864,
+    "iris:biomes/daecad2557727c5869ed3053208852615050554c557ff385a94b427fc0f717ea": 352,
+    "minecraft:desert": 1552,
+    "minecraft:deep_ocean": 97456,
+    "minecraft:jungle": 3008,
+    "minecraft:lukewarm_ocean": 15584,
+    "iris:biomes/89bc1adafaba657384655651b4482fec02a608da331ea6490bed9ba858238fca": 24176,
+    "minecraft:ocean": 1680,
+    "iris:biomes/1fe5c61ac958d00a7a947f1677c398b94fef1fb4a1463c779553cfc757716c89": 208,
+    "minecraft:warm_ocean": 1408,
+    "minecraft:river": 704,
+    "iris:biomes/9e9df75bdc1b037bda9e16a786e60653ae609c9e2e60d02562b67b108b47e085": 192,
+    "iris:biomes/76f50fafeb0cb47e98e9df469f86b213ef297f0e57df842119e329f6e869721e": 3008,
+    "iris:biomes/3e8d5781ff57fbe40f1abad1fca35fd12127e86a97502b36552bc0e544a25975": 9216,
+    "iris:biomes/a596a54c182208c427de2fc963b3ec26c62dcaae456346b3f66b4e54b42cc9e4": 3152,
+    "iris:biomes/3a1161cb7296f37d97c6734ed0e174a2556ebb9df5c0565a79b0d6901153fb97": 6576,
+    "iris:biomes/fc6090c680c85d6db829172138f6741cf7fb15ee5053809dd9da06cc0a0a977d": 169,
+    "iris:biomes/9ef71e26bf0e7fdd9914f17c0854cada40de789d87c5c4088b0f66418f9ab0b4": 210,
+    "iris:biomes/7b6b883ae3b05b9bb6ec6ae165403a49fa5db324fb6fd570fb5505e898e2b41f": 421,
+    "iris:biomes/422b26305f0b9704e6b447dd4f305852d1f07b8effe66d1be7d7f84f2f976e38": 208,
+    "iris:biomes/1eb6b63bcae777233a2b018ddc79fa3f62f8969276adc71309f2a35d3673a403": 49744,
+    "minecraft:windswept_hills": 13264,
+    "iris:biomes/e662e8c003c01041a3f00c3a89a76aab22f2ed7de2cc5f1c105ebdac398e1175": 48,
+    "minecraft:plains": 495,
+    "minecraft:beach": 1280,
+    "minecraft:forest": 865,
+    "iris:biomes/6d093b2db0020b47dce001f0301e0b46cf23acfc2375eaaf5352b19a22f67664": 8848
+  },
+  "poplarCanopyOrTrunkColumns": 142659,
+  "groundHeightRange": [
+    -61,
+    217
+  ],
+  "packVersion": 4026,
+  "layoutSeed": 3560224932,
+  "requestedChunks": 3091,
+  "missingRequestedChunks": [],
+  "mainLake": {
+    "columns": 46068,
+    "chunkArea": 179.953125,
+    "waterLevel": 50,
+    "bounds": {
+      "minX": -187,
+      "maxX": 153,
+      "minZ": -111,
+      "maxZ": 118
+    },
+    "floorHeightRange": [
+      28,
+      49
+    ],
+    "floorHeightPercentiles": [
+      34.0,
+      42.0,
+      49.0,
+      49.0
+    ],
+    "missingAuthorWaterColumns": 12,
+    "extraConnectedWaterColumns": 0
+  },
+  "lakebedRelief": {
+    "scope": "Actual ground in connected authored lake. Original caves, decorators and objects retained.",
+    "offshoreDistanceBands": [
+      {
+        "columns": 6543,
+        "mean": 48.89041723979826,
+        "percentiles5_50_95_99": [
+          48.0,
+          49.0,
+          49.0,
+          49.0
+        ],
+        "range": [
+          47.0,
+          49.0
+        ],
+        "offshoreDistance": [
+          0,
+          5
+        ],
+        "p95MinusP5": 1.0,
+        "neighborHeightDifference": {
+          "columns": 11510,
+          "mean": 0.07098175499565595,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "range": [
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "columns": 6073,
+        "mean": 47.084142927712826,
+        "percentiles5_50_95_99": [
+          44.0,
+          47.0,
+          49.0,
+          49.0
+        ],
+        "range": [
+          40.0,
+          49.0
+        ],
+        "offshoreDistance": [
+          5,
+          10
+        ],
+        "p95MinusP5": 5.0,
+        "neighborHeightDifference": {
+          "columns": 10629,
+          "mean": 0.3063317339354596,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "range": [
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "columns": 5739,
+        "mean": 44.251089039902425,
+        "percentiles5_50_95_99": [
+          38.0,
+          45.0,
+          48.0,
+          48.0
+        ],
+        "range": [
+          33.0,
+          48.0
+        ],
+        "offshoreDistance": [
+          10,
+          15
+        ],
+        "p95MinusP5": 10.0,
+        "neighborHeightDifference": {
+          "columns": 10011,
+          "mean": 0.38477674557986213,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            2.0
+          ],
+          "range": [
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "columns": 5630,
+        "mean": 41.49218472468917,
+        "percentiles5_50_95_99": [
+          33.0,
+          43.0,
+          46.0,
+          47.0
+        ],
+        "range": [
+          28.0,
+          48.0
+        ],
+        "offshoreDistance": [
+          15,
+          20
+        ],
+        "p95MinusP5": 13.0,
+        "neighborHeightDifference": {
+          "columns": 9853,
+          "mean": 0.34030244595554654,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "range": [
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "columns": 9868,
+        "mean": 39.20145926226186,
+        "percentiles5_50_95_99": [
+          32.0,
+          40.0,
+          45.0,
+          46.0
+        ],
+        "range": [
+          28.0,
+          47.0
+        ],
+        "offshoreDistance": [
+          20,
+          30
+        ],
+        "p95MinusP5": 13.0,
+        "neighborHeightDifference": {
+          "columns": 18552,
+          "mean": 0.27210004312203534,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "range": [
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "columns": 11111,
+        "mean": 37.67014670146701,
+        "percentiles5_50_95_99": [
+          34.0,
+          38.0,
+          41.0,
+          42.0
+        ],
+        "range": [
+          31.0,
+          44.0
+        ],
+        "offshoreDistance": [
+          30,
+          50
+        ],
+        "p95MinusP5": 7.0,
+        "neighborHeightDifference": {
+          "columns": 21606,
+          "mean": 0.24104415440155513,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "range": [
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "columns": 1104,
+        "mean": 35.29710144927536,
+        "percentiles5_50_95_99": [
+          32.0,
+          35.0,
+          39.0,
+          40.0
+        ],
+        "range": [
+          31.0,
+          41.0
+        ],
+        "offshoreDistance": [
+          50,
+          100
+        ],
+        "p95MinusP5": 7.0,
+        "neighborHeightDifference": {
+          "columns": 2090,
+          "mean": 0.2660287081339713,
+          "percentiles5_50_95_99": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "range": [
+            0.0,
+            1.0
+          ]
+        }
+      }
+    ],
+    "underwaterNeighborHeightDifference": {
+      "columns": 91331,
+      "mean": 0.27270039745540947,
+      "percentiles5_50_95_99": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "range": [
+        0.0,
+        2.0
+      ]
+    },
+    "shorelineNeighborHeightDifference": {
+      "columns": 1590,
+      "mean": 1.0,
+      "percentiles5_50_95_99": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "range": [
+        0.0,
+        3.0
+      ]
+    },
+    "groundMaterials": {
+      "minecraft:stone": 2092,
+      "minecraft:gravel": 4888,
+      "minecraft:dirt": 31187,
+      "minecraft:andesite": 947,
+      "minecraft:soul_sand": 11,
+      "minecraft:coal_ore": 37,
+      "minecraft:copper_ore": 16,
+      "minecraft:magma_block": 9,
+      "minecraft:granite": 33,
+      "minecraft:mud": 2755,
+      "minecraft:coarse_dirt": 984,
+      "minecraft:clay": 3109
+    },
+    "materialPatchFamilies": {
+      "dappled/lake": {
+        "columns": 26462,
+        "groundMaterials": {
+          "minecraft:dirt": 26028,
+          "minecraft:soul_sand": 6,
+          "minecraft:gravel": 422,
+          "minecraft:magma_block": 6
+        }
+      },
+      "dappled/lake-rocky": {
+        "columns": 7029,
+        "groundMaterials": {
+          "minecraft:stone": 2092,
+          "minecraft:gravel": 3900,
+          "minecraft:andesite": 947,
+          "minecraft:coal_ore": 37,
+          "minecraft:copper_ore": 16,
+          "minecraft:magma_block": 2,
+          "minecraft:granite": 33,
+          "minecraft:soul_sand": 2
+        },
+        "distinctiveMaterialFraction": 0.4370465215535638,
+        "backgroundDistinctiveMaterialFraction": 0.0
+      },
+      "dappled/lake-silt": {
+        "columns": 12577,
+        "groundMaterials": {
+          "minecraft:dirt": 5159,
+          "minecraft:mud": 2755,
+          "minecraft:coarse_dirt": 984,
+          "minecraft:clay": 3109,
+          "minecraft:gravel": 566,
+          "minecraft:soul_sand": 3,
+          "minecraft:magma_block": 1
+        },
+        "distinctiveMaterialFraction": 0.5444859664466885,
+        "backgroundDistinctiveMaterialFraction": 0.0
+      }
+    },
+    "nativeLakeBiomes": {
+      "minecraft:dappled_forest": 46068
+    },
+    "nativeDappledLakeFraction": 1.0
+  },
+  "biomeConvergence": {
+    "scope": "Actual land within 150 blocks of authored lake shoreline; water excluded.",
+    "columns": 229103,
+    "nativeDappledColumns": 226538,
+    "nativeDappledFraction": 0.9888041623200046,
+    "groundBiomes": {
+      "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 646,
+      "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 319,
+      "minecraft:dappled_forest": 226538,
+      "iris:biomes/4434cddd2d188b67bb9eff57e90b253af42c035d3b1164a2a672e08f093d421c": 820,
+      "minecraft:old_growth_spruce_taiga": 780
+    },
+    "minimumRequired": 0.85,
+    "passes": true,
+    "allSurfaceMapInfluenceLandColumns": 340579,
+    "allSurfaceMapInfluenceNativeDappledFraction": 0.7597767331514862
+  },
+  "surfaceBreakEnabled": true,
+  "formerNortheastCenterRuntimeHeight": 100,
+  "authorVerification": {
+    "version": 4026,
+    "fixedWorldSeed": 864242790704001629,
+    "schemaFilesPassed": 23,
+    "lakeColumns": 46080,
+    "lakeFloorPixelsUnchanged": true,
+    "lakeMaterialPixelsUnchanged": true,
+    "lakeFootprintUnchanged": true,
+    "forestRegionUnchanged": true,
+    "noAuthorHeightIncreases": true,
+    "authoredHeightRange": [
+      27.70226596475166,
+      117.79702449073015
+    ],
+    "removedAuthoredRidgeCenterBeforeAfter": [
+      223.03447013046465,
+      100.1741359578851
+    ],
+    "surfaceBreakEnabled": true,
+    "authorDappledLandFractionWithin150": 1.0,
+    "lakeNativeIdentity": "minecraft:dappled_forest",
+    "generationResourcesCompared": 8220,
+    "generationResourcesDeleted": [],
+    "generationResourcesAdded": [],
+    "generationResourcesChanged": [
+      "biomes/dappled/lake-rocky.json",
+      "biomes/dappled/lake-silt.json",
+      "biomes/dappled/lake.json",
+      "dimensions/koikoi.json",
+      "images/activity/lake-height.png",
+      "images/activity/surface-biomes.png",
+      "images/activity/terrain-mask.png"
+    ],
+    "generationResourcesUnchanged": 8213,
+    "epoch": "9cc8270f9649bbba475dd75deee437341e0db6786f4abd3d615935282c4e6b6e",
+    "snapshotMatchesAuthorPack": true,
+    "canonicalValidationBeforeCreation": {
+      "packName": "koikoi",
+      "blockingErrors": [],
+      "warnings": [],
+      "validatedAtMillis": 1791849356473,
+      "minecraftVersion": "26.3",
+      "compatFindings": []
+    },
+    "runtimeValidation": "Pending original-container restart after Paper watchdog stopped synchronous forceload generation."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-cave",
+  "name": "Ice Cavern Child",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:packed_ice"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/ice/ice5-packed-1-1",
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "zoom": 0.4,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:blue_ice"
+        },
+        {
+          "weight": 5,
+          "block": "minecraft:ice"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "weight": 5,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.001,
+      "palette": [
+        {
+          "block": "minecraft:cornflower"
+        }
+      ]
+    },
+    {
+      "chance": 0.0015,
+      "scaleStack": true,
+      "stackMin": 25,
+      "stackMax": 50,
+      "absoluteMaxStack": 3,
+      "palette": [
+        {
+          "block": "minecraft:ice",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:packed_ice",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.005,
+      "absoluteMaxStack": 3,
+      "scaleStack": true,
+      "stackMin": 25,
+      "stackMax": 50,
+      "palette": [
+        {
+          "block": "minecraft:ice",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:packed_ice",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:ice"
+        }
+      ]
+    },
+    "snippet/biome-palette/ice/blackstone-blue-1-1"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/rock-boulder-carve-c0-0972-d4-size0-375"
+  ],
+  "caveProfile": "snippet/cave-profile/frozen/shard-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/ice-lite-child"
+  ],
+  "childStyle": {
+    "style": "CELLULAR_IRIS_DOUBLE",
+    "zoom": 0.9
+  },
+  "childShrinkFactor": 1.54
+}

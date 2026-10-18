@@ -1,0 +1,162 @@
+{
+  "name": "Tundra Taiga",
+  "color": "#0DCADF",
+  "rarity": 1,
+  "derivative": "minecraft:old_growth_spruce_taiga",
+  "vanillaDerivative": "minecraft:taiga",
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "tundra_taiga",
+      "grassColor": "#7BA13C",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "min": 45,
+      "max": 97
+    },
+    {
+      "generator": "mountain",
+      "max": 14,
+      "min": 8
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "zoom": 0.92,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-2-4",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.00256,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/grave1"
+      ]
+    },
+    "snippet/object-placer/clutter/stoneclutt-c0-2",
+    "snippet/object-placer/trees/mixed-tredwoodsmol-c0-25-birch-leaves",
+    "snippet/object-placer/trees/spruce-pine-c0-05",
+    "snippet/object-placer/clutter/stump-paint-c0-01",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    {
+      "chance": 0.003,
+      "zoom": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:white_tulip"
+        },
+        {
+          "block": "minecraft:blue_orchid"
+        }
+      ]
+    },
+    {
+      "chance": 0.023,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.001,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:poppy"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.001,
+      "zoom": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:wither_rose"
+        },
+        {
+          "block": "minecraft:oxeye_daisy"
+        },
+        {
+          "block": "minecraft:pink_tulip"
+        }
+      ],
+      "style": {
+        "style": "FRACTAL_SMOKE"
+      }
+    },
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:large_fern"
+        },
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ],
+      "style": {
+        "style": "FRACTAL_SMOKE"
+      }
+    },
+    {
+      "chance": 0.21,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tundra-taiga-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

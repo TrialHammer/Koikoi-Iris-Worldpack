@@ -1,0 +1,147 @@
+{
+  "name": "Mountain Plains",
+  "color": "#4E5A61",
+  "rarity": 1,
+  "derivative": "minecraft:old_growth_spruce_taiga",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "children": [
+    "mountain/plain-extended",
+    "mountain/mplain-extended"
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 53,
+      "min": 45
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite-gravel-cyan-terracotta",
+  "layers": [
+    "snippet/biome-palette/grass/top-1-1-flat3-3",
+    "snippet/biome-palette/gravel/cyan-terracotta-2-4-steep4",
+    "snippet/biome-palette/stone/cobble-2-4-steep4",
+    "snippet/biome-palette/grass/top-1-1-flat4",
+    "snippet/biome-palette/soil/dirt-3-3-flat3"
+  ],
+  "objects": [
+    {
+      "mode": "CENTER_HEIGHT",
+      "chance": 0.05,
+      "place": [
+        "trees/sproak/sp1",
+        "trees/sproak/sp2",
+        "trees/sproak/sp3",
+        "trees/sproak/sp4",
+        "trees/sproak/sp5",
+        "trees/sproak/sp6"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ]
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/meadow-mix-c0-2-trioctave-z0-3",
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "forceBlock": {
+        "block": "minecraft:farmland",
+        "data": {
+          "moisture": 7
+        }
+      },
+      "slopeCondition": {
+        "maximumSlope": 3.3
+      },
+      "variance": {
+        "style": "CELLULAR",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "style": {
+        "style": "TRIOCTAVE_SIMPLEX",
+        "zoom": 0.3,
+        "fracture": {
+          "style": "STATIC",
+          "multiplier": 8
+        }
+      },
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:wheat",
+          "data": {
+            "age": 7
+          }
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/bush"
+  ],
+  "childStyle": {
+    "style": "IRIS_DOUBLE",
+    "zoom": 10
+  },
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-perlin-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-mountain-plains",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

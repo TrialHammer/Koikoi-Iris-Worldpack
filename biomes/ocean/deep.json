@@ -1,0 +1,56 @@
+{
+  "riverPolicy": {
+    "placement": "TRANSIT_ONLY",
+    "routing": "BLOCK",
+    "outletAdmission": true,
+    "profiles": [
+      "water"
+    ],
+    "routingMultiplier": 1.0
+  },
+  "name": "Ocean Deep",
+  "color": "#5C4DEA",
+  "derivative": "minecraft:deep_ocean",
+  "vanillaDerivative": "minecraft:deep_ocean",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": -40,
+      "min": -80
+    }
+  ],
+  "layers": [
+    "snippet/biome-palette/sand/clay-gravel-dirt-2-2-flat3",
+    {
+      "minHeight": 2,
+      "maxHeight": 10,
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.09,
+      "palette": [
+        {
+          "block": "minecraft:kelp_plant"
+        }
+      ],
+      "stackMin": 2,
+      "stackMax": 12,
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:seagrass"
+        }
+      ]
+    },
+    "snippet/decorator/sea/tall-seagrass-c0-2"
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/magnetics/magical-glass-spikes-surface",
+  "name": "Cherry Grove",
+  "color": "#FFC0CB",
+  "rarity": 1,
+  "derivative": "minecraft:cherry_grove",
+  "vanillaDerivative": "minecraft:cherry_grove",
+  "generators": [
+    {
+      "min": -3,
+      "max": 16,
+      "generator": "magnetics/glass"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:calcite"
+      },
+      {
+        "block": "minecraft:smooth_quartz"
+      },
+      {
+        "block": "minecraft:quartz_block"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:calcite"
+        },
+        {
+          "block": "minecraft:smooth_quartz"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:quartz_block"
+        },
+        {
+          "block": "minecraft:smooth_quartz"
+        },
+        {
+          "block": "minecraft:calcite"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:calcite"
+        },
+        {
+          "block": "minecraft:andesite"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 16,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        },
+        {
+          "block": "minecraft:calcite"
+        },
+        {
+          "block": "minecraft:deepslate"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/amethyst-cluster-center-c0-12",
+    "snippet/object-placer/clutter/stoneboulder-center-c0-05"
+  ],
+  "decorators": [
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:amethyst_cluster"
+        },
+        {
+          "block": "minecraft:small_amethyst_bud"
+        }
+      ]
+    }
+  ],
+  "floatingChildBiomes": [
+    {
+      "biome": "magnetics/glass-shard",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "CELLULAR_IRIS_THICK",
+        "zoom": 0.38,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.16,
+          "multiplier": 8
+        }
+      },
+      "footprintThreshold": 0.55,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 4
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.2
+      },
+      "minHeightAboveSurface": 125,
+      "maxHeightAboveSurface": 175,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 20,
+      "topShapeStyle": {
+        "style": "CELLULAR_HEIGHT_IRIS",
+        "zoom": 0.32,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 5
+        }
+      },
+      "topShapeAmp": 1,
+      "bottomStyle": {
+        "style": "FRACTAL_RM_SIMPLEX",
+        "zoom": 0.24,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 5
+        }
+      },
+      "bottomDepthMin": 10,
+      "bottomDepthMax": 18,
+      "bottomExponent": 1.7,
+      "bottomPaletteMode": "MIRROR_TOP",
+      "maxThickness": 40,
+      "wallWarpStyle": {
+        "style": "HEXAGON_IRIS",
+        "zoom": 0.22,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.12,
+          "multiplier": 4
+        }
+      },
+      "wallWarpAmplitude": 3,
+      "carving": "carving/amethyst-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.18,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.88,
+      "inheritDecorators": true,
+      "inheritObjects": false,
+      "objectShrinkFactor": 1.0,
+      "topObjectMode": "REPLACE",
+      "topObjectOverrides": [
+        "snippet/object-placer/clutter/amethyst-cluster-center-c0-8-d10-glass"
+      ],
+      "bottomObjectMode": "REPLACE",
+      "bottomObjectOverrides": []
+    }
+  ],
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "cherry_grove",
+      "grassColor": "#B6DB61",
+      "foliageColor": "#B6DB61",
+      "waterColor": "#5DB7EF",
+      "downfallType": "none"
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_cherry_grove"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-vanilla-cherry_grove",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

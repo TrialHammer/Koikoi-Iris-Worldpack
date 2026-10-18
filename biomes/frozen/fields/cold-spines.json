@@ -1,0 +1,153 @@
+{
+  "name": "Cold Spines",
+  "color": "#B0BDC4",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_plains",
+  "vanillaDerivative": "minecraft:snowy_plains",
+  "customDerivitives": [
+    {
+      "category": "taiga",
+      "foliageColor": "#194569",
+      "id": "winter_mountain_forest1",
+      "grassColor": "#FFFAFA"
+    },
+    {
+      "category": "taiga",
+      "foliageColor": "#5F84A2",
+      "id": "winter_mountain_forest2",
+      "grassColor": "#FFFAFA"
+    },
+    {
+      "category": "taiga",
+      "foliageColor": "#91AEC4",
+      "id": "winter_mountain_forest3",
+      "grassColor": "#FFFAFA"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 30,
+      "min": 20
+    },
+    {
+      "generator": "mountain",
+      "max": 5,
+      "min": 1
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite-gravel-cyan-terracotta",
+  "layers": [
+    "snippet/biome-palette/snow/top-1-1-flat3-3",
+    "snippet/biome-palette/soil/dirt-3-3-flat3",
+    "snippet/biome-palette/soil/dirt-stone-3-3-flat3"
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ]
+    },
+    {
+      "mode": "PAINT",
+      "chance": 0.1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ]
+    },
+    {
+      "place": [
+        "trees/spruce/lfrostgeneric1",
+        "trees/spruce/lfrostgeneric2",
+        "trees/spruce/lfrostgeneric3",
+        "trees/spruce/lfrostgeneric4",
+        "trees/spruce/lfrostgeneric5",
+        "trees/spruce/lfrostgeneric6",
+        "trees/spruce/lfrostgeneric7",
+        "trees/spruce/lfrostgeneric8",
+        "trees/spruce/lfrostgeneric9",
+        "trees/spruce/lfrostgeneric10",
+        "trees/spruce/lfrostgeneric11",
+        "trees/spruce/lfrostgeneric12",
+        "trees/spruce/lfrostgeneric13",
+        "trees/spruce/lfrostgeneric14",
+        "trees/spruce/lfrostgeneric15",
+        "trees/spruce/lfrostgeneric16",
+        "trees/spruce/lfrostgeneric17",
+        "trees/spruce/lfrostgeneric18",
+        "trees/spruce/lfrostgeneric19",
+        "trees/spruce/lfrostgeneric20",
+        "trees/spruce/lfrostgeneric21"
+      ],
+      "edit": [
+        "snippet/object-block-replacer/leaves/dark-oak-fence-and-gate-to-spruce",
+        "snippet/object-block-replacer/leaves/spruce-to-oak"
+      ],
+      "chance": 0.6,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/meadow-mix-c0-2-simplex-z0-2",
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/sweet-berry-young-c0-02"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30103,
+    "amplitude": 22,
+    "horizontalScale": 112,
+    "verticalScale": 44,
+    "densityStyle": {
+      "style": "SIMPLEX"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.32,
+    "slopeFade": 0.4,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

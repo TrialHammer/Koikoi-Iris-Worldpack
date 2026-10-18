@@ -1,0 +1,21 @@
+{
+  "blocksPerPixel": 1,
+  "origin": {
+    "x": 0,
+    "z": 0
+  },
+  "sourceOrigin": {
+    "x": 512,
+    "z": 512
+  },
+  "outOfBounds": "FALLBACK",
+  "source": "activity/lake-biome",
+  "type": "COLOR_MAP",
+  "sampling": "NEAREST",
+  "alpha": "IGNORE",
+  "unknownColor": "FALLBACK",
+  "fallbackTarget": "dappled/lake",
+  "colors": {
+    "#3E729C": "dappled/lake"
+  }
+}

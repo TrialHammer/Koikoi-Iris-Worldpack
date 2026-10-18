@@ -1,0 +1,126 @@
+{
+  "name": "Birch Tall Forest",
+  "color": "#A8F588",
+  "rarity": 6,
+  "derivative": "minecraft:birch_forest",
+  "vanillaDerivative": "minecraft:birch_forest",
+  "generators": [
+    {
+      "min": 10,
+      "max": 30,
+      "generator": "highplains"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/grass/gravel-flecks",
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025",
+    "snippet/object-placer/clutter/camp-paint-c0-00375",
+    {
+      "chance": 0.39,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/birch/largeponderosa1",
+        "trees/birch/largeponderosa2",
+        "trees/birch/largeponderosa3",
+        "trees/birch/largeponderosa4",
+        "trees/birch/largeponderosa5",
+        "trees/birch/largeponderosa6",
+        "trees/birch/largeponderosa7",
+        "trees/birch/largeponderosa8",
+        "trees/birch/largeponderosa9",
+        "trees/birch/largeponderosa10",
+        "trees/birch/largeponderosa11",
+        "trees/birch/largeponderosa12",
+        "trees/birch/largeponderosa13",
+        "trees/birch/largeponderosa14",
+        "trees/birch/largeponderosa15",
+        "trees/birch/largeponderosa16",
+        "trees/birch/largeponderosa17",
+        "trees/birch/largeponderosa18",
+        "trees/birch/largeponderosa19",
+        "trees/birch/largeponderosa20"
+      ]
+    },
+    "snippet/object-placer/trees/birch-forest-c0-08-d4",
+    "snippet/object-placer/trees/birch-antioch-b-c0-08-d2",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/allium-mix-c0-03",
+    {
+      "chance": 0.4,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.017,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.025,
+      "palette": [
+        {
+          "block": "minecraft:birch_leaves"
+        }
+      ]
+    },
+    "snippet/decorator/flowers/wildflowers",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "childStyle": {
+    "style": "NOWHERE_SIMPLEX",
+    "zoom": 5
+  },
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-perlin-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_birch_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-birch-tall",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

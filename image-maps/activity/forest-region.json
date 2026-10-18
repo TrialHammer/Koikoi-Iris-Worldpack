@@ -1,0 +1,21 @@
+{
+  "blocksPerPixel": 1,
+  "origin": {
+    "x": 0,
+    "z": 0
+  },
+  "sourceOrigin": {
+    "x": 512,
+    "z": 512
+  },
+  "outOfBounds": "FALLBACK",
+  "source": "activity/forest-region",
+  "type": "COLOR_MAP",
+  "sampling": "NEAREST",
+  "alpha": "IGNORE",
+  "unknownColor": "FALLBACK",
+  "fallbackTarget": "dappled",
+  "colors": {
+    "#D17C29": "dappled"
+  }
+}

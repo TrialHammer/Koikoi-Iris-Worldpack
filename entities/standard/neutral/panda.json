@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:panda",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

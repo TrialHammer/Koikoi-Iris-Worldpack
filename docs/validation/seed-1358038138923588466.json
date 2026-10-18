@@ -1,0 +1,357 @@
+{
+  "seed": 1358038138923588466,
+  "world": "iris:koikoi_preview",
+  "fullChunks": 625,
+  "chunkStatuses": {
+    "minecraft:full": 625,
+    "minecraft:structure_starts": 445,
+    "minecraft:biomes": 35,
+    "minecraft:terrain": 31,
+    "minecraft:initialize_light": 27
+  },
+  "waterByLevel": {
+    "48": {
+      "wetColumns": 9586,
+      "lakeConnectedColumns": 9586,
+      "chunkArea": 37.4453125
+    },
+    "49": {
+      "wetColumns": 10295,
+      "lakeConnectedColumns": 10295,
+      "chunkArea": 40.21484375
+    },
+    "50": {
+      "wetColumns": 11272,
+      "lakeConnectedColumns": 11272,
+      "chunkArea": 44.03125
+    },
+    "51": {
+      "wetColumns": 0,
+      "lakeConnectedColumns": 0,
+      "chunkArea": 0.0
+    }
+  },
+  "surfaceBiomes": {
+    "iris:biomes/52230521ec1fe9a9d40be7f8a160ec4758c9210454a1a573ceec003dc8e0476d": 6784,
+    "iris:biomes/7e9f7a0ec05361d212e7c9b3f2dabce96f0638c40a7d2c7c1921887281efe26b": 7824,
+    "minecraft:dappled_forest": 108912,
+    "minecraft:stony_shore": 4816,
+    "minecraft:beach": 3552,
+    "minecraft:river": 11232,
+    "iris:biomes/163527107124581b867762f061cf0ca8460a6a41c529d0cd93b7472306373470": 80,
+    "iris:biomes/d9ed4f624bb55f3007883d559e55a6dd74aedc6b1fe89a866a8c0a7495a00a3a": 7584,
+    "iris:biomes/3fd9bbf6583405883f592ea967748ad957876134ceddb43873e65ee1145268dd": 1136,
+    "minecraft:stony_peaks": 7072,
+    "iris:biomes/be7bc1fad89d77acb6ff46b5c1a79d1ce7159fa021338d7bf00c6ca716553a18": 1008
+  },
+  "poplarCanopyOrTrunkColumns": 37700,
+  "groundHeightRange": [
+    9,
+    218
+  ],
+  "requestedChunksComplete": 441,
+  "generatedChunkBounds": {
+    "minX": -10,
+    "maxX": 14,
+    "minZ": -15,
+    "maxZ": 9
+  },
+  "lakeBoundingRectangle": {
+    "width": 180,
+    "length": 100,
+    "minX": -90,
+    "maxX": 89,
+    "minZ": -50,
+    "maxZ": 49
+  },
+  "designSubmergedColumns": 11272,
+  "lakeFloorHeightRange": [
+    27,
+    49
+  ],
+  "lakeFloorMaterials": {
+    "minecraft:gravel": 3886,
+    "minecraft:clay": 3053,
+    "minecraft:stone": 3307,
+    "minecraft:coal_ore": 101,
+    "minecraft:sand": 459,
+    "minecraft:dirt": 284,
+    "minecraft:andesite": 167,
+    "minecraft:copper_ore": 12,
+    "minecraft:iron_ore": 3
+  },
+  "shoreBand": {
+    "nominalWidth": 15,
+    "sampledColumns": 8893,
+    "columnsAtY50To52": 8860,
+    "fractionAtY50To52": 0.9962892162374901,
+    "groundHeightCounts": {
+      "52": 1231,
+      "51": 4172,
+      "50": 3457,
+      "49": 17,
+      "37": 3,
+      "28": 2,
+      "30": 1,
+      "48": 7,
+      "27": 2,
+      "29": 1
+    },
+    "materials": {
+      "minecraft:grass_block": 1042,
+      "minecraft:gravel": 1885,
+      "minecraft:stone": 2570,
+      "minecraft:sand": 3327,
+      "minecraft:clay": 9,
+      "minecraft:diorite": 1,
+      "minecraft:coal_ore": 39,
+      "minecraft:iron_ore": 8,
+      "minecraft:copper_ore": 5,
+      "minecraft:andesite": 7
+    },
+    "exceptions": [
+      {
+        "x": -13,
+        "z": -51,
+        "ground": 49,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -11,
+        "z": -51,
+        "ground": 49,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -9,
+        "z": -51,
+        "ground": 49,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -11,
+        "z": -50,
+        "ground": 49,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -6,
+        "z": -50,
+        "ground": 49,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -89,
+        "z": -34,
+        "ground": 37,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -88,
+        "z": -34,
+        "ground": 37,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -90,
+        "z": -33,
+        "ground": 28,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -89,
+        "z": -33,
+        "ground": 28,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -88,
+        "z": -33,
+        "ground": 37,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -87,
+        "z": -33,
+        "ground": 30,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -51,
+        "z": -34,
+        "ground": 49,
+        "block": "minecraft:sand"
+      },
+      {
+        "x": -8,
+        "z": -42,
+        "ground": 48,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -9,
+        "z": -41,
+        "ground": 48,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -8,
+        "z": -41,
+        "ground": 48,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -7,
+        "z": -41,
+        "ground": 48,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -8,
+        "z": -40,
+        "ground": 48,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -97,
+        "z": -19,
+        "ground": 49,
+        "block": "minecraft:sand"
+      },
+      {
+        "x": -89,
+        "z": -32,
+        "ground": 49,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -88,
+        "z": -32,
+        "ground": 27,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -87,
+        "z": -32,
+        "ground": 29,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -88,
+        "z": -31,
+        "ground": 48,
+        "block": "minecraft:stone"
+      },
+      {
+        "x": -87,
+        "z": -31,
+        "ground": 27,
+        "block": "minecraft:clay"
+      },
+      {
+        "x": -96,
+        "z": -21,
+        "ground": 49,
+        "block": "minecraft:sand"
+      },
+      {
+        "x": -95,
+        "z": -21,
+        "ground": 49,
+        "block": "minecraft:sand"
+      },
+      {
+        "x": 88,
+        "z": -11,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 87,
+        "z": -10,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 88,
+        "z": -10,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 89,
+        "z": -10,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 88,
+        "z": -9,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 46,
+        "z": 46,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 45,
+        "z": 47,
+        "ground": 49,
+        "block": "minecraft:andesite"
+      },
+      {
+        "x": 46,
+        "z": 47,
+        "ground": 48,
+        "block": "minecraft:sand"
+      }
+    ],
+    "note": "Vegetation and water excluded from ground measurement. The 33 lower cells remain local carving/deposit details; no high ground outliers in the 15-block band."
+  },
+  "northeastMountain": {
+    "peak": {
+      "x": 123,
+      "z": -128,
+      "groundY": 218,
+      "biome": "minecraft:stony_peaks"
+    },
+    "nearestObservedRiseDistanceFromLake": 53.740115370177584,
+    "method": "Octile distance to actual lake cells; compare measured ground to forest height field where mountain field exceeds 0.5 block."
+  },
+  "forestAroundOtherDirections": {
+    "distanceBand": [
+      24,
+      80
+    ],
+    "sampledColumns": 34070,
+    "groundBiomes": {
+      "minecraft:dappled_forest": 34070
+    }
+  },
+  "paper": "26.3-174",
+  "iris": "4.3.2-26.2",
+  "packVersion": 4018,
+  "layoutSeed": 3560224932,
+  "newConfigurationSchemaErrors": 0,
+  "schemaConfigurationsChecked": 30,
+  "measurementMethod": "Saved Anvil chunks after RCON save-all flush; decode native block/biome palettes; exclude vegetation and water from ground height.",
+  "testCleanup": {
+    "forcedChunksRemoved": true,
+    "serverStopped": false,
+    "serverLeftRunning": true
+  },
+  "managementEndpoint": {
+    "host": "matcha-flavoured",
+    "port": 25575
+  },
+  "measuredAtUtc": "2026-10-11T18:44:52.491108+00:00",
+  "unchangedGenerationResourceFilesComparedToV4017": 8186,
+  "packValidation": {
+    "blockingErrors": 0,
+    "warnings": 0,
+    "method": "iris pack validate pack=koikoi via RCON; verify plugins/Iris/cache/pack-validation.json"
+  }
+}

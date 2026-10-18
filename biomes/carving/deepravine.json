@@ -1,0 +1,73 @@
+{
+  "name": "Deepened Ravine",
+  "derivative": "minecraft:deep_dark",
+  "vanillaDerivative": "minecraft:deep_dark",
+  "wall": {
+    "style": {
+      "style": "NOWHERE"
+    },
+    "palette": [
+      {
+        "block": "minecraft:stone",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:stone"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/stone/stone3-andesite3-2-2"
+  ],
+  "decorators": [
+    {
+      "partOf": "CEILING",
+      "chance": 0.03,
+      "palette": [
+        {
+          "block": "minecraft:hanging_roots"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.05,
+      "scaleStack": true,
+      "stackMin": 20,
+      "stackMax": 70,
+      "absoluteMaxStack": 10,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 1,
+      "minHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:stone",
+          "weight": 20
+        }
+      ]
+    }
+  ],
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 0.86
+  },
+  "objects": [
+    "snippet/object-placer/clutter/stoneclutt-carve-c0-21-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-165-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-0972-d4-set1-3"
+  ],
+  "caveProfile": "snippet/cave-profile/stone/ravine-chambers",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/deepravine-child"
+  ],
+  "childShrinkFactor": 1.3
+}

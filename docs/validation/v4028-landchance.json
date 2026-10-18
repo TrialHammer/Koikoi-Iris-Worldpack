@@ -1,0 +1,158 @@
+{
+  "worldSeed": 864242790704001629,
+  "packVersion": 4028,
+  "world": "iris:koikoi_preview_v4028",
+  "comparisonScope": "Common authored surface square x,z in [-512,512], 1,050,625 columns per version; extra user-explored chunks excluded.",
+  "landChance": 0.95,
+  "previousLandChance": 0.69,
+  "oceanDefinitionsRetained": true,
+  "oceanBiomesInPack": "Retained; only global land/sea probability changed.",
+  "mountainWeightAdjustment": {
+    "dappled.json": {
+      "biome": "mountain/hills",
+      "beforeCount": 8,
+      "afterCount": 9
+    },
+    "forests.json": {
+      "biome": "mountain/mountain",
+      "beforeCount": 13,
+      "afterCount": 14
+    },
+    "frozen.json": {
+      "biome": "frozen/mountains/large-mountain",
+      "beforeCount": 21,
+      "afterCount": 22
+    },
+    "hot.json": {
+      "biome": "hot/mountain-middle",
+      "beforeCount": 19,
+      "afterCount": 20
+    },
+    "temperate.json": {
+      "biome": "mountain/plains",
+      "beforeCount": 30,
+      "afterCount": 31
+    },
+    "terralost.json": {
+      "biome": "terralost/alpine-highlands",
+      "beforeCount": 5,
+      "afterCount": 6
+    },
+    "tropical.json": {
+      "biome": "tropical/mountain",
+      "beforeCount": 12,
+      "afterCount": 13
+    }
+  },
+  "surfaceColumns": {
+    "before": 1050625,
+    "after": 1050625
+  },
+  "nativeOcean": {
+    "before": {
+      "columns": 105072,
+      "fraction": 0.10000904223676384,
+      "biomes": {
+        "minecraft:deep_ocean": 87504,
+        "minecraft:lukewarm_ocean": 14480,
+        "minecraft:ocean": 1680,
+        "minecraft:warm_ocean": 1408
+      }
+    },
+    "after": {
+      "columns": 7344,
+      "fraction": 0.0069901249256395,
+      "biomes": {
+        "minecraft:deep_ocean": 7344
+      }
+    },
+    "relativeFraction": 0.0698949291914116
+  },
+  "nativeMountainDerivatives": {
+    "definition": "minecraft:windswept_hills, minecraft:stony_peaks, minecraft:jagged_peaks, minecraft:snowy_slopes, minecraft:stony_shore",
+    "before": {
+      "columns": 10609,
+      "fraction": 0.010097798929208803,
+      "biomes": {
+        "minecraft:windswept_hills": 10609
+      }
+    },
+    "after": {
+      "columns": 61309,
+      "fraction": 0.05835478881618084,
+      "biomes": {
+        "minecraft:windswept_hills": 61309
+      }
+    },
+    "relativeFraction": 5.778961259308135
+  },
+  "nativeBiomeCountsBefore": {
+    "minecraft:dappled_forest": 356276,
+    "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 168848,
+    "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 82284,
+    "minecraft:old_growth_spruce_taiga": 73972,
+    "iris:biomes/4434cddd2d188b67bb9eff57e90b253af42c035d3b1164a2a672e08f093d421c": 30848,
+    "iris:biomes/3af65776fee0905f8969d0b0f6ad61dbe2a11f16bb6292b4a63355a52367d1e2": 18128,
+    "iris:biomes/1416070db372c77b9663409da039d51219f962c7e08504e11ea896be545fd736": 23360,
+    "iris:biomes/ebe55a8a89a93037e0e10c34eb6979fd210bf7f15c2e2c3e53ae1a18a55bf3ac": 30448,
+    "iris:biomes/3dc7ac3b712c1312b1e1e9fa28ae966df0a02c68f9815127e452cc4dec1e334e": 1056,
+    "iris:biomes/2d882e62c5ed55b831f9a185fa2c04223de113de9bf6e190c866cec109ec02e6": 37996,
+    "iris:biomes/2e9b3198db33a7028a57db00174638d0979984ec6971904667fa58dfe5e793b7": 864,
+    "iris:biomes/daecad2557727c5869ed3053208852615050554c557ff385a94b427fc0f717ea": 352,
+    "minecraft:desert": 1552,
+    "minecraft:deep_ocean": 87504,
+    "minecraft:jungle": 2856,
+    "minecraft:lukewarm_ocean": 14480,
+    "iris:biomes/89bc1adafaba657384655651b4482fec02a608da331ea6490bed9ba858238fca": 24176,
+    "minecraft:ocean": 1680,
+    "iris:biomes/1fe5c61ac958d00a7a947f1677c398b94fef1fb4a1463c779553cfc757716c89": 208,
+    "minecraft:warm_ocean": 1408,
+    "minecraft:river": 704,
+    "iris:biomes/9e9df75bdc1b037bda9e16a786e60653ae609c9e2e60d02562b67b108b47e085": 192,
+    "iris:biomes/76f50fafeb0cb47e98e9df469f86b213ef297f0e57df842119e329f6e869721e": 2952,
+    "iris:biomes/3e8d5781ff57fbe40f1abad1fca35fd12127e86a97502b36552bc0e544a25975": 9216,
+    "iris:biomes/a596a54c182208c427de2fc963b3ec26c62dcaae456346b3f66b4e54b42cc9e4": 2748,
+    "iris:biomes/3a1161cb7296f37d97c6734ed0e174a2556ebb9df5c0565a79b0d6901153fb97": 6436,
+    "iris:biomes/fc6090c680c85d6db829172138f6741cf7fb15ee5053809dd9da06cc0a0a977d": 169,
+    "iris:biomes/9ef71e26bf0e7fdd9914f17c0854cada40de789d87c5c4088b0f66418f9ab0b4": 210,
+    "iris:biomes/7b6b883ae3b05b9bb6ec6ae165403a49fa5db324fb6fd570fb5505e898e2b41f": 421,
+    "iris:biomes/422b26305f0b9704e6b447dd4f305852d1f07b8effe66d1be7d7f84f2f976e38": 208,
+    "iris:biomes/1eb6b63bcae777233a2b018ddc79fa3f62f8969276adc71309f2a35d3673a403": 47564,
+    "minecraft:windswept_hills": 10609,
+    "iris:biomes/e662e8c003c01041a3f00c3a89a76aab22f2ed7de2cc5f1c105ebdac398e1175": 48,
+    "minecraft:plains": 485,
+    "minecraft:beach": 1140,
+    "minecraft:forest": 847,
+    "iris:biomes/6d093b2db0020b47dce001f0301e0b46cf23acfc2375eaaf5352b19a22f67664": 8380
+  },
+  "nativeBiomeCountsAfter": {
+    "minecraft:dappled_forest": 325596,
+    "minecraft:old_growth_spruce_taiga": 316700,
+    "iris:biomes/d785f0fd1405a38935a8e21401efbdb2b49b150c92ee70b6bf133675402d9a64": 7440,
+    "iris:biomes/3dc7ac3b712c1312b1e1e9fa28ae966df0a02c68f9815127e452cc4dec1e334e": 9664,
+    "iris:biomes/9e9df75bdc1b037bda9e16a786e60653ae609c9e2e60d02562b67b108b47e085": 31524,
+    "iris:biomes/1416070db372c77b9663409da039d51219f962c7e08504e11ea896be545fd736": 42500,
+    "iris:biomes/ebe55a8a89a93037e0e10c34eb6979fd210bf7f15c2e2c3e53ae1a18a55bf3ac": 30496,
+    "iris:biomes/2d882e62c5ed55b831f9a185fa2c04223de113de9bf6e190c866cec109ec02e6": 47648,
+    "iris:biomes/2e9b3198db33a7028a57db00174638d0979984ec6971904667fa58dfe5e793b7": 864,
+    "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 34464,
+    "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 63576,
+    "iris:biomes/daecad2557727c5869ed3053208852615050554c557ff385a94b427fc0f717ea": 352,
+    "iris:biomes/76f50fafeb0cb47e98e9df469f86b213ef297f0e57df842119e329f6e869721e": 20840,
+    "iris:biomes/89bc1adafaba657384655651b4482fec02a608da331ea6490bed9ba858238fca": 22588,
+    "iris:biomes/a596a54c182208c427de2fc963b3ec26c62dcaae456346b3f66b4e54b42cc9e4": 5248,
+    "iris:biomes/1eb6b63bcae777233a2b018ddc79fa3f62f8969276adc71309f2a35d3673a403": 5592,
+    "iris:biomes/3a1161cb7296f37d97c6734ed0e174a2556ebb9df5c0565a79b0d6901153fb97": 592,
+    "iris:biomes/7b6b883ae3b05b9bb6ec6ae165403a49fa5db324fb6fd570fb5505e898e2b41f": 470,
+    "iris:biomes/9ef71e26bf0e7fdd9914f17c0854cada40de789d87c5c4088b0f66418f9ab0b4": 155,
+    "iris:biomes/422b26305f0b9704e6b447dd4f305852d1f07b8effe66d1be7d7f84f2f976e38": 208,
+    "iris:biomes/fc6090c680c85d6db829172138f6741cf7fb15ee5053809dd9da06cc0a0a977d": 175,
+    "minecraft:windswept_hills": 61309,
+    "iris:biomes/3e8d5781ff57fbe40f1abad1fca35fd12127e86a97502b36552bc0e544a25975": 14632,
+    "minecraft:plains": 81,
+    "minecraft:forest": 195,
+    "minecraft:deep_ocean": 7344,
+    "minecraft:beach": 372
+  },
+  "passes": true
+}

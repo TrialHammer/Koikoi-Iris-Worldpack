@@ -1,0 +1,163 @@
+{
+  "riverPolicy": {
+    "placement": "DISABLED",
+    "routing": "BLOCK",
+    "outletAdmission": false,
+    "profiles": [
+      "water"
+    ],
+    "routingMultiplier": 0.0
+  },
+  "name": "Prismatics White",
+  "color": "#F9FFFE",
+  "rarity": 1,
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "generators": [
+    {
+      "min": 24,
+      "max": 52,
+      "generator": "plain"
+    },
+    {
+      "min": 52,
+      "max": 72,
+      "generator": "highplains"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:white_concrete"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:white_concrete_powder"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 8,
+      "palette": [
+        {
+          "block": "minecraft:white_concrete"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "chance": 0.032,
+      "density": 2,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "clutter/concretelith1",
+        "clutter/concretelith2",
+        "clutter/concretelith3",
+        "clutter/concretelith4",
+        "clutter/concretelith5",
+        "clutter/concretelith6",
+        "clutter/concretelith7"
+      ],
+      "edit": [
+        "snippet/object-block-replacer/concrete/black-to-white",
+        "snippet/object-block-replacer/concrete/black-powder-to-white-powder"
+      ]
+    },
+    {
+      "chance": 0.032,
+      "density": 2,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "clutter/concretelith1",
+        "clutter/concretelith2",
+        "clutter/concretelith3",
+        "clutter/concretelith4",
+        "clutter/concretelith5",
+        "clutter/concretelith6",
+        "clutter/concretelith7"
+      ],
+      "edit": [
+        "snippet/object-block-replacer/concrete/black-to-white",
+        "snippet/object-block-replacer/concrete/black-powder-to-white-powder"
+      ],
+      "scale": {
+        "minimumScale": 0.5,
+        "maximumScale": 0.75,
+        "variations": 5,
+        "interpolation": "TRILINEAR"
+      }
+    },
+    {
+      "chance": 0.032,
+      "density": 2,
+      "bottom": true,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "min": 0,
+          "max": 270,
+          "interval": 90
+        }
+      },
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "clutter/concretelith1",
+        "clutter/concretelith2",
+        "clutter/concretelith3",
+        "clutter/concretelith4",
+        "clutter/concretelith5",
+        "clutter/concretelith6",
+        "clutter/concretelith7"
+      ],
+      "edit": [
+        "snippet/object-block-replacer/concrete/black-to-white",
+        "snippet/object-block-replacer/concrete/black-powder-to-white-powder"
+      ],
+      "scale": {
+        "minimumScale": 2.0,
+        "maximumScale": 4.0,
+        "variations": 7,
+        "interpolation": "TRILINEAR"
+      }
+    },
+    "snippet/object-placer/clutter/bone-c0-006-d1-weathered",
+    "snippet/object-placer/clutter/bonespire-c0-003-d1-weathered"
+  ],
+  "lockLayers": true,
+  "terrain3D": "snippet/terrain-3d/rugged/amp32-hexagon-crack392"
+}

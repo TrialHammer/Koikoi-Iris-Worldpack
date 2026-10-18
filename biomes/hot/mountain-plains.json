@@ -1,0 +1,55 @@
+{
+  "name": "Hot Mountain Plains",
+  "color": "#C9A429",
+  "rarity": 1,
+  "derivative": "minecraft:desert",
+  "vanillaDerivative": "minecraft:desert",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 59,
+      "min": 66
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:gray_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 4,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:red_sand"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 23,
+      "palette": [
+        {
+          "block": "minecraft:red_sandstone"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0005,
+      "stackMax": 5,
+      "palette": [
+        {
+          "block": "minecraft:cactus"
+        }
+      ],
+      "stackMin": 1
+    },
+    "snippet/decorator/plants/cactus-flowering-max5-c0-0005"
+  ],
+  "terrain3D": "snippet/terrain-3d/hilly/amp20-nowhere-crack416"
+}

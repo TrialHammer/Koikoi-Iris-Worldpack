@@ -1,0 +1,111 @@
+{
+  "name": "Tundra Sequoia Redwoods",
+  "color": "#25C2D3",
+  "rarity": 1,
+  "derivative": "minecraft:taiga",
+  "vanillaDerivative": "minecraft:windswept_hills",
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "tundra_sequoia_redwoods",
+      "grassColor": "#7BA13C",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#FFE0AF"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "min": 97,
+      "max": 132
+    },
+    {
+      "generator": "mountain",
+      "max": 14,
+      "min": 8
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:coarse_dirt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "IRIS_DOUBLE",
+        "fracture": {
+          "style": "NOWHERE",
+          "zoom": 0.2
+        }
+      },
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:podzol"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:coarse_dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-2-4",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/gravelsplotch-paint-c0-75",
+    "snippet/object-placer/clutter/camp-c0-00375",
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025",
+    "snippet/object-placer/trees/spruce-sup-pine-c0-69",
+    "snippet/object-placer/clutter/boulder-c0-035",
+    "snippet/object-placer/clutter/stump-paint-c0-075",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/stone-c0-009",
+    "snippet/decorator/flowers/cool-mix-c0-003-z0-02",
+    {
+      "chance": 0.0445,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.015,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:orange_tulip"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:poppy"
+        }
+      ]
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448"
+}

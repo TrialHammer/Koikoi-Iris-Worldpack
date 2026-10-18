@@ -1,0 +1,31 @@
+{
+  "blocksPerPixel": 1,
+  "origin": {
+    "x": 0,
+    "z": 0
+  },
+  "sourceOrigin": {
+    "x": 512,
+    "z": 512
+  },
+  "outOfBounds": "FALLBACK",
+  "source": "activity/surface-biomes",
+  "type": "COLOR_MAP",
+  "sampling": "NEAREST",
+  "alpha": "IGNORE",
+  "unknownColor": "FALLBACK",
+  "fallbackTarget": "dappled/activity-amber",
+  "colors": {
+    "#3E729C": "dappled/lake",
+    "#586B72": "dappled/lake-rocky",
+    "#796B56": "dappled/lake-silt",
+    "#B69E63": "dappled/shore",
+    "#D6AC33": "dappled/activity-golden",
+    "#D37B28": "dappled/activity-amber",
+    "#9C3F28": "dappled/activity-russet",
+    "#BF5326": "dappled/activity-emberbark",
+    "#71B767": "temperate/meadows",
+    "#7E9B8D": "mountain/hills",
+    "#B3C8B6": "tundra/forest"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-spikes-surface",
+  "name": "Frozen Vander",
+  "color": "#688D9E",
+  "rarity": 4,
+  "derivative": "minecraft:frozen_peaks",
+  "vanillaDerivative": "minecraft:frozen_peaks",
+  "biomeScatter": [
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:windswept_hills",
+    "minecraft:ice_spikes"
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.1,
+      "particleAltY": 0.1,
+      "particleAltZ": 0.1,
+      "particleEffect": "END_ROD",
+      "chance": 1,
+      "interval": 1500
+    }
+  ],
+  "customDerivitives": [
+    {
+      "category": "icy",
+      "id": "frozen_vander",
+      "waterColor": "#216FC4",
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "downfallType": "snow",
+      "temperature": -3,
+      "foliageColor": "#B8D0E1",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "generators": [
+    {
+      "min": 15,
+      "max": 34,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:ice"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.02,
+      "mode": "FAST_MIN_HEIGHT",
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/mushroom/ice1",
+        "trees/mushroom/ice2",
+        "trees/mushroom/ice3",
+        "trees/mushroom/ice4",
+        "trees/mushroom/ice5",
+        "trees/mushroom/ice6",
+        "trees/mushroom/ice7",
+        "trees/mushroom/ice8",
+        "trees/mushroom/ice9"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -5,
+        "z": 0
+      },
+      "edit": [
+        "snippet/object-block-replacer/ice/white-stained-glass-to-ice"
+      ]
+    },
+    {
+      "chance": 0.1,
+      "mode": "PAINT",
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/mushroom/froshroom1",
+        "trees/mushroom/froshroom2",
+        "trees/mushroom/froshroom3",
+        "trees/mushroom/froshroom4",
+        "trees/mushroom/froshroom5",
+        "trees/mushroom/froshroom6",
+        "trees/mushroom/froshroom7",
+        "trees/mushroom/froshroom8",
+        "trees/mushroom/froshroom9"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.45,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:spruce_planks"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:stripped_spruce_wood"
+              }
+            ]
+          }
+        },
+        "snippet/object-block-replacer/wood/oak-to-dark-oak",
+        {
+          "find": [
+            {
+              "block": "minecraft:spruce_fence"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:dark_oak_fence"
+              }
+            ]
+          }
+        },
+        "snippet/object-block-replacer/leaves/spruce-to-oak-dark-oak-perlin"
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/sproak/generic1",
+        "trees/sproak/generic2",
+        "trees/sproak/generic3",
+        "trees/sproak/generic4",
+        "trees/sproak/generic5",
+        "trees/sproak/generic7",
+        "trees/sproak/generic8",
+        "trees/sproak/generic9",
+        "trees/sproak/generic10",
+        "trees/sproak/generic11",
+        "trees/sproak/generic12"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.5,
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.7
+      },
+      "zoom": 0.6,
+      "palette": [
+        {
+          "data": {
+            "layers": 1
+          },
+          "block": "minecraft:snow"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ],
+  "childShrinkFactor": 20,
+  "terrain3D": "snippet/terrain-3d/hilly/amp18-simplex-crack416"
+}

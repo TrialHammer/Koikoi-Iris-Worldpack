@@ -1,0 +1,113 @@
+{
+  "name": "Temperate",
+  "color": "#9BEE61",
+  "rarity": 8,
+  "riverPolicy": {
+    "placement": "PREFERRED_HEADWATER",
+    "routing": "PREFER",
+    "outletAdmission": true,
+    "profiles": [
+      "water"
+    ],
+    "surfaceBiomes": [
+      "temperate/sea/river",
+      "mountain/sea/river-soft"
+    ],
+    "mouthBiomes": [
+      "temperate/sea/ocean",
+      "ocean/rich-oceans"
+    ],
+    "shoreBiomes": [
+      "temperate/shore/beach",
+      "temperate/shore/oak-beach",
+      "ocean/shore/beach"
+    ],
+    "bankBiomes": [
+      "temperate/plains",
+      "temperate/calmplains"
+    ],
+    "floodedCaveBiomes": [
+      "carving/rocky-cavebiome",
+      "carving/chalk-gardens"
+    ],
+    "widthMultiplier": 0.85,
+    "depthMultiplier": 1.0,
+    "routingMultiplier": 0.8
+  },
+  "landBiomes": [
+    "temperate/plains",
+    "temperate/combo-forest",
+    "temperate/reaching-forest",
+    "temperate/wilds",
+    "temperate/cherry-blossom-forest",
+    "temperate/stranged-plains",
+    "temperate/lush-plains",
+    "mountain/plains",
+    "temperate/birch-thin",
+    "temperate/birch-forest",
+    "temperate/longtree-forest",
+    "temperate/oak-forest",
+    "temperate/pale-oak-forest",
+    "temperate/pale-denmyre",
+    "temperate/osaka-violet-forest",
+    "temperate/osaka-red-forest",
+    "mountain/cute_cliffs",
+    "temperate/roughplains",
+    "temperate/calmplains",
+    "temperate/fancyplains",
+    "temperate/sakura-forest",
+    "temperate/oak-forest-flat",
+    "temperate/croak",
+    "temperate/birch-denmyre",
+    "temperate/meadows",
+    "temperate/shattered-plains",
+    "vanilla/windswept_gravelly_hills",
+    "vanilla/cherry_grove",
+    "vanilla/stony_peaks",
+    "vanilla/sunflower_plains",
+    "mountain/plains"
+  ],
+  "caveBiomes": [
+    "carving/rocky-cavebiome",
+    "carving/deep",
+    "carving/drip",
+    "carving/chalk-gardens",
+    "carving/moss-pillars",
+    "carving/sulfur"
+  ],
+  "shoreBiomes": [
+    "temperate/shore/beach",
+    "temperate/shore/oak-beach",
+    "ocean/shore/beach"
+  ],
+  "seaBiomeZoom": 6,
+  "seaBiomes": [
+    "ocean/deep",
+    "ocean/dark-depth-ocean",
+    "ocean/rich-oceans",
+    "temperate/sea/ocean",
+    "temperate/sea/ocean-deep",
+    "ocean/warm"
+  ],
+  "shoreBiomeZoom": 0.15,
+  "landBiomeZoom": 3.5,
+  "shoreHeightMin": 1,
+  "shoreHeightMax": 5.2,
+  "shoreHeightZoom": 1.14,
+  "loot": {
+    "mode": "FALLBACK",
+    "multiplier": 0.5,
+    "tables": [
+      "temperate/clutter",
+      "temperate/food"
+    ]
+  },
+  "caveProfile": "snippet/cave-profile/shallow/sealed-tunnels",
+  "caveBiomeZoom": 3.3,
+  "entitySpawners": [
+    "temperate/cave",
+    "temperate/hostile",
+    "temperate/passive",
+    "temperate/water"
+  ]
+}

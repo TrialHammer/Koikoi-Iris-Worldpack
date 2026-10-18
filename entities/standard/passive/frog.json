@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:frog",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

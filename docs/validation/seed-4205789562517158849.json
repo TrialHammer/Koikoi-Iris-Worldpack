@@ -1,0 +1,69 @@
+{
+  "seed": 4205789562517158849,
+  "world": "iris:koikoi_preview",
+  "fullChunks": 500,
+  "chunkStatuses": {
+    "minecraft:structure_starts": 1331,
+    "minecraft:biomes": 135,
+    "minecraft:terrain": 123,
+    "minecraft:initialize_light": 113,
+    "minecraft:full": 500,
+    "minecraft:features": 1,
+    "minecraft:structure_references": 3
+  },
+  "waterByLevel": {
+    "48": {
+      "wetColumns": 14156,
+      "lakeConnectedColumns": 14112,
+      "chunkArea": 55.125
+    },
+    "49": {
+      "wetColumns": 14255,
+      "lakeConnectedColumns": 14173,
+      "chunkArea": 55.36328125
+    },
+    "50": {
+      "wetColumns": 14387,
+      "lakeConnectedColumns": 14288,
+      "chunkArea": 55.8125
+    },
+    "51": {
+      "wetColumns": 65,
+      "lakeConnectedColumns": 0,
+      "chunkArea": 0.0
+    }
+  },
+  "surfaceBiomes": {
+    "iris:biomes/216ec00816f88c977e512119b8bee3f8eeecc7a0df30ae9bdde72dd8dc78a934": 6944,
+    "iris:biomes/07ad81cd2742793d7893b79300176d8bc9cb27939560a8c883952c48bc75fc80": 27264,
+    "iris:biomes/4e8beee74c0ae1e727aa5048b267b6a4cc5cbfd9df93eb382d21aca3c0bc8c67": 48673,
+    "iris:biomes/0a21470ed085f6c3934e8be96156dfbe34587711c381343fb33629600b88abe4": 9405,
+    "iris:biomes/182e0939403c59b68dcaf17c117f330e268464582ed293f5e07c73ba22d0d4ba": 11282,
+    "minecraft:dappled_forest": 8144,
+    "minecraft:river": 13920,
+    "iris:biomes/3d37c994f4ab08ea7f131ef9a1b8b1d3f359382c95310f15e020402ee1d6063a": 144,
+    "iris:biomes/560317ab0580d0fc01a84ef543cf2595c6a0daa1cab3ac46b7323731c4ab2d7d": 2208,
+    "iris:biomes/d79957b1c969e64584618d6b02d8e3bada168dc42e9fc7f0c418f8be49557d19": 16
+  },
+  "poplarCanopyOrTrunkColumns": 1945,
+  "groundHeightRange": [
+    30,
+    226
+  ],
+  "packVersion": 4019,
+  "layoutSeed": 3560224932,
+  "terrainAlgorithm": "continuous-field-v3",
+  "paper": "26.3-174",
+  "iris": "4.3.2-26.2",
+  "newConfigurationSchemaErrors": 0,
+  "schemaConfigurationsChecked": 21,
+  "packValidation": {
+    "blockingErrors": 0,
+    "warnings": 0
+  },
+  "testCleanup": {
+    "forcedChunksRemoved": true,
+    "serverStopped": false,
+    "serverLeftRunning": true
+  }
+}

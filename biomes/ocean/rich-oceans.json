@@ -1,0 +1,38 @@
+{
+  "name": "Rich oceans",
+  "color": "#5C4DEA",
+  "derivative": "minecraft:deep_ocean",
+  "vanillaDerivative": "minecraft:deep_ocean",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": -40,
+      "min": -60
+    }
+  ],
+  "layers": [
+    "snippet/biome-palette/sand/clay-gravel-dirt-2-2-flat3",
+    {
+      "minHeight": 2,
+      "maxHeight": 10,
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    }
+  ],
+  "objects": [],
+  "decorators": [
+    {
+      "chance": 0.2,
+      "partOf": "SEA_FLOOR",
+      "palette": [
+        {
+          "block": "minecraft:seagrass"
+        }
+      ]
+    },
+    "snippet/decorator/sea/tall-seagrass-c0-2"
+  ]
+}

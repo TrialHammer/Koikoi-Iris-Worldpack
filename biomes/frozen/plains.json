@@ -1,0 +1,217 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-surface",
+  "name": "Frozen Plains",
+  "color": "#105D7F",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_taiga",
+  "vanillaDerivative": "minecraft:snowy_taiga",
+  "customDerivitives": [
+    {
+      "category": "icy",
+      "id": "frozen_plains",
+      "waterColor": "#216FC4",
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "downfallType": "snow",
+      "temperature": -3,
+      "foliageColor": "#B8D0E1",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "generators": [
+    {
+      "min": 6,
+      "max": 14,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 7,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.000256,
+      "density": 1,
+      "snow": 0.25,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/grave1"
+      ]
+    },
+    {
+      "chance": 0.005,
+      "density": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:vine"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:air"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/obelisk1",
+        "clutter/obelisk2",
+        "clutter/obelisk3",
+        "clutter/obelisk4",
+        "clutter/obelisk5",
+        "clutter/obelisk6",
+        "clutter/obelisk7"
+      ]
+    },
+    {
+      "density": 1,
+      "edit": [
+        "snippet/object-block-replacer/leaves/spruce-to-oak-dark-oak-perlin"
+      ],
+      "place": [
+        "trees/spruce/pine1",
+        "trees/spruce/pine2",
+        "trees/spruce/pine3",
+        "trees/spruce/pine4",
+        "trees/spruce/pine5",
+        "trees/spruce/pine6",
+        "trees/spruce/pine7",
+        "trees/spruce/pine8",
+        "trees/spruce/pine9"
+      ],
+      "slopeCondition": {
+        "maximumSlope": 2
+      },
+      "chance": 0.6,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 270
+        }
+      },
+      "warp": {
+        "style": "IRIS_DOUBLE",
+        "exponent": 1.2,
+        "zoom": 0.4
+      },
+      "snow": 0.1
+    },
+    {
+      "density": 1,
+      "mode": "PAINT",
+      "chance": 0.00975,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/camp1"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.5
+      },
+      "palette": [
+        {
+          "data": {
+            "layers": 1
+          },
+          "block": "minecraft:snow"
+        },
+        {
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_snowy_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-frozen-plains",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

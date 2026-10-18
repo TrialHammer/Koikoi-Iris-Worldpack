@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:spider",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

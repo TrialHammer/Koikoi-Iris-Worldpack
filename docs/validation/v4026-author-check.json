@@ -1,0 +1,56 @@
+{
+  "version": 4026,
+  "fixedWorldSeed": 864242790704001629,
+  "schemaFilesPassed": 23,
+  "lakeColumns": 46080,
+  "lakeFloorPixelsUnchanged": true,
+  "lakeMaterialPixelsUnchanged": true,
+  "lakeFootprintUnchanged": true,
+  "forestRegionUnchanged": true,
+  "noAuthorHeightIncreases": true,
+  "authoredHeightRange": [
+    27.70226596475166,
+    117.79702449073015
+  ],
+  "removedAuthoredRidgeCenterBeforeAfter": [
+    223.03447013046465,
+    100.1741359578851
+  ],
+  "surfaceBreakEnabled": true,
+  "authorDappledLandFractionWithin150": 1.0,
+  "lakeNativeIdentity": "minecraft:dappled_forest",
+  "generationResourcesCompared": 8220,
+  "generationResourcesDeleted": [],
+  "generationResourcesAdded": [],
+  "generationResourcesChanged": [
+    "biomes/dappled/lake-rocky.json",
+    "biomes/dappled/lake-silt.json",
+    "biomes/dappled/lake.json",
+    "dimensions/koikoi.json",
+    "images/activity/lake-height.png",
+    "images/activity/surface-biomes.png",
+    "images/activity/terrain-mask.png"
+  ],
+  "generationResourcesUnchanged": 8213,
+  "epoch": "9cc8270f9649bbba475dd75deee437341e0db6786f4abd3d615935282c4e6b6e",
+  "snapshotMatchesAuthorPack": true,
+  "canonicalValidationBeforeCreation": {
+    "packName": "koikoi",
+    "blockingErrors": [],
+    "warnings": [],
+    "validatedAtMillis": 1791849356473,
+    "minecraftVersion": "26.3",
+    "compatFindings": []
+  },
+  "runtimeValidation": "Passed; 4225 chunks generated through native async pregen with zero failures; all 3091 requested chunks measured; lake native identity, removed ridge, core cave and camp increase verified.",
+  "runtimeReport": "v4026-seed-864242790704001629.json",
+  "featuresReport": "v4026-features.json",
+  "canonicalValidationAfterRuntime": {
+    "packName": "koikoi",
+    "blockingErrors": [],
+    "warnings": [],
+    "validatedAtMillis": 1791851138087,
+    "minecraftVersion": "26.3",
+    "compatFindings": []
+  }
+}

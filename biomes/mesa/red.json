@@ -1,0 +1,106 @@
+{
+  "name": "Mesa Red",
+  "color": "#963D16",
+  "rarity": 1,
+  "derivative": "minecraft:windswept_savanna",
+  "vanillaDerivative": "minecraft:badlands",
+  "generators": [
+    {
+      "min": 50,
+      "max": 70,
+      "generator": "highplains"
+    },
+    {
+      "min": 70,
+      "max": 110,
+      "generator": "mountain"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "NOWHERE"
+    },
+    "palette": [
+      {
+        "block": "minecraft:pink_terracotta"
+      },
+      {
+        "block": "minecraft:red_terracotta"
+      },
+      {
+        "block": "minecraft:terracotta"
+      },
+      {
+        "block": "minecraft:light_gray_terracotta"
+      },
+      {
+        "block": "minecraft:brown_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:pink_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:red_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/stone-c0-009",
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    "snippet/decorator/grass/dry-grass"
+  ],
+  "lockLayers": true,
+  "deposits": [
+    "snippet/deposit/stone/netherrack-mesa-red"
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp38-perlin-crack392"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Deepened cave",
+  "derivative": "minecraft:deep_dark",
+  "vanillaDerivative": "minecraft:deep_dark",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:stone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/stoneclutt-carve-c0-21-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-165-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-0972-d4-set1-3"
+  ],
+  "caveProfile": "snippet/cave-profile/stone/veined-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/deep-child"
+  ],
+  "childStyle": {
+    "style": "CELLULAR_IRIS_DOUBLE",
+    "zoom": 1.06
+  },
+  "childShrinkFactor": 1.54
+}

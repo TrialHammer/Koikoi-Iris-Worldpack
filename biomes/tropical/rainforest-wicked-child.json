@@ -1,0 +1,134 @@
+{
+  "name": "Tropical Rainforest Wicked Child",
+  "color": "#10B073",
+  "rarity": 1,
+  "derivative": "minecraft:jungle",
+  "vanillaDerivative": "minecraft:sparse_jungle",
+  "customDerivitives": [
+    {
+      "id": "tropical_rainforest_wicked_child",
+      "foliageColor": "#478F04",
+      "grassColor": "#197300",
+      "category": "jungle",
+      "waterColor": "#3AB2A2",
+      "waterFogColor": "#3AB2A2"
+    }
+  ],
+  "generators": [
+    {
+      "min": 98,
+      "max": 170,
+      "generator": "mountain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/jungle-wood-leaves",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025",
+    "snippet/object-placer/clutter/camp-c0-00375",
+    "snippet/object-placer/trees/jungle-coco-lgeneric-organic-stilt-c0-4-d2",
+    "snippet/object-placer/trees/jungle-sgeneric-organic-stilt-c0-45",
+    "snippet/object-placer/clutter/boulder-paint-c0-06",
+    "snippet/object-placer/trees/jungle-largegeneric-paint-c0-01-d3-no-vine",
+    "snippet/object-placer/clutter/melons-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/grass/jungle-undergrowth-c0-45",
+    {
+      "chance": 0.02,
+      "variance": {
+        "style": "NOWHERE"
+      },
+      "zoom": 10,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:jungle_wood"
+        }
+      ],
+      "heightVariance": {
+        "style": "NOWHERE"
+      }
+    },
+    {
+      "chance": 0.5,
+      "zoom": 10,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.301,
+      "particleAltY": -0.33885,
+      "particleAltZ": 0.301,
+      "chance": 1,
+      "particleEffect": "TOTEM_OF_UNDYING",
+      "particleOffset": 12,
+      "interval": 550,
+      "particleCount": 3
+    }
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30113,
+    "amplitude": 42,
+    "horizontalScale": 144,
+    "verticalScale": 44,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 4,
+    "crackWidth": 2.25,
+    "crackScale": 336,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.2,
+    "slopeFade": 0.34,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_sparse_jungle"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tropical-rainforest-wicked-child",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

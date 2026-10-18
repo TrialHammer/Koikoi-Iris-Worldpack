@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:squid",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "WATER"
+}

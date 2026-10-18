@@ -1,0 +1,144 @@
+{
+  "name": "Moss Pillars",
+  "derivative": "minecraft:lush_caves",
+  "vanillaDerivative": "minecraft:lush_caves",
+  "wall": {
+    "style": {
+      "style": "NOWHERE",
+      "zoom": 0.55
+    },
+    "palette": [
+      {
+        "block": "minecraft:deepslate"
+      },
+      {
+        "block": "minecraft:moss_block"
+      },
+      {
+        "block": "minecraft:mossy_cobblestone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "CELLULAR"
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:moss_block",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:clay"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.042,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:tall_grass"
+        },
+        {
+          "block": "minecraft:fern"
+        },
+        {
+          "block": "minecraft:large_fern"
+        },
+        {
+          "block": "minecraft:azalea"
+        },
+        {
+          "block": "minecraft:flowering_azalea"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.03,
+      "stackMin": 1,
+      "stackMax": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen"
+        }
+      ]
+    },
+    {
+      "chance": 0.014,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:jungle_leaves"
+        },
+        {
+          "block": "minecraft:moss_carpet"
+        },
+        {
+          "block": "minecraft:small_dripleaf"
+        },
+        {
+          "block": "minecraft:big_dripleaf"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.018,
+      "stackMin": 1,
+      "stackMax": 2,
+      "palette": [
+        {
+          "block": "minecraft:weeping_vines"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/jungleclutt-carve-c0-21-d4",
+    {
+      "chance": 0.3168,
+      "density": 2,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "PROFILE_DEFAULT",
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "trees/jungle/mgeneric1",
+        "trees/jungle/mgeneric2",
+        "trees/jungle/mgeneric3",
+        "trees/jungle/mgeneric4",
+        "trees/jungle/deligeneric2",
+        "trees/jungle/deligeneric3",
+        "trees/jungle/deligeneric4"
+      ],
+      "bottom": true,
+      "force": true,
+      "scale": {
+        "size": 0.75
+      }
+    },
+    "snippet/object-placer/clutter/rock-boulder-carve-c0-0972-d4-size0-75",
+    "snippet/object-placer/clutter/jungleclutt-junglestone-carve-c0-0972-d4"
+  ],
+  "caveProfile": "snippet/cave-profile/lush/overgrown-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/moss-pillars-child"
+  ],
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 0.86
+  },
+  "childShrinkFactor": 1.3
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Swamp Willow Forest",
+  "color": "#3E4B0E",
+  "rarity": 1,
+  "derivative": "minecraft:swamp",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "children": [
+    "swamp/denmyre",
+    "swamp/marsh",
+    "swamp/willow-forest-extended",
+    "swamp/willow-forest-extended",
+    "swamp/willow-forest-extended"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 11,
+      "generator": "mountain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/grass/grass5-podzol2",
+    "snippet/biome-palette/soil/dirt-coarse-2-4",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/darkoak-generic-c0-7-dark-oak",
+    "snippet/object-placer/trees/darkoak-willowgeneric-paint-c0-2-dark-oak",
+    "snippet/object-placer/clutter/boulder-c0-135",
+    "snippet/object-placer/clutter/oakclutt-c0-17-dark-oak",
+    "snippet/object-placer/clutter/stump-paint-c0-08-dark-oak",
+    {
+      "chance": 5e-05,
+      "rotation": {
+        "enabled": false
+      },
+      "place": [
+        "clutter/genericgrave1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    "snippet/decorator/mushrooms/crimson-fungus-mix-c0-0002",
+    {
+      "chance": 0.45,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "interval": 55656,
+      "sound": "AMBIENT.SOUL_SAND_VALLEY.MOOD",
+      "soundDistance": 3,
+      "volume": 6.2,
+      "minPitch": 1.6,
+      "maxPitch": 1.35,
+      "chance": 11
+    },
+    {
+      "interval": 56565,
+      "sound": "AMBIENT.SOUL_SAND_VALLEY.MOOD",
+      "soundDistance": 3,
+      "volume": 6.2,
+      "minPitch": 0.4,
+      "maxPitch": 0.2,
+      "chance": 5
+    },
+    {
+      "particleAltX": 0.0101,
+      "particleAltY": -0.033885,
+      "particleAltZ": 0.0101,
+      "chance": 1,
+      "particleEffect": "CAMPFIRE_SIGNAL_SMOKE",
+      "particleOffset": 12,
+      "interval": 640,
+      "particleCount": 0
+    }
+  ],
+  "terrain3D": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Mushroom Plains",
+  "color": "#BD71BC",
+  "rarity": 1,
+  "derivative": "minecraft:mushroom_fields",
+  "vanillaDerivative": "minecraft:mushroom_fields",
+  "customDerivitives": [
+    {
+      "category": "mushroom",
+      "id": "mushroom_plains",
+      "waterColor": "#B4B2FF",
+      "foliageColor": "#CAB2DC",
+      "waterFogColor": "#BD94DF",
+      "grassColor": "#B39EC2",
+      "fogColor": "#CACDFF"
+    }
+  ],
+  "generators": [
+    {
+      "min": 6,
+      "max": 14,
+      "generator": "plain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "zoom": 0.3,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "palette": [
+        {
+          "weight": 7,
+          "block": "minecraft:mycelium"
+        },
+        {
+          "weight": 9,
+          "block": "minecraft:mycelium"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-2-4",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/mushroom-mushclut-c0-08-d2",
+    "snippet/object-placer/trees/mushroom-mushclut-c0-08-d2-brown-caps",
+    "snippet/object-placer/trees/mushroom-smolshroom-c0-025-d1-brown-caps",
+    "snippet/object-placer/trees/mushroom-smolshroom-c0-1-d1"
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/stone-c0-005",
+    {
+      "chance": 0.007,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:red_mushroom"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    }
+  ],
+  "slab": {
+    "palette": [
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "weight": 2,
+        "block": "minecraft:cobblestone_slab"
+      },
+      {
+        "weight": 3,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
+}

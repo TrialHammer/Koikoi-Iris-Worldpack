@@ -1,0 +1,164 @@
+{
+  "name": "Tropical Highlands",
+  "color": "#4FD8A2",
+  "rarity": 1,
+  "derivative": "minecraft:jungle",
+  "vanillaDerivative": "minecraft:plains",
+  "customDerivitives": [
+    {
+      "id": "tropical_highlands",
+      "foliageColor": "#478F04",
+      "grassColor": "#41A726",
+      "waterColor": "#3AB2A2",
+      "waterFogColor": "#3AB2A2",
+      "category": "jungle"
+    }
+  ],
+  "generators": [
+    {
+      "min": 99,
+      "max": 164,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "zoom": 0.256,
+      "palette": [
+        {
+          "weight": 3,
+          "block": "minecraft:grass_block"
+        },
+        {
+          "block": "minecraft:podzol"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.35,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/oakclutt1",
+        "clutter/oakclutt2",
+        "clutter/oakclutt3",
+        "clutter/oakclutt4",
+        "clutter/oakclutt5",
+        "clutter/birchclutt1",
+        "clutter/birchclutt2",
+        "clutter/birchclutt3",
+        "clutter/birchclutt4",
+        "clutter/birchclutt5"
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.003,
+      "zoom": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:wither_rose"
+        },
+        {
+          "block": "minecraft:oxeye_daisy"
+        },
+        {
+          "block": "minecraft:pink_tulip"
+        },
+        {
+          "block": "minecraft:lily_of_the_valley"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:sunflower"
+        },
+        {
+          "block": "minecraft:dandelion"
+        },
+        {
+          "block": "minecraft:poppy"
+        },
+        {
+          "block": "minecraft:rose_bush"
+        }
+      ]
+    },
+    {
+      "chance": 0.122,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:large_fern"
+        },
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.142,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    }
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30109,
+    "amplitude": 32,
+    "horizontalScale": 144,
+    "verticalScale": 48,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 2,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.32,
+    "slopeFade": 0.42,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

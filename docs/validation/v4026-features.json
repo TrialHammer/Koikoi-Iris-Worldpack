@@ -1,0 +1,298 @@
+{
+  "worldSeed": 864242790704001629,
+  "packVersion": 4026,
+  "coreSulfur": {
+    "planned": {
+      "id": "koikoi-core-sulfur-20",
+      "worldSeed": 864242790704001629,
+      "bodySeed": -6010836913215018145,
+      "anchor": [
+        102,
+        -77,
+        94
+      ],
+      "bounds": [
+        58,
+        -101,
+        50,
+        146,
+        -45,
+        138
+      ],
+      "planId": "koikoi-core-sulfur-20:21b4b34c2da45429"
+    },
+    "measurementScope": "Saved blocks inside the planned bounds; neighboring natural caves retained.",
+    "beforeVoidCells": 76084,
+    "afterVoidCells": 84688,
+    "beforeMaterials": {
+      "minecraft:stone": 351914,
+      "minecraft:iron_ore": 2574,
+      "minecraft:andesite": 5182,
+      "minecraft:copper_ore": 4458,
+      "minecraft:cave_air": 76084,
+      "minecraft:coal_ore": 2469,
+      "minecraft:redstone_ore": 42,
+      "minecraft:gold_ore": 168,
+      "minecraft:lapis_ore": 404,
+      "minecraft:diorite": 429,
+      "minecraft:gravel": 587,
+      "minecraft:granite": 735,
+      "minecraft:dripstone_block": 5318,
+      "minecraft:cobblestone_slab": 15,
+      "minecraft:pointed_dripstone": 1050,
+      "minecraft:cobblestone": 4,
+      "minecraft:diamond_ore": 5,
+      "minecraft:mossy_cobblestone_slab": 4,
+      "minecraft:cobblestone_wall": 8,
+      "minecraft:mossy_cobblestone_stairs": 2,
+      "minecraft:vine": 6,
+      "minecraft:mossy_cobblestone": 11,
+      "minecraft:tuff": 28
+    },
+    "afterMaterials": {
+      "minecraft:stone": 304872,
+      "minecraft:iron_ore": 2164,
+      "minecraft:andesite": 2873,
+      "minecraft:copper_ore": 4008,
+      "minecraft:cave_air": 82581,
+      "minecraft:coal_ore": 2137,
+      "minecraft:redstone_ore": 42,
+      "minecraft:gold_ore": 130,
+      "minecraft:lapis_ore": 367,
+      "minecraft:diorite": 404,
+      "minecraft:gravel": 532,
+      "minecraft:granite": 620,
+      "minecraft:dripstone_block": 5066,
+      "minecraft:cobblestone_slab": 4,
+      "minecraft:pointed_dripstone": 1024,
+      "minecraft:diamond_ore": 5,
+      "minecraft:mossy_cobblestone_slab": 4,
+      "minecraft:cobblestone_wall": 8,
+      "minecraft:mossy_cobblestone_stairs": 2,
+      "minecraft:tuff": 176,
+      "minecraft:sulfur": 39699,
+      "minecraft:cinnabar": 1610,
+      "minecraft:sulfur_spike": 1034,
+      "minecraft:smooth_basalt": 23,
+      "minecraft:lava": 2107,
+      "minecraft:glow_lichen": 5
+    },
+    "largestConnectedVoid": {
+      "cells": 83844,
+      "bounds": {
+        "minX": 61,
+        "maxX": 146,
+        "minY": -101,
+        "maxY": -45,
+        "minZ": 50,
+        "maxZ": 138
+      },
+      "measuredSizeXYZ": [
+        86,
+        57,
+        89
+      ]
+    }
+  },
+  "abandonedCamps": {
+    "requestedDensityMultiplier": 4,
+    "comparisonChunks": 3091,
+    "beforeCount": 1,
+    "afterCount": 6,
+    "before": [
+      {
+        "key": "minecraft:abandoned_camp_dappled_forest",
+        "chunk": [
+          0,
+          11
+        ],
+        "pieceBounds": [
+          [
+            -5,
+            53,
+            169,
+            0,
+            60,
+            176
+          ],
+          [
+            1,
+            52,
+            168,
+            10,
+            55,
+            177
+          ],
+          [
+            -2,
+            54,
+            175,
+            -2,
+            54,
+            175
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "key": "minecraft:abandoned_camp_dappled_forest",
+        "chunk": [
+          -9,
+          -13
+        ],
+        "pieceBounds": [
+          [
+            -144,
+            82,
+            -215,
+            -137,
+            89,
+            -208
+          ],
+          [
+            -145,
+            82,
+            -207,
+            -136,
+            84,
+            -198
+          ]
+        ]
+      },
+      {
+        "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+        "chunk": [
+          -18,
+          9
+        ],
+        "pieceBounds": [
+          [
+            -288,
+            65,
+            144,
+            -281,
+            73,
+            151
+          ],
+          [
+            -284,
+            66,
+            148,
+            -284,
+            66,
+            148
+          ],
+          [
+            -298,
+            65,
+            143,
+            -289,
+            67,
+            152
+          ]
+        ]
+      },
+      {
+        "key": "minecraft:abandoned_camp_dappled_forest",
+        "chunk": [
+          4,
+          -16
+        ],
+        "pieceBounds": [
+          [
+            64,
+            86,
+            -256,
+            69,
+            93,
+            -249
+          ],
+          [
+            54,
+            86,
+            -257,
+            63,
+            88,
+            -248
+          ]
+        ]
+      },
+      {
+        "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+        "chunk": [
+          23,
+          -9
+        ],
+        "pieceBounds": [
+          [
+            368,
+            98,
+            -144,
+            375,
+            105,
+            -137
+          ],
+          [
+            358,
+            98,
+            -145,
+            367,
+            100,
+            -136
+          ]
+        ]
+      },
+      {
+        "key": "minecraft:abandoned_camp_dappled_forest",
+        "chunk": [
+          20,
+          2
+        ],
+        "pieceBounds": [
+          [
+            320,
+            74,
+            25,
+            327,
+            81,
+            32
+          ],
+          [
+            319,
+            74,
+            33,
+            328,
+            76,
+            42
+          ]
+        ]
+      },
+      {
+        "key": "minecraft:abandoned_camp_dappled_forest",
+        "chunk": [
+          7,
+          19
+        ],
+        "pieceBounds": [
+          [
+            112,
+            54,
+            297,
+            119,
+            61,
+            304
+          ],
+          [
+            111,
+            54,
+            305,
+            120,
+            56,
+            314
+          ]
+        ]
+      }
+    ]
+  }
+}

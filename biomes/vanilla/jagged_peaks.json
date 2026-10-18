@@ -1,0 +1,48 @@
+{
+  "name": "Jagged Peaks",
+  "color": "#F0F4F4",
+  "rarity": 12,
+  "derivative": "minecraft:jagged_peaks",
+  "vanillaDerivative": "minecraft:jagged_peaks",
+  "generators": [
+    {
+      "min": 23,
+      "max": 220,
+      "generator": "spikes"
+    }
+  ],
+  "wall": "snippet/biome-palette/ice/blue-packed-1-1-flat2-6",
+  "layers": [
+    "snippet/biome-palette/ice/blue-packed-1-1-flat2-6"
+  ],
+  "customDerivitives": [
+    {
+      "category": "extreme_hills",
+      "id": "jagged_peaks",
+      "grassColor": "#80B497",
+      "foliageColor": "#60A17B",
+      "waterColor": "#3938C9",
+      "downfallType": "none"
+    }
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30109,
+    "amplitude": 42,
+    "horizontalScale": 136,
+    "verticalScale": 56,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 4,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.22,
+    "slopeFade": 0.36,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

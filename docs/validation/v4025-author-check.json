@@ -1,0 +1,145 @@
+{
+  "version": 4025,
+  "layoutSeed": 3560224932,
+  "lakeColumns": 46080,
+  "dryHeightPixelsUnchanged": true,
+  "dryBiomePixelsUnchanged": true,
+  "lakeFootprintUnchanged": true,
+  "shorelineHeight": 49.5,
+  "maxShorelineFirstDerivativeMismatch": 1.2171597063570516e-06,
+  "descentScaleRange": [
+    10.595954703176977,
+    35.95679011982432
+  ],
+  "descentCurvatureRange": [
+    2.0721111600934603,
+    2.6321716874379932
+  ],
+  "lakeFloorHeightRange": [
+    27.70226596475166,
+    49.478049897001604
+  ],
+  "materialPatchColumns": {
+    "dappled/lake-rocky": 7036,
+    "dappled/lake": 26467,
+    "dappled/lake-silt": 12577
+  },
+  "materialPatchFractions": {
+    "dappled/lake-rocky": 0.15269097222222222,
+    "dappled/lake": 0.5743706597222222,
+    "dappled/lake-silt": 0.27293836805555555
+  },
+  "heightVariationByShoreDistance": [
+    {
+      "inlandDistance": [
+        0,
+        5
+      ],
+      "columns": 6555,
+      "beforeP95MinusP5": 1.78420691233692,
+      "afterP95MinusP5": 1.2189517051956997,
+      "afterHeightPercentiles": [
+        48.25525291828794,
+        49.18965438315404,
+        49.47420462348364
+      ]
+    },
+    {
+      "inlandDistance": [
+        5,
+        10
+      ],
+      "columns": 6073,
+      "beforeP95MinusP5": 6.9391805905241455,
+      "afterP95MinusP5": 4.511274891279477,
+      "afterHeightPercentiles": [
+        44.14773174639505,
+        47.416983291371025,
+        48.65900663767453
+      ]
+    },
+    {
+      "inlandDistance": [
+        10,
+        15
+      ],
+      "columns": 5739,
+      "beforeP95MinusP5": 9.01332112611582,
+      "afterP95MinusP5": 9.570885786221105,
+      "afterHeightPercentiles": [
+        38.069123369192035,
+        45.00215152208744,
+        47.64000915541314
+      ]
+    },
+    {
+      "inlandDistance": [
+        15,
+        20
+      ],
+      "columns": 5630,
+      "beforeP95MinusP5": 8.891041428244446,
+      "afterP95MinusP5": 13.322911421377903,
+      "afterHeightPercentiles": [
+        33.020279240100706,
+        42.62961776150149,
+        46.34319066147861
+      ]
+    },
+    {
+      "inlandDistance": [
+        20,
+        30
+      ],
+      "columns": 9868,
+      "beforeP95MinusP5": 8.84278324559396,
+      "afterP95MinusP5": 12.662293430991081,
+      "afterHeightPercentiles": [
+        31.96936598764019,
+        39.561089494163426,
+        44.63165941863127
+      ]
+    },
+    {
+      "inlandDistance": [
+        30,
+        50
+      ],
+      "columns": 11111,
+      "beforeP95MinusP5": 7.71746395056077,
+      "afterP95MinusP5": 7.008010986495762,
+      "afterHeightPercentiles": [
+        34.170016021973,
+        37.66536964980545,
+        41.17802700846876
+      ]
+    },
+    {
+      "inlandDistance": [
+        50,
+        100
+      ],
+      "columns": 1104,
+      "beforeP95MinusP5": 7.2487251087205316,
+      "afterP95MinusP5": 6.062650492103458,
+      "afterHeightPercentiles": [
+        32.49732204165713,
+        35.14671549553674,
+        38.559972533760586
+      ]
+    }
+  ],
+  "underwaterNeighborGradientPercentiles": [
+    0.21533531700617914,
+    0.7613641565575691,
+    1.1997253376058623,
+    2.134126802471961
+  ],
+  "mapsSha256": {
+    "forest-region.png": "6a1cbe3428068ee576d482741859ac07dc34f567ba50f90d319e032711d95fee",
+    "lake-biome.png": "26f2eb30a01d1cc0396434fa8dae0adefb8bd44fafdaeb972f09d605ec14f5fc",
+    "lake-height.png": "e4f2d6f8e4fd56f0792c9d98a76993123d334596522072bc4c6c06af2fa2f059",
+    "surface-biomes.png": "d7a9c9784776837676cc392da12740882eb7d9e6a4db8e1d83045851d4501ee9",
+    "terrain-mask.png": "e96598f01e1efc310c711fae29468808d399521c42982c3a8f7b40aa23849964"
+  }
+}

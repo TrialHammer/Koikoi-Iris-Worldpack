@@ -1,0 +1,119 @@
+{
+  "name": "Birch Forest",
+  "color": "#A8F588",
+  "rarity": 6,
+  "derivative": "minecraft:birch_forest",
+  "vanillaDerivative": "minecraft:birch_forest",
+  "children": [
+    "temperate/birch-thin",
+    "temperate/birch-forest-extended",
+    "temperate/golden-poplar-grove"
+  ],
+  "generators": [
+    {
+      "min": 5,
+      "max": 12,
+      "generator": "highplains"
+    },
+    {
+      "min": 0,
+      "max": 50,
+      "generator": "rare-hills"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/grass/gravel-flecks",
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025",
+    "snippet/object-placer/clutter/camp-paint-c0-00375",
+    {
+      "chance": 0.29,
+      "density": 3,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/birch/antioch3",
+        "trees/birch/antioch4",
+        "trees/birch/antioch5",
+        "trees/birch/antioch6",
+        "trees/birch/antioch7",
+        "trees/birch/antioch8",
+        "trees/birch/antioch9",
+        "trees/birch/antioch10",
+        "trees/birch/antioch11",
+        "trees/birch/antioch12",
+        "trees/birch/antioch13"
+      ]
+    },
+    "snippet/object-placer/trees/birch-forest-c0-08-d4",
+    "snippet/object-placer/trees/birch-antioch-b-c0-08-d2",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/allium-mix-c0-03",
+    {
+      "chance": 0.4,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.017,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    "snippet/decorator/flowers/wildflowers",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "childStyle": {
+    "style": "NOWHERE_SIMPLEX",
+    "zoom": 5
+  },
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_birch_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-birch-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

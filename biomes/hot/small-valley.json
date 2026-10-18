@@ -1,0 +1,103 @@
+{
+  "name": "Mesa Valley",
+  "color": "#8C3A16",
+  "rarity": 1,
+  "derivative": "minecraft:savanna",
+  "vanillaDerivative": "minecraft:badlands",
+  "generators": [
+    {
+      "min": 20,
+      "max": 75,
+      "generator": "mountain"
+    }
+  ],
+  "layers": [
+    "snippet/biome-palette/terracotta/top-1-1-slope2-10",
+    "snippet/biome-palette/grass/red-sand-terracotta-1-1-flat2",
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    "snippet/biome-palette/terracotta/light-gray-1-1",
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:orange_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    "snippet/biome-palette/terracotta/light-gray-1-1",
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:light_gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/trees/acacia-vexed-c0-4-acacia-wood",
+    "snippet/object-placer/clutter/camp-c0-00175",
+    "snippet/object-placer/clutter/bincluster-paint-c0-005",
+    "snippet/object-placer/trees/acacia-savannad-c0-07",
+    "snippet/object-placer/trees/acacia-savannaf-c0-2",
+    "snippet/object-placer/trees/acacia-savannas-c0-04"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-mix-c0-189",
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/grass/dry-grass"
+  ],
+  "terrain3D": "snippet/terrain-3d/hilly/amp20-nowhere-crack416"
+}

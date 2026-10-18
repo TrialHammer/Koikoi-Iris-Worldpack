@@ -1,0 +1,137 @@
+{
+  "name": "Tundra Forest",
+  "color": "#61B2BB",
+  "rarity": 1,
+  "derivative": "minecraft:windswept_hills",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "biomeScatter": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:windswept_hills"
+  ],
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "tundra_forest",
+      "grassColor": "#56B16F",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    }
+  ],
+  "children": [
+    "tundra/forest-extended-cliffs"
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "min": 37,
+      "max": 56
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/stone/andesite-gravel-3-5-steep6-9",
+    "snippet/biome-palette/soil/dirt-coarse-gravel-3-5-steep5-3",
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/gravelsplotch-paint-c0-75",
+    {
+      "chance": 0.8,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/spruce/levergreen1",
+        "trees/spruce/levergreen2",
+        "trees/spruce/levergreen1",
+        "trees/spruce/levergreen2",
+        "trees/spruce/levergreen1",
+        "trees/spruce/levergreen2",
+        "trees/spruce/levergreen3",
+        "trees/spruce/levergreen4",
+        "trees/spruce/levergreen5",
+        "trees/spruce/levergreen6",
+        "trees/spruce/mevergreen1",
+        "trees/spruce/mevergreen2",
+        "trees/spruce/mevergreen3"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/clutter/obelisk-c0-01",
+    {
+      "chance": 0.35,
+      "place": [
+        "trees/spruce/pine1",
+        "trees/spruce/pine2",
+        "trees/spruce/pine3",
+        "trees/spruce/pine4",
+        "trees/spruce/pine5",
+        "trees/spruce/pine6",
+        "trees/spruce/pine7",
+        "trees/spruce/pine8",
+        "trees/spruce/pine9",
+        "trees/spruce/pine10",
+        "trees/spruce/pine11",
+        "trees/spruce/pine12"
+      ]
+    },
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-orchid-poppy-c0-01",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.2,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "childShrinkFactor": 2.4,
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-perlin-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tundra-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "name": "Crimson Mushroom Swamp",
+  "color": "#FFC0FE",
+  "rarity": 2,
+  "derivative": "minecraft:crimson_forest",
+  "vanillaDerivative": "minecraft:mushroom_fields",
+  "customDerivitives": [
+    {
+      "category": "mushroom",
+      "id": "mushroom_crimson_forest",
+      "waterColor": "#C41A1A",
+      "foliageColor": "#AB3030",
+      "waterFogColor": "#C41A1A",
+      "grassColor": "#C41A1A",
+      "fogColor": "#C41A1A"
+    }
+  ],
+  "children": [
+    "mushroom/crimson-forest-extended"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 25,
+      "generator": "plain-cliffs"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:crimson_hyphae"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "zoom": 0.5,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "palette": [
+        {
+          "block": "minecraft:crimson_nylium"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-8-9",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.21,
+      "density": 2,
+      "edit": [
+        "snippet/object-block-replacer/mushroom/brown-block-to-crimson-hyphae",
+        "snippet/object-block-replacer/mushroom/red-block-to-nether-wart"
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/mushroom/mushclut1",
+        "trees/mushroom/mushclut2",
+        "trees/mushroom/mushclut3",
+        "trees/mushroom/mushclut4",
+        "trees/mushroom/mushclut5",
+        "trees/mushroom/mushclut6",
+        "trees/mushroom/mushclut7",
+        "trees/mushroom/mushclut8",
+        "trees/mushroom/mushclut9",
+        "trees/mushroom/mushclut10"
+      ],
+      "mode": "PAINT",
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/trees/mushroom-mushclut-c0-21-d2-crimson-red-hyphae",
+    "snippet/object-placer/trees/mushroom-brown-red-c0-5-d2-crimson-brown-hyphae",
+    "snippet/object-placer/trees/mushroom-brown-red-c0-5-d2-crimson-red-hyphae",
+    "snippet/object-placer/trees/mushroom-smolshroom-c0-1-d1-crimson-red-hyphae",
+    "snippet/object-placer/trees/mushroom-smolshroom-c0-1-d1-crimson-brown-hyphae"
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/blackstone-crimson-c0-009",
+    {
+      "chance": 0.05,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.11,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_roots"
+        }
+      ]
+    }
+  ],
+  "childShrinkFactor": 2.4,
+  "slab": {
+    "palette": [
+      {
+        "weight": 4,
+        "block": "minecraft:air"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:crimson_slab"
+      },
+      {
+        "weight": 4,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-nowhere-crack448"
+}

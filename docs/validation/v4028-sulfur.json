@@ -1,0 +1,128 @@
+{
+  "worldSeed": 864242790704001629,
+  "packVersion": 4028,
+  "plannedBounds": [
+    58,
+    -101,
+    50,
+    146,
+    -45,
+    138
+  ],
+  "measurement": "Saved blocks inside planned core sulfur bounds; both previews use the fixed seed. Neighboring natural caves retained.",
+  "beforePackVersion": 4027,
+  "afterPackVersion": 4028,
+  "before": {
+    "fullChunks": 4225,
+    "sulfur": 39699,
+    "cinnabar": 1610,
+    "sulfurSpike": 1042,
+    "lava": 2107,
+    "voidCells": 84663,
+    "largestConnectedVoid": {
+      "cells": 83819,
+      "bounds": {
+        "minX": 61,
+        "maxX": 146,
+        "minY": -101,
+        "maxY": -45,
+        "minZ": 50,
+        "maxZ": 138
+      },
+      "sizeXYZ": [
+        86,
+        57,
+        89
+      ]
+    },
+    "materials": {
+      "minecraft:stone": 304890,
+      "minecraft:iron_ore": 2164,
+      "minecraft:andesite": 2880,
+      "minecraft:copper_ore": 4008,
+      "minecraft:cave_air": 82556,
+      "minecraft:coal_ore": 2137,
+      "minecraft:redstone_ore": 42,
+      "minecraft:gold_ore": 130,
+      "minecraft:lapis_ore": 367,
+      "minecraft:diorite": 404,
+      "minecraft:gravel": 532,
+      "minecraft:granite": 620,
+      "minecraft:sulfur": 39699,
+      "minecraft:cinnabar": 1610,
+      "minecraft:dripstone_block": 5053,
+      "minecraft:cobblestone_slab": 4,
+      "minecraft:pointed_dripstone": 1024,
+      "minecraft:diamond_ore": 5,
+      "minecraft:mossy_cobblestone_slab": 4,
+      "minecraft:cobblestone_wall": 8,
+      "minecraft:mossy_cobblestone_stairs": 2,
+      "minecraft:sulfur_spike": 1042,
+      "minecraft:lava": 2107,
+      "minecraft:tuff": 176,
+      "minecraft:smooth_basalt": 23,
+      "minecraft:glow_lichen": 5,
+      "minecraft:vine": 5
+    }
+  },
+  "after": {
+    "fullChunks": 5420,
+    "sulfur": 39699,
+    "cinnabar": 1610,
+    "sulfurSpike": 1039,
+    "lava": 2107,
+    "voidCells": 84668,
+    "largestConnectedVoid": {
+      "cells": 83824,
+      "bounds": {
+        "minX": 61,
+        "maxX": 146,
+        "minY": -101,
+        "maxY": -45,
+        "minZ": 50,
+        "maxZ": 138
+      },
+      "sizeXYZ": [
+        86,
+        57,
+        89
+      ]
+    },
+    "materials": {
+      "minecraft:stone": 304890,
+      "minecraft:iron_ore": 2164,
+      "minecraft:andesite": 2880,
+      "minecraft:copper_ore": 4008,
+      "minecraft:cave_air": 82561,
+      "minecraft:coal_ore": 2137,
+      "minecraft:redstone_ore": 42,
+      "minecraft:gold_ore": 130,
+      "minecraft:lapis_ore": 367,
+      "minecraft:diorite": 404,
+      "minecraft:gravel": 532,
+      "minecraft:granite": 620,
+      "minecraft:sulfur": 39699,
+      "minecraft:cinnabar": 1610,
+      "minecraft:dripstone_block": 5053,
+      "minecraft:cobblestone_slab": 4,
+      "minecraft:pointed_dripstone": 1024,
+      "minecraft:diamond_ore": 5,
+      "minecraft:mossy_cobblestone_slab": 4,
+      "minecraft:cobblestone_wall": 8,
+      "minecraft:mossy_cobblestone_stairs": 2,
+      "minecraft:sulfur_spike": 1039,
+      "minecraft:lava": 2107,
+      "minecraft:tuff": 176,
+      "minecraft:smooth_basalt": 23,
+      "minecraft:glow_lichen": 5,
+      "minecraft:vine": 3
+    }
+  },
+  "comparison": {
+    "sameBlockArray": false,
+    "sameVoidArray": false,
+    "sulfurDelta": 0,
+    "voidDelta": 5
+  },
+  "sulfurUnaffected": true
+}

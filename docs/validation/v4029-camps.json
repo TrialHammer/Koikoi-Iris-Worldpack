@@ -1,0 +1,48 @@
+{
+  "packVersion": 4029,
+  "world": "iris:koikoi_preview_v4029",
+  "worldSeed": 864242790704001629,
+  "pregenRequested": "radius=512 (4225 chunks)",
+  "pregenCompletedBeforeServerRestart": {
+    "fullChunks": 2723,
+    "structureStartsChunks": 2529,
+    "totalChunksRead": 6482
+  },
+  "campStartsRead": 63,
+  "campStartsByVariant": {
+    "minecraft:abandoned_camp_old_growth_spruce_taiga": 31,
+    "minecraft:abandoned_camp_dappled_forest": 24,
+    "minecraft:abandoned_camp_bamboo_jungle": 4,
+    "minecraft:abandoned_camp_birch_forest": 1,
+    "minecraft:abandoned_camp_windswept_forest": 3
+  },
+  "commonScope": "chunk coordinates -32 <= x,z < 32",
+  "commonScopeCampStarts": 43,
+  "commonScopeExactChunkResidue9Zero": 2,
+  "commonScopeResidue9Counts": {
+    "x": {
+      "7": 6,
+      "6": 3,
+      "5": 4,
+      "1": 5,
+      "0": 4,
+      "3": 4,
+      "2": 7,
+      "4": 5,
+      "8": 5
+    },
+    "z": {
+      "7": 5,
+      "8": 4,
+      "1": 7,
+      "2": 6,
+      "4": 3,
+      "3": 7,
+      "5": 4,
+      "0": 4,
+      "6": 3
+    }
+  },
+  "placement": "Per-chunk DENSITY, no native RANDOM_SPREAD channel",
+  "status": "partial saved-world measurement; no pack generation error observed before server heap exhaustion"
+}

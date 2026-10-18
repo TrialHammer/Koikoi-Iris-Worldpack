@@ -1,0 +1,115 @@
+{
+  "name": "Mushroom Warped Forest",
+  "color": "#A55CA5",
+  "rarity": 2,
+  "derivative": "minecraft:warped_forest",
+  "vanillaDerivative": "minecraft:mushroom_fields",
+  "customDerivitives": [
+    {
+      "category": "mushroom",
+      "id": "mushroom_warped_forest",
+      "waterColor": "#A1E8E8",
+      "foliageColor": "#4FCC8D",
+      "waterFogColor": "#80CDA0",
+      "grassColor": "#5BCCB3",
+      "fogColor": "#CACDFF"
+    }
+  ],
+  "generators": [
+    {
+      "min": 54,
+      "max": 95,
+      "generator": "plain-cliffs"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:warped_hyphae"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "zoom": 0.5,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "palette": [
+        {
+          "block": "minecraft:warped_nylium"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-8-9",
+    {
+      "minHeight": 45,
+      "maxHeight": 65,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/trees/mushroom-mushclut-c0-21-d2-warped-brown-hyphae",
+    "snippet/object-placer/trees/mushroom-mushclut-c0-21-d2-warped-red-hyphae",
+    "snippet/object-placer/trees/mushroom-brown-red-c0-5-d2-warped-brown-hyphae",
+    "snippet/object-placer/trees/mushroom-brown-red-c0-5-d2-warped-red-hyphae",
+    "snippet/object-placer/trees/mushroom-smolshroom-c0-1-d1-warped-red-hyphae",
+    "snippet/object-placer/trees/mushroom-smolshroom-c0-1-d1-warped-brown-hyphae"
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/blackstone-warped-c0-009",
+    {
+      "chance": 0.05,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:warped_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.11,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:warped_roots"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "stackMax": 7,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:twisting_vines_plant"
+        }
+      ],
+      "stackMin": 3
+    }
+  ],
+  "slab": {
+    "palette": [
+      {
+        "weight": 4,
+        "block": "minecraft:air"
+      },
+      {
+        "data": {
+          "waterlogged": false,
+          "type": "bottom"
+        },
+        "block": "minecraft:warped_slab"
+      },
+      {
+        "weight": 4,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-nowhere-crack448"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Shattered Plains",
+  "color": "#42A616",
+  "rarity": 2,
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "generators": [
+    {
+      "min": -4,
+      "max": 5,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/camp-paint-c0-00975-set1-3-4-5",
+    "snippet/object-placer/clutter/camp-paint-c0-00675",
+    "snippet/object-placer/trees/oak-hoak-shoak-c0-01",
+    "snippet/object-placer/clutter/obelisk-c0-005",
+    "snippet/object-placer/clutter/genericpeak-paint-c0-002",
+    "snippet/object-placer/trees/oak-generic-c0-07",
+    "snippet/object-placer/clutter/pumpkins-statue-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/meadow-mix-c0-004",
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
+}

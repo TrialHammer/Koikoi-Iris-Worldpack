@@ -1,0 +1,116 @@
+{
+  "name": "Temperate Wilds",
+  "color": "#2B8305",
+  "rarity": 1,
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "customDerivitives": [
+    {
+      "id": "wilds",
+      "foliageColor": "#237031",
+      "waterColor": "#236270",
+      "grassColor": "#28A538",
+      "category": "forest"
+    }
+  ],
+  "children": [
+    "temperate/highlands",
+    "temperate/wilds-extended"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.125,
+      "place": [
+        "clutter/oakshrub1",
+        "clutter/oakshrub2",
+        "clutter/oakshrub3"
+      ],
+      "translate": {
+        "y": -1
+      }
+    },
+    "snippet/object-placer/clutter/obelisk-c0-001",
+    "snippet/object-placer/clutter/camp-bincluster-c0-001",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    {
+      "chance": 0.22,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.42,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    "snippet/decorator/flowers/oxeye-tulip-lily-c0-003",
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:dandelion"
+        },
+        {
+          "block": "minecraft:poppy"
+        },
+        {
+          "block": "minecraft:rose_bush"
+        }
+      ]
+    },
+    "snippet/decorator/crops/potatoes-c0-01",
+    "snippet/decorator/crops/carrots-c0-01",
+    "snippet/decorator/crops/beetroots-c0-01",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "effects": [
+    {
+      "interval": 250,
+      "chance": 5,
+      "particleEffect": "TOTEM_OF_UNDYING",
+      "particleOffset": 2,
+      "particleAltY": 0.2,
+      "particleCount": 5
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Swamp Roofed Wayward",
+  "color": "#556810",
+  "rarity": 1,
+  "derivative": "minecraft:swamp",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "children": [
+    "swamp/sea/lake",
+    "swamp/roofed-wayward-extended"
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 11,
+      "generator": "plain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "zoom": 0.5,
+      "palette": [
+        {
+          "weight": 5,
+          "block": "minecraft:grass_block"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:coarse_dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-2-4",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/oak-troofed-c0-5-dark-oak-leaves",
+    "snippet/object-placer/trees/oak-mroofed-c0-5-oak-dark-oak-leaves",
+    "snippet/object-placer/trees/mushroom-brown-red-mushclut-c0-02-d1",
+    "snippet/object-placer/trees/mushroom-brown-red-mushclut-c0-07-d1-brown-caps",
+    "snippet/object-placer/clutter/boulder-c0-135",
+    "snippet/object-placer/clutter/stump-paint-c0-1-dark-oak",
+    "snippet/object-placer/clutter/oakclutt-c0-3-dark-oak",
+    {
+      "chance": 0.001,
+      "rotation": {
+        "enabled": false
+      },
+      "place": [
+        "clutter/genericgrave1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/mushrooms/dead-bush-mix-c0-03",
+    {
+      "chance": 0.0002,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.45,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "terrain3D": {
+    "enabled": false
+  }
+}

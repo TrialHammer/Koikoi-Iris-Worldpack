@@ -1,0 +1,44 @@
+{
+  "packVersion": 4029,
+  "world": "iris:koikoi_preview_v4029",
+  "worldSeed": 864242790704001629,
+  "fixedSeedAuthorized": true,
+  "campRandomness": {
+    "nativeStructureSetDisabled": "minecraft:abandoned_camp",
+    "frequencyOverrideRemoved": true,
+    "supplementRules": 119,
+    "density": 0.013850415512465374,
+    "uniquePlacementIds": 119,
+    "sourceTemplateVariants": 18
+  },
+  "otherStructures": "No common 9-chunk lattice found in saved mineshaft, trial_chambers, ancient_city, ruined_portal, trail_ruins, ocean_ruin, jungle_pyramid, shipwreck or monument starts; definitions unchanged.",
+  "irisPackValidation": {
+    "packName": "koikoi",
+    "blockingErrors": [],
+    "warnings": [],
+    "validatedAtMillis": 1791899914993,
+    "minecraftVersion": "26.3",
+    "compatFindings": []
+  },
+  "structureReviewReport": "v4029-structure-review.json",
+  "campReport": "v4029-camps.json",
+  "serverState": {
+    "running": true,
+    "npcWorldLoaded": "iris:koikoi_preview_v4027",
+    "v4029Loaded": true
+  },
+  "pregenNote": "512-radius pregen reached 2723 full chunks before Java heap exhaustion; server restarted automatically. Saved-world structure measurements are retained and the pack itself validated cleanly.",
+  "newSchemaErrors": [],
+  "integrityReport": "v4029-integrity.json",
+  "generationSnapshotIntegrity": {
+    "packVersion": 4029,
+    "world": "iris:koikoi_preview_v4029",
+    "epoch": "68960a94f4a8267f34436b1a6ed86afd9550fbc9a12f044007d80cc0497fe8a9",
+    "snapshotMatchesAuthor": true,
+    "resourceCountAuthor": 8220,
+    "resourceCountSnapshot": 8220,
+    "changedFiles": [],
+    "missingFromSnapshot": [],
+    "addedToSnapshot": []
+  }
+}

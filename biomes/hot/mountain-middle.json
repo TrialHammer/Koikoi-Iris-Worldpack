@@ -1,0 +1,64 @@
+{
+  "riverPolicy": {
+    "placement": "PREFERRED_HEADWATER",
+    "routing": "PREFER",
+    "outletAdmission": false,
+    "profiles": [
+      "water"
+    ],
+    "surfaceBiomes": [
+      "hot/sea/river",
+      "mesa/sea/river"
+    ],
+    "widthMultiplier": 0.65,
+    "depthMultiplier": 0.75,
+    "routingMultiplier": 0.8
+  },
+  "name": "Hot Mountain Middle",
+  "color": "#DCB73A",
+  "rarity": 1,
+  "derivative": "minecraft:desert",
+  "vanillaDerivative": "minecraft:desert",
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 180,
+      "min": 80
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:gray_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/sand/red-1-1-flat3",
+    "snippet/biome-palette/terracotta/brown-gray-2-4-steep3-95",
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "childStyle": {
+    "style": "STATIC",
+    "exponent": 0.625,
+    "zoom": 1,
+    "fracture": {
+      "style": "SIMPLEX",
+      "multiplier": 4,
+      "zoom": 0.9
+    }
+  },
+  "terrain3D": "snippet/terrain-3d/rugged/amp40-nowhere-crack416"
+}

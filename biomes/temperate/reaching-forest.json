@@ -1,0 +1,84 @@
+{
+  "name": "Tundra Magic Forest",
+  "color": "#35930C",
+  "rarity": 7,
+  "derivative": "minecraft:windswept_hills",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "biomeScatter": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:windswept_hills"
+  ],
+  "customDerivitives": [
+    {
+      "grassColor": "#4E83CF",
+      "foliageColor": "#2F99DC",
+      "id": "tunmagforest",
+      "waterColor": "#5C3BEF",
+      "waterFogColor": "#7A768F",
+      "category": "forest",
+      "fogColor": "#686090"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 44,
+      "min": 20
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/stone/andesite-gravel-3-5-steep6-9",
+    "snippet/biome-palette/soil/dirt-coarse-gravel-3-5-steep5-3",
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/gravelsplotch-paint-c0-35",
+    "snippet/object-placer/trees/mixed-dotree-c0-8",
+    "snippet/object-placer/clutter/obelisk-c0-01-sunk4"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-orchid-poppy-c0-01",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.2,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/bush"
+  ],
+  "childShrinkFactor": 8,
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-perlin-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-reaching-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

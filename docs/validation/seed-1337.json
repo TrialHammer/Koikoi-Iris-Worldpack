@@ -1,0 +1,59 @@
+{
+  "seed": 1337,
+  "world": "iris:koikoi_preview",
+  "fullChunks": 144,
+  "chunkStatuses": {
+    "minecraft:structure_starts": 385,
+    "minecraft:full": 144
+  },
+  "waterByLevel": {
+    "48": {
+      "wetColumns": 5168,
+      "lakeConnectedColumns": 5168,
+      "chunkArea": 20.1875
+    },
+    "49": {
+      "wetColumns": 5647,
+      "lakeConnectedColumns": 5647,
+      "chunkArea": 22.05859375
+    },
+    "50": {
+      "wetColumns": 6156,
+      "lakeConnectedColumns": 6156,
+      "chunkArea": 24.046875
+    },
+    "51": {
+      "wetColumns": 0,
+      "lakeConnectedColumns": 0,
+      "chunkArea": 0.0
+    }
+  },
+  "surfaceBiomes": {
+    "minecraft:dappled_forest": 30464,
+    "minecraft:river": 6400
+  },
+  "poplarCanopyOrTrunkColumns": 10872,
+  "groundHeightRange": [
+    29,
+    110
+  ],
+  "generatedChunkBounds": {
+    "minX": -6,
+    "maxX": 5,
+    "minZ": -6,
+    "maxZ": 5
+  },
+  "paper": "26.3-174",
+  "iris": "4.3.2-26.2",
+  "packVersion": 4016,
+  "packValidation": {
+    "blockingErrors": 0,
+    "warnings": 0
+  },
+  "newConfigurationSchemaErrors": 0,
+  "aboveWaterGroundHeightRange": [
+    51,
+    110
+  ],
+  "designSubmergedColumns": 6400
+}

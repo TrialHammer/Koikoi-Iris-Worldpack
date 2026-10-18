@@ -1,0 +1,323 @@
+{
+  "name": "Crystalized Overgrown Child",
+  "derivative": "minecraft:lush_caves",
+  "vanillaDerivative": "minecraft:lush_caves",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:amethyst_block",
+        "weight": 9
+      },
+      {
+        "block": "minecraft:budding_amethyst",
+        "weight": 3
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "minHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:amethyst_block",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:budding_amethyst",
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.42,
+      "palette": [
+        {
+          "block": "minecraft:small_amethyst_bud"
+        },
+        {
+          "block": "minecraft:medium_amethyst_bud"
+        },
+        {
+          "block": "minecraft:large_amethyst_bud"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.17,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.32
+      },
+      "scaleStack": true,
+      "stackMin": 15,
+      "stackMax": 35,
+      "absoluteMaxStack": 10,
+      "palette": [
+        {
+          "block": "minecraft:azalea_leaves",
+          "data": {
+            "persistent": true
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.11050000000000001,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 0.38
+      },
+      "scaleStack": true,
+      "stackMin": 10,
+      "stackMax": 30,
+      "absoluteMaxStack": 12,
+      "palette": [
+        {
+          "block": "minecraft:cave_vines_plant",
+          "data": {
+            "berries": false
+          }
+        }
+      ],
+      "topPalette": [
+        {
+          "block": "minecraft:cave_vines",
+          "data": {
+            "berries": true
+          }
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.42
+      },
+      "zoom": 2,
+      "palette": [
+        {
+          "block": "minecraft:moss_block",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:azalea_leaves",
+          "weight": 3,
+          "data": {
+            "persistent": true
+          }
+        },
+        {
+          "block": "minecraft:amethyst_block",
+          "weight": 2
+        }
+      ],
+      "minHeight": 1,
+      "maxHeight": 1
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/amethyst-cluster-carve-c0-21-d6",
+    {
+      "chance": 0.20625,
+      "density": 4,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "PROFILE_DEFAULT",
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "clutter/amethyst-cluster1",
+        "clutter/amethyst-cluster2",
+        "clutter/amethyst-cluster3",
+        "clutter/amethyst-cluster4",
+        "clutter/amethyst-cluster5"
+      ],
+      "bottom": true,
+      "force": true,
+      "scale": {
+        "size": 1
+      }
+    },
+    {
+      "chance": 0.12636,
+      "density": 6,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "PROFILE_DEFAULT",
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "clutter/amethyst-cluster1",
+        "clutter/amethyst-cluster2",
+        "clutter/amethyst-cluster3"
+      ],
+      "bottom": true,
+      "force": true,
+      "scale": {
+        "size": 1
+      }
+    },
+    "snippet/object-placer/clutter/rock-boulder-carve-c0-13122-d6-size0-75"
+  ],
+  "caveProfile": {
+    "enabled": true,
+    "verticalRange": {
+      "min": 6,
+      "max": 620
+    },
+    "baseDensityStyle": {
+      "style": "SIMPLEX",
+      "zoom": 0.656
+    },
+    "detailDensityStyle": {
+      "style": "PERLIN_IRIS",
+      "zoom": 0.666
+    },
+    "warpStyle": {
+      "style": "FRACTAL_WATER",
+      "zoom": 0.35
+    },
+    "baseWeight": 0.819,
+    "detailWeight": 0.145,
+    "warpStrength": 0.2396,
+    "densityThreshold": {
+      "min": -0.135,
+      "max": -0.032,
+      "style": {
+        "style": "FRACTAL_BILLOW_SIMPLEX",
+        "zoom": 0.784
+      }
+    },
+    "thresholdBias": 0.12,
+    "sampleStep": 2,
+    "surfaceClearance": 6,
+    "allowSurfaceBreak": true,
+    "surfaceBreakStyle": {
+      "style": "FRACTAL_BILLOW_SIMPLEX",
+      "zoom": 0.81
+    },
+    "surfaceBreakNoiseThreshold": 0.68,
+    "surfaceBreakDepth": 12,
+    "surfaceBreakThresholdBoost": 0.1,
+    "objectMinDepthBelowSurface": 16,
+    "defaultObjectAnchor": "FLOOR",
+    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "anchorScanStep": 1,
+    "anchorSearchAttempts": 18,
+    "allowFluid": false,
+    "fluidMinDepthBelowSurface": 20,
+    "fluidRequiresFloor": true,
+    "allowLava": true,
+    "modules": [
+      {
+        "style": {
+          "style": "PERLIN_IRIS",
+          "zoom": 0.911
+        },
+        "weight": 0.08,
+        "threshold": 0.03,
+        "verticalRange": {
+          "min": 24,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "SIMPLEX",
+          "zoom": 0.333
+        },
+        "weight": 0.04,
+        "threshold": 0.07,
+        "verticalRange": {
+          "min": 8,
+          "max": 260
+        },
+        "invert": true
+      }
+    ],
+    "verticalEdgeFade": 26,
+    "verticalEdgeFadeStrength": 0.18,
+    "minCarveCells": 24,
+    "recoveryThresholdBoost": 0.07
+  },
+  "caveMinDepthBelowSurface": 10,
+  "proceduralObjects": {
+    "crystals": [
+      {
+        "name": "crystalized-overgrown-child-canopy-crystal",
+        "seed": 2604151,
+        "chance": 0.16,
+        "density": 2,
+        "variants": 10,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "CEILING_HANG",
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "growthSurface": "FLOOR",
+        "block": "minecraft:amethyst_block",
+        "baseBlock": "minecraft:budding_amethyst",
+        "baseRadius": 1.2,
+        "baseNoise": 0.28,
+        "shardCountMin": 3,
+        "shardCountMax": 6,
+        "shardLengthMin": 3,
+        "shardLengthMax": 6,
+        "shardBaseRadius": 0.7,
+        "shardTaper": 0.95,
+        "spreadAngle": 32,
+        "jitter": 0.2,
+        "glow": true,
+        "glowBlock": "minecraft:sea_lantern",
+        "tipChance": 0.12
+      }
+    ],
+    "formations": [
+      {
+        "name": "crystalized-overgrown-child-root-overhang",
+        "seed": 2604153,
+        "form": "OVERHANG",
+        "block": "minecraft:moss_block",
+        "chance": 0.07,
+        "density": 1,
+        "variants": 10,
+        "carvingSupport": "CARVING_ONLY",
+        "mode": "CEILING_HANG",
+        "surfaceSupportBuffer": 0,
+        "rotation": {
+          "enabled": true,
+          "yAxis": {
+            "enabled": true,
+            "min": 0,
+            "max": 360,
+            "interval": 45
+          }
+        },
+        "heightMin": 5,
+        "heightMax": 10,
+        "baseWidthMin": 1,
+        "baseWidthMax": 2,
+        "topWidth": 0,
+        "roughness": 0.2,
+        "jitter": 0.035,
+        "roomHeightFraction": 0.18,
+        "overhangReach": 4,
+        "overhangDrop": 2
+      }
+    ]
+  }
+}

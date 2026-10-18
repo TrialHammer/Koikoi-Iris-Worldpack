@@ -1,0 +1,38 @@
+{
+  "name": "Glacial",
+  "color": "#6E7D85",
+  "rarity": 12,
+  "derivative": "minecraft:frozen_peaks",
+  "vanillaDerivative": "minecraft:frozen_peaks",
+  "generators": [
+    {
+      "min": 23,
+      "max": 225,
+      "generator": "spikes"
+    }
+  ],
+  "wall": "snippet/biome-palette/ice/blue-packed-1-1-flat2-6",
+  "layers": [
+    "snippet/biome-palette/ice/blue-packed-1-1-flat2-6"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30133,
+    "amplitude": 36,
+    "horizontalScale": 112,
+    "verticalScale": 56,
+    "densityStyle": {
+      "style": "SIMPLEX"
+    },
+    "crackDepth": 3,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.3,
+    "slopeFade": 0.42,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:polar_bear",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

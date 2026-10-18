@@ -1,0 +1,18 @@
+{
+  "blocksPerPixel": 1,
+  "origin": {
+    "x": 0,
+    "z": 0
+  },
+  "sourceOrigin": {
+    "x": 512,
+    "z": 512
+  },
+  "outOfBounds": "FALLBACK",
+  "source": "activity/lake-height",
+  "type": "GRAYSCALE_HEIGHT",
+  "sampling": "BILINEAR",
+  "alpha": "IGNORE",
+  "minimumHeight": 4,
+  "maximumHeight": 256
+}

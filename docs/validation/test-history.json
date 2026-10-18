@@ -1,0 +1,176 @@
+[
+  {
+    "packVersion": 4016,
+    "worldSeed": 1337,
+    "status": "superseded; preview deleted",
+    "report": "seed-1337.json"
+  },
+  {
+    "packVersion": 4017,
+    "worldSeed": 1345342880880213275,
+    "layoutSeed": 3560224932,
+    "status": "creation rejected before generation: authoring files changed while capturing snapshot"
+  },
+  {
+    "packVersion": 4017,
+    "worldSeed": 3808884213235150753,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4017 preview deleted",
+    "report": "seed-3808884213235150753.json"
+  },
+  {
+    "packVersion": 4018,
+    "worldSeed": 1358038138923588466,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4018 preview deleted",
+    "report": "seed-1358038138923588466.json"
+  },
+  {
+    "packVersion": 4019,
+    "worldSeed": 2225311918551251938,
+    "layoutSeed": 3560224932,
+    "status": "continuous-field-v2 generated and superseded; preview deleted"
+  },
+  {
+    "packVersion": 4019,
+    "worldSeed": 4205789562517158849,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4019 preview deleted",
+    "report": "seed-4205789562517158849.json"
+  },
+  {
+    "packVersion": 4020,
+    "worldSeed": 391351358772454699,
+    "layoutSeed": 3560224932,
+    "status": "validated; force loads cleared; saved and left running",
+    "report": "seed-391351358772454699.json"
+  },
+  {
+    "packVersion": 4021,
+    "worldSeed": 2633396973707924283,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4021 preview deleted; historical surface retained",
+    "report": "seed-2633396973707924283.json"
+  },
+  {
+    "packVersion": 4022,
+    "worldSeed": 3423953591602909050,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4022 preview deleted; historical report retained",
+    "report": "seed-3423953591602909050.json"
+  },
+  {
+    "packVersion": 4023,
+    "worldSeed": 1737781858057768739,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4023 preview deleted; report retained",
+    "report": "seed-1737781858057768739.json"
+  },
+  {
+    "packVersion": 4024,
+    "worldSeed": 4241929020594591462,
+    "layoutSeed": 3560224932,
+    "status": "superseded; v4024 preview unloaded and deleted at user request; historical report retained",
+    "report": "seed-4241929020594591462.json"
+  },
+  {
+    "packVersion": 4025,
+    "world": "iris:koikoi_preview_v4025",
+    "worldSeed": 864242790704001629,
+    "layoutSeed": 3560224932,
+    "status": "superseded; world files retained for fixed-seed comparison; old preview unloaded",
+    "report": "seed-864242790704001629.json"
+  },
+  {
+    "packVersion": 4026,
+    "world": "iris:koikoi_preview_v4026",
+    "worldSeed": 864242790704001629,
+    "layoutSeed": 3560224932,
+    "fixedSeedAuthorized": true,
+    "status": "superseded; native camp baseline retained for fixed-seed comparison; old preview unloaded",
+    "validationIncident": "Paper watchdog stopped synchronous forceload; 11 validation tickets backed up and cleared; user restarted original container; switched to Iris async pregen",
+    "report": "v4026-seed-864242790704001629.json",
+    "featuresReport": "v4026-features.json"
+  },
+  {
+    "packVersion": 4027,
+    "world": "iris:koikoi_preview_v4027",
+    "worldSeed": 864242790704001629,
+    "layoutSeed": 3560224932,
+    "fixedSeedAuthorized": true,
+    "status": "superseded; fixed-seed camp and sulfur baseline retained; preview unloaded",
+    "campDensityRelativeToV4026": 5,
+    "nativeMultiplier": 16,
+    "supplementalDensity": 0.001504736500119695,
+    "report": "v4027-camps.json",
+    "integrityReport": "v4027-integrity.json",
+    "candidateDensityRelativeToVanillaApprox": 18.9612188365651
+  },
+  {
+    "packVersion": 4028,
+    "world": "iris:koikoi_preview_v4028",
+    "worldSeed": 864242790704001629,
+    "layoutSeed": 3560224932,
+    "fixedSeedAuthorized": true,
+    "status": "validated; fixed seed; 4225 pregen chunks failed0; landChance/ocean/mountain and sulfur comparisons complete; server left running",
+    "landChance": 0.95,
+    "oceanBiomesRetained": true,
+    "mountainWeightAdjustment": {
+      "dappled.json": {
+        "biome": "mountain/hills",
+        "beforeCount": 8,
+        "afterCount": 9
+      },
+      "forests.json": {
+        "biome": "mountain/mountain",
+        "beforeCount": 13,
+        "afterCount": 14
+      },
+      "frozen.json": {
+        "biome": "frozen/mountains/large-mountain",
+        "beforeCount": 21,
+        "afterCount": 22
+      },
+      "hot.json": {
+        "biome": "hot/mountain-middle",
+        "beforeCount": 19,
+        "afterCount": 20
+      },
+      "temperate.json": {
+        "biome": "mountain/plains",
+        "beforeCount": 30,
+        "afterCount": 31
+      },
+      "terralost.json": {
+        "biome": "terralost/alpine-highlands",
+        "beforeCount": 5,
+        "afterCount": 6
+      },
+      "tropical.json": {
+        "biome": "tropical/mountain",
+        "beforeCount": 12,
+        "afterCount": 13
+      }
+    },
+    "report": "v4028-landchance.json",
+    "sulfurReport": "v4028-sulfur.json"
+  },
+  {
+    "packVersion": 4029,
+    "world": "iris:koikoi_preview_v4029",
+    "worldSeed": 864242790704001629,
+    "layoutSeed": 3560224932,
+    "fixedSeedAuthorized": true,
+    "status": "validated; fixed seed; pack validation 0 errors/0 warnings; partial 512-radius pregen saved 2723 full chunks before Java heap exhaustion and automatic server restart; server left running",
+    "campRandomnessReport": "event-world.json",
+    "packValidation": {
+      "blockingErrors": [],
+      "warnings": [],
+      "minecraftVersion": "26.3"
+    },
+    "campReport": "v4029-camps.json",
+    "structureReviewReport": "v4029-structure-review.json",
+    "serverRestartedAfterPregenOom": true,
+    "npcWorldPreserved": "iris:koikoi_preview_v4027"
+  }
+]

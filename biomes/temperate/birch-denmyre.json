@@ -1,0 +1,91 @@
+{
+  "name": "Temperate Birch Denmyre",
+  "color": "#B0FB91",
+  "rarity": 1,
+  "derivative": "minecraft:forest",
+  "vanillaDerivative": "minecraft:birch_forest",
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "style": {
+        "style": "FLAT"
+      },
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:coarse_dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025",
+    "snippet/object-placer/clutter/camp-paint-c0-00375",
+    "snippet/object-placer/trees/acacia-denmyre-c0-5-d2-birch",
+    "snippet/object-placer/clutter/oakdenclutt-c0-3-d2-birch-leaves"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-cornflower-c0-01",
+    {
+      "chance": 0.35,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/pebbles/stone-c0-003",
+    {
+      "chance": 0.027,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    "snippet/decorator/flowers/wildflowers",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_birch_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-birch-denmyre",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "name": "Combo Forest",
+  "color": "#96EB73",
+  "rarity": 2,
+  "derivative": "minecraft:forest",
+  "vanillaDerivative": "minecraft:forest",
+  "children": [
+    "temperate/oak-denmyre"
+  ],
+  "generators": [
+    {
+      "min": 45,
+      "max": 62,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/oak-hoak-shoak-c0-07",
+    {
+      "mode": "PAINT",
+      "chance": 0.00975,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/camp1",
+        "clutter/camp4",
+        "clutter/camp5",
+        "clutter/camp3"
+      ]
+    },
+    {
+      "chance": 0.452,
+      "density": 2,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/oak/antioch3",
+        "trees/oak/antioch4",
+        "trees/oak/antioch5",
+        "trees/oak/antioch6",
+        "trees/oak/antioch7",
+        "trees/oak/antioch8",
+        "trees/oak/antioch9",
+        "trees/oak/antioch10",
+        "trees/oak/antioch11",
+        "trees/oak/antioch12",
+        "trees/oak/antioch13"
+      ]
+    },
+    "snippet/object-placer/trees/birch-antioch-c0-9-d1",
+    "snippet/object-placer/trees/oak-toak-c0-18",
+    "snippet/object-placer/clutter/obelisk-c0-001",
+    "snippet/object-placer/clutter/literalgarbage-c0-001",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    {
+      "chance": 0.8,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "chance": 7,
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:oak_leaves",
+          "data": {
+            "persistent": true
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:rose_bush"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "chance": 3,
+          "block": "minecraft:red_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "chance": 3,
+          "block": "minecraft:poppy"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter",
+    "snippet/decorator/flowers/wildflowers",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-combo-forest-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

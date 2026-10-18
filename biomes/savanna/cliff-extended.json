@@ -1,0 +1,177 @@
+{
+  "name": "Savanna Cliffs",
+  "color": "#C17D31",
+  "rarity": 1,
+  "derivative": "minecraft:savanna",
+  "vanillaDerivative": "minecraft:savanna",
+  "biomeScatter": [
+    "minecraft:savanna",
+    "minecraft:desert"
+  ],
+  "customDerivitives": [
+    {
+      "category": "savanna",
+      "id": "savanna_cliffs",
+      "grassColor": "#DFD545",
+      "foliageColor": "#D6A513",
+      "waterColor": "#33CB99",
+      "downfallType": "none"
+    }
+  ],
+  "children": [
+    "savanna/acacia-denmyre"
+  ],
+  "generators": [
+    {
+      "min": 55,
+      "max": 85,
+      "generator": "plain-cliffs"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 6.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:sandstone"
+        },
+        {
+          "block": "minecraft:sand"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 4.6
+      },
+      "palette": [
+        {
+          "block": "minecraft:sand"
+        },
+        {
+          "block": "minecraft:coarse_dirt"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "zoom": 0.75,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/acacia-savannad-c0-07",
+    "snippet/object-placer/trees/acacia-savannaf-c0-2",
+    "snippet/object-placer/trees/acacia-savannas-c0-04",
+    "snippet/object-placer/clutter/savrock-c0-1"
+  ],
+  "decorators": [
+    {
+      "chance": 0.001,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    {
+      "chance": 0.0005,
+      "stackMax": 2,
+      "palette": [
+        {
+          "block": "minecraft:cactus"
+        }
+      ],
+      "stackMin": 1
+    },
+    "snippet/decorator/plants/cactus-flowering-max2-c0-0005",
+    {
+      "chance": 0.3,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    "snippet/decorator/grass/dry-grass"
+  ],
+  "biomeSkyScatter": [
+    "minecraft:desert",
+    "minecraft:savanna"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30113,
+    "amplitude": 44,
+    "horizontalScale": 192,
+    "verticalScale": 48,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 5,
+    "crackWidth": 2.25,
+    "crackScale": 336,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.2,
+    "slopeFade": 0.34,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_savanna"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-savanna-cliff-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

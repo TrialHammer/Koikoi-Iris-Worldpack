@@ -1,0 +1,130 @@
+{
+  "name": "Oak Forest",
+  "color": "#56C326",
+  "rarity": 3,
+  "derivative": "minecraft:forest",
+  "vanillaDerivative": "minecraft:forest",
+  "customDerivitives": [
+    {
+      "id": "oak_forest",
+      "foliageColor": "#64B233",
+      "grassColor": "#77A620",
+      "category": "forest"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 12,
+      "min": 5
+    },
+    {
+      "generator": "rare-hills",
+      "max": 85,
+      "min": 43
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite-cobble-mossy",
+  "layers": [
+    "snippet/biome-palette/grass/coarse-gravel-flecks",
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/trees/oak-hoak-shoak-generic-sbush-c0-9-d2",
+    "snippet/object-placer/clutter/boulder-c0-01",
+    "snippet/object-placer/trees/mixed-smoakog-paint-c0-001",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/meadow-mix-c0-2-trioctave-z0-35",
+    {
+      "chance": 0.03,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.04,
+      "palette": [
+        {
+          "block": "minecraft:red_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:large_fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-oak-forest-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

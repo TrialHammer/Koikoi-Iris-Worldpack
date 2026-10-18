@@ -1,0 +1,17 @@
+{
+  "blocksPerPixel": 1,
+  "origin": {
+    "x": 0,
+    "z": 0
+  },
+  "sourceOrigin": {
+    "x": 512,
+    "z": 512
+  },
+  "outOfBounds": "FALLBACK",
+  "source": "activity/terrain-mask",
+  "type": "GRAYSCALE_MASK",
+  "sampling": "BILINEAR",
+  "alpha": "IGNORE",
+  "fallbackValue": 0
+}

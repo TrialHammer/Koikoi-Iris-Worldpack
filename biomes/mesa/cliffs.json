@@ -1,0 +1,126 @@
+{
+  "name": "Mesa Cliffs",
+  "color": "#EE8658",
+  "rarity": 1,
+  "derivative": "minecraft:windswept_savanna",
+  "vanillaDerivative": "minecraft:eroded_badlands",
+  "generators": [
+    {
+      "min": 9,
+      "max": 30,
+      "generator": "mountain"
+    },
+    {
+      "min": 41,
+      "max": 110,
+      "generator": "plain-cliffs"
+    }
+  ],
+  "wall": {
+    "style": {
+      "style": "NOWHERE"
+    },
+    "zoom": 0.25,
+    "palette": [
+      {
+        "block": "minecraft:brown_terracotta"
+      },
+      {
+        "block": "minecraft:gray_terracotta"
+      },
+      {
+        "block": "minecraft:black_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 4,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:black_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:gray_terracotta"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/stone-c0-009",
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    "snippet/decorator/grass/dry-grass"
+  ],
+  "lockLayers": true,
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30119,
+    "amplitude": 42,
+    "horizontalScale": 160,
+    "verticalScale": 44,
+    "densityStyle": {
+      "style": "PERLIN"
+    },
+    "crackDepth": 5,
+    "crackWidth": 2,
+    "crackScale": 392,
+    "crackStyle": {
+      "style": "PERLIN"
+    },
+    "minimumSlope": 0.28,
+    "slopeFade": 0.38,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Mountain Cliffs",
+  "color": "#D4DEE3",
+  "rarity": 3,
+  "derivative": "minecraft:old_growth_spruce_taiga",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "generators": [
+    {
+      "max": 185,
+      "min": 106,
+      "generator": "cracked-cliffs"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite-gravel-cyan-terracotta",
+  "layers": [
+    "snippet/biome-palette/grass/top-1-1-flat2-6",
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 3.95
+      },
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "block": "minecraft:cyan_terracotta"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30113,
+    "amplitude": 48,
+    "horizontalScale": 176,
+    "verticalScale": 48,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 6,
+    "crackWidth": 2.25,
+    "crackScale": 336,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.16,
+    "slopeFade": 0.3,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-mountain-cliffs-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

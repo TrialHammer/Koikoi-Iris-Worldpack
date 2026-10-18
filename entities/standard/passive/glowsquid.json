@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:glow_squid",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "WATER"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Frozen Spruce Hills",
+  "color": "#0B5475",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_taiga",
+  "vanillaDerivative": "minecraft:snowy_taiga",
+  "customDerivitives": [
+    {
+      "id": "frozen_spruce_hills",
+      "waterColor": "#216FC4",
+      "fogColor": "#A6D1FF",
+      "downfallType": "snow",
+      "temperature": -3,
+      "waterFogColor": "#216FC4",
+      "foliageColor": "#B8D0E1",
+      "grassColor": "#D0E1FF",
+      "category": "taiga"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 112,
+      "min": 50
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 28,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/spruce-l-m-evergreen-c0-8-oak-dark-oak-leaves"
+  ],
+  "decorators": [
+    "snippet/decorator/snow/patchy-layer-c1"
+  ],
+  "terrain3D": "snippet/terrain-3d/hilly/amp24-simplex-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_snowy_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-frozen-spruce-hills-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

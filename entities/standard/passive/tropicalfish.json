@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:tropical_fish",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "WATER"
+}

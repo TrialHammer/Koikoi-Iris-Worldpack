@@ -1,0 +1,109 @@
+{
+  "name": "Tundra Mountains",
+  "color": "#36B2BF",
+  "rarity": 1,
+  "derivative": "minecraft:windswept_hills",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "biomeScatter": [
+    "minecraft:plains",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:windswept_hills",
+    "minecraft:swamp"
+  ],
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "tundra_mountains",
+      "grassColor": "#B0A747",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    }
+  ],
+  "children": [
+    "tundra/mountains-extended-cliffs"
+  ],
+  "generators": [
+    {
+      "min": 66,
+      "max": 89,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/stone/andesite-gravel-3-5-steep6-9",
+    "snippet/biome-palette/soil/dirt-coarse-gravel-3-5-steep5-3",
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/gravelsplotch-paint-c0-75",
+    "snippet/object-placer/trees/spruce-l-m-evergreen-c0-8",
+    "snippet/object-placer/clutter/obelisk-c0-005",
+    {
+      "chance": 0.25,
+      "place": [
+        "trees/spruce/pine1",
+        "trees/spruce/pine2",
+        "trees/spruce/pine3",
+        "trees/spruce/pine4",
+        "trees/spruce/pine5",
+        "trees/spruce/pine6",
+        "trees/spruce/pine7",
+        "trees/spruce/pine8",
+        "trees/spruce/pine9",
+        "trees/spruce/pine10",
+        "trees/spruce/pine11",
+        "trees/spruce/pine12"
+      ]
+    },
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-orchid-poppy-c0-01",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.2,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "biomeSkyScatter": [
+    "minecraft:snowy_taiga",
+    "minecraft:frozen_peaks"
+  ],
+  "childShrinkFactor": 8,
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tundra-mountains",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

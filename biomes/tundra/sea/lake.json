@@ -1,0 +1,97 @@
+{
+  "name": "Tundra Lake",
+  "color": "#3E498F",
+  "rarity": 1,
+  "derivative": "minecraft:stony_peaks",
+  "vanillaDerivative": "minecraft:windswept_hills",
+  "customDerivitives": [
+    {
+      "id": "tundra_lake",
+      "grassColor": "#CB6E08",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6",
+      "category": "extreme_hills"
+    }
+  ],
+  "generators": [
+    {
+      "min": -32,
+      "max": -10,
+      "generator": "mountain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "style": {
+        "style": "FLAT"
+      },
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:coarse_dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025",
+    "snippet/object-placer/trees/acacia-denmyre-c0-5-d2-spruce",
+    "snippet/object-placer/clutter/oakdenclutt-c0-3-d2-spruce-leaves"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/cool-mix-c0-003-z0-02",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:fern"
+        }
+      ],
+      "style": {
+        "style": "IRIS_DOUBLE"
+      }
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    "snippet/decorator/pebbles/stone-c0-003",
+    {
+      "chance": 0.017,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    }
+  ]
+}

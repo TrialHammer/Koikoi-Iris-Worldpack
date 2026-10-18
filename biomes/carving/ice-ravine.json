@@ -1,0 +1,105 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/carving/frost-vaults",
+  "name": "Ice Cavern",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/ice/ice5-packed-1-1",
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "zoom": 0.4,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:blue_ice"
+        },
+        {
+          "weight": 5,
+          "block": "minecraft:ice"
+        },
+        {
+          "weight": 5,
+          "block": "minecraft:blackstone"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.001,
+      "palette": [
+        {
+          "block": "minecraft:cornflower"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "scaleStack": true,
+      "stackMin": 8,
+      "stackMax": 24,
+      "absoluteMaxStack": 8,
+      "palette": [
+        {
+          "block": "minecraft:ice",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:packed_ice",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.012,
+      "absoluteMaxStack": 12,
+      "scaleStack": true,
+      "stackMin": 10,
+      "stackMax": 30,
+      "palette": [
+        {
+          "block": "minecraft:ice",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:packed_ice",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:ice"
+        }
+      ]
+    },
+    "snippet/biome-palette/ice/blackstone-blue-1-1"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/rock-boulder-carve-c0-0972-d4-size0-375"
+  ],
+  "caveProfile": "snippet/cave-profile/frozen/shard-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/ice-ravine-child"
+  ],
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 0.62
+  },
+  "childShrinkFactor": 1.3
+}

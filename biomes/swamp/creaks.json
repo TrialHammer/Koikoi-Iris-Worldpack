@@ -1,0 +1,262 @@
+{
+  "name": "The Creaks",
+  "color": "#556810",
+  "rarity": 15,
+  "derivative": "minecraft:swamp",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "customDerivitives": [
+    {
+      "id": "pale_garden1",
+      "foliageColor": "#868586",
+      "grassColor": "#353839",
+      "skyColor": "#333333",
+      "fogColor": "#333333",
+      "category": "swamp"
+    },
+    {
+      "id": "pale_garden2",
+      "foliageColor": "#7C7B7C",
+      "grassColor": "#353839",
+      "skyColor": "#333333",
+      "fogColor": "#333333",
+      "category": "swamp"
+    },
+    {
+      "id": "pale_garden3",
+      "foliageColor": "#727172",
+      "grassColor": "#353839",
+      "skyColor": "#333333",
+      "fogColor": "#333333",
+      "category": "swamp"
+    },
+    {
+      "id": "pale_garden4",
+      "foliageColor": "#908F90",
+      "grassColor": "#353839",
+      "skyColor": "#333333",
+      "fogColor": "#333333",
+      "category": "swamp"
+    },
+    {
+      "id": "pale_garden5",
+      "foliageColor": "#9A999A",
+      "grassColor": "#353839",
+      "skyColor": "#333333",
+      "fogColor": "#333333",
+      "category": "swamp"
+    },
+    {
+      "id": "pale_garden6",
+      "foliageColor": "#A4A3A4",
+      "grassColor": "#353839",
+      "skyColor": "#333333",
+      "fogColor": "#333333",
+      "category": "swamp"
+    }
+  ],
+  "generators": [
+    {
+      "min": 18,
+      "max": 24,
+      "generator": "plain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "zoom": 0.5,
+      "palette": [
+        {
+          "weight": 5,
+          "block": "minecraft:grass_block"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:pale_moss_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:pale_moss_block"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 1,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:oak_wood"
+            },
+            {
+              "block": "minecraft:spruce_wood"
+            },
+            {
+              "block": "minecraft:stripped_dark_oak_wood"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:pale_oak_wood",
+                "weight": 150
+              },
+              {
+                "block": "minecraft:creaking_heart",
+                "weight": 1,
+                "data": {
+                  "active": true,
+                  "natural": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "find": [
+            {
+              "block": "minecraft:spruce_leaves"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:pale_oak_leaves"
+              }
+            ]
+          }
+        },
+        "snippet/object-block-replacer/leaves/birch-to-dark-oak",
+        "snippet/object-block-replacer/leaves/dark-oak-fence-to-dark-oak"
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/oak/troofed1",
+        "trees/oak/troofed2",
+        "trees/oak/troofed3",
+        "trees/oak/troofed4",
+        "trees/oak/troofed5",
+        "trees/oak/troofed6",
+        "trees/oak/troofed7",
+        "trees/oak/troofed8",
+        "trees/oak/troofed9",
+        "trees/oak/troofed10"
+      ]
+    },
+    "snippet/object-placer/trees/oak-mroofed-c0-5-oak-dark-oak-leaves",
+    "snippet/object-placer/trees/mushroom-brown-red-mushclut-c0-02-d1",
+    "snippet/object-placer/trees/mushroom-brown-red-mushclut-c0-07-d1-brown-caps",
+    "snippet/object-placer/clutter/boulder-c0-135",
+    "snippet/object-placer/clutter/stump-paint-c0-1-dark-oak",
+    "snippet/object-placer/clutter/oakclutt-c0-3-dark-oak",
+    {
+      "chance": 0.001,
+      "rotation": {
+        "enabled": false
+      },
+      "place": [
+        "clutter/genericgrave1"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.03,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:pale_oak_sapling",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:closed_eyeblossom",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:open_eyeblossom",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:brown_mushroom",
+          "weight": 1
+        },
+        {
+          "block": "minecraft:red_mushroom",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:pale_moss_carpet"
+        }
+      ]
+    },
+    {
+      "chance": 0.0002,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:crimson_fungus"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bubble_coral_fan",
+          "weight": 3,
+          "data": {
+            "waterlogged": false
+          }
+        },
+        {
+          "block": "minecraft:dead_tube_coral",
+          "weight": 1,
+          "data": {
+            "waterlogged": false
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.45,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
+}

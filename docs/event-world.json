@@ -1,0 +1,142 @@
+{
+  "pack": "koikoi",
+  "packVersion": 4029,
+  "minecraftVersion": "26.3",
+  "minecraftWorldSeed": 864242790704001629,
+  "fixedWorldSeed": true,
+  "layoutSeed": 3560224932,
+  "previewWorld": "iris:koikoi_preview",
+  "coordinateSystem": {
+    "activityCenter": [0, 0],
+    "waterLevel": 50,
+    "imageSize": [1025, 1025],
+    "blocksPerPixel": 1,
+    "sourceImageCenter": [512, 512]
+  },
+  "activityLake": {
+    "authoredSurfaceBlocks": 46080,
+    "authoredChunkArea": 180.0,
+    "outline": "Six rotated connected lobes with continuous coordinate perturbation and inland coves; no rectangular clipping.",
+    "outerBounds": {
+      "minX": -187,
+      "maxX": 153,
+      "minZ": -111,
+      "maxZ": 118
+    },
+    "terrain": "Bilinear image height field with variable exponential submerged descent, shared shoreline height and first derivative, and 2-6 block shoreline relief.",
+    "biomes": [
+      "dappled/lake",
+      "dappled/lake-rocky",
+      "dappled/lake-silt"
+    ],
+    "vanillaIdentity": "minecraft:dappled_forest"
+  },
+  "activityMaps": {
+    "terrainMask": "activity/terrain-mask",
+    "lakeHeight": "activity/lake-height",
+    "forestRegionMask": "activity/forest-region-mask",
+    "forestRegion": "activity/forest-region",
+    "surfaceBiomesMask": "activity/surface-biomes-mask",
+    "surfaceBiomes": "activity/surface-biomes",
+    "terrainInfluence": "Full influence to roughly 178 blocks from the authored shore, then a noise-varying roughly 155-block quintic fade to native Iris terrain."
+  },
+  "dappledForestCore": {
+    "region": "dappled",
+    "landBiomes": [
+      "dappled/forest",
+      "dappled/activity-golden",
+      "dappled/activity-amber",
+      "dappled/activity-russet",
+      "dappled/activity-emberbark"
+    ],
+    "shoreBiomes": ["dappled/shore"],
+    "lakeBiomes": ["dappled/lake", "dappled/lake-rocky", "dappled/lake-silt"],
+    "vanillaIdentity": "minecraft:dappled_forest",
+    "measuredLakeIdentityFraction": 1.0,
+    "measuredLandIdentityFractionWithin150Blocks": 0.9888
+  },
+  "uplandTerrain": {
+    "directionalReferenceHeights": {
+      "north": 98,
+      "northeast": 106,
+      "east": 84,
+      "southeast": 68,
+      "south": 58,
+      "southwest": 63,
+      "west": 75,
+      "northwest": 90
+    },
+    "interpolation": "Continuous periodic field combined with multi-scale forest noise; no octant boundaries.",
+    "northeastAuthoredMountain": {
+      "enabled": false,
+      "note": "The isolated authored ridge, foothills, forced mountain biome patch and extended masks are absent; native Iris mountains remain available."
+    }
+  },
+  "landAndMountainPolicy": {
+    "landChance": 0.95,
+    "oceanDefinitionsRetained": true,
+    "mountainPolicy": "Slightly increased weights for existing mountain root biomes in seven regions; no new Minecraft biome identities."
+  },
+  "cavesAndSulfur": {
+    "surfaceBreaks": true,
+    "caveBiomes": [
+      "carving/rocky-cavebiome",
+      "carving/deep",
+      "carving/drip",
+      "carving/chalk-gardens",
+      "carving/moss-pillars",
+      "carving/sulfur"
+    ],
+    "sulfurColonnades": {
+      "spacing": 768,
+      "probability": 0.35,
+      "candidateMultiplierApprox": 6.076388888888889
+    },
+    "coreSulfurFeature": {
+      "id": "koikoi-core-sulfur-20",
+      "family": "CENOTE",
+      "biome": "carving/sulfur",
+      "allowedRegions": ["dappled"],
+      "worldYRange": [-112, -42],
+      "anchor": [102, -77, 94],
+      "bounds": [58, -101, 50, 146, -45, 138],
+      "radius": 42,
+      "height": 34,
+      "shapeWarp": 0.92,
+      "fluid": "LAVA",
+      "fluidDepth": 2,
+      "solid": "minecraft:sulfur",
+      "priority": 10,
+      "dryEntry": [115, -77, 94],
+      "seedNote": "The position is stable for the fixed world seed and definition ID; another world seed may place the feature elsewhere or reject the candidate."
+    }
+  },
+  "abandonedCamps": {
+    "nativeStructureSetDisabled": "minecraft:abandoned_camp",
+    "frequencyOverrideRemoved": true,
+    "placement": "119 biome-scoped nativeStructures supplements using per-chunk DENSITY sampling.",
+    "density": 0.013850415512465374,
+    "candidateDensityRelativeToV4026": 5,
+    "nativeVariants": 18,
+    "terrainMode": "PRESERVE",
+    "underwater": false,
+    "compatibility": "Original Minecraft templates, loot, variant identities and biome eligibility are retained; the fixed native RANDOM_SPREAD grid is removed."
+  },
+  "structureCompatibility": {
+    "otherStructures": "Native placement, biome rules, locate behavior and template content are retained.",
+    "terrainAdjustmentsRetained": [
+      "stronghold encasement",
+      "trial chamber Y shift",
+      "mineshaft source Y preservation",
+      "village stilt support",
+      "selected structure terrain flattening"
+    ]
+  },
+  "references": {
+    "dimension": "../dimensions/koikoi.json",
+    "biomeKeysMarkdown": "群系键名列表.md",
+    "biomeKeysJson": "biome-keys.json",
+    "activityMap": "activity-map.json",
+    "design": "地图设计.md"
+  }
+}

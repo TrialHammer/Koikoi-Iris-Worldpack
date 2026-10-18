@@ -1,0 +1,97 @@
+{
+  "name": "Dripstone Cavern",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:dripstone_block",
+        "weight": 4
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "GLOB_IRIS_THICK"
+      },
+      "zoom": 0.4,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:tuff"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:granite"
+        },
+        {
+          "block": "minecraft:dripstone_block",
+          "weight": 6
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.066,
+      "scaleStack": true,
+      "stackMin": 25,
+      "stackMax": 80,
+      "absoluteMaxStack": 6,
+      "palette": [
+        {
+          "block": "minecraft:pointed_dripstone",
+          "data": {
+            "vertical_direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.1,
+      "absoluteMaxStack": 6,
+      "scaleStack": true,
+      "stackMin": 25,
+      "stackMax": 80,
+      "palette": [
+        {
+          "block": "minecraft:pointed_dripstone",
+          "data": {
+            "vertical_direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dripstone_block",
+          "weight": 20
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/stoneclutt-carve-c0-21-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-165-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-0972-d4-set5-7"
+  ],
+  "caveProfile": "snippet/cave-profile/stone/ravine-chambers",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/drip-child"
+  ],
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 0.62
+  },
+  "childShrinkFactor": 1.3
+}

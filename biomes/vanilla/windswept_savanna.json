@@ -1,0 +1,104 @@
+{
+  "name": "Windswept Savanna",
+  "color": "#A79256",
+  "rarity": 1,
+  "derivative": "minecraft:windswept_savanna",
+  "vanillaDerivative": "minecraft:windswept_savanna",
+  "customDerivitives": [
+    {
+      "category": "savanna",
+      "id": "windswept_savanna",
+      "grassColor": "#BFB755",
+      "foliageColor": "#AEA42A",
+      "waterColor": "#2C8B9C",
+      "downfallType": "none"
+    }
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "style": {
+        "style": "FLAT"
+      },
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:coarse_dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/acacia-denmyre-c0-5-d2-stripped-acacia"
+  ],
+  "decorators": [
+    {
+      "chance": 0.1,
+      "zoom": 0.01,
+      "palette": [
+        {
+          "weight": 4,
+          "block": "minecraft:dead_bush"
+        },
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.0005,
+      "stackMax": 2,
+      "palette": [
+        {
+          "block": "minecraft:cactus"
+        }
+      ],
+      "stackMin": 1
+    },
+    "snippet/decorator/plants/cactus-flowering-max2-c0-0005",
+    {
+      "chance": 0.4,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/pebbles/stone-c0-03",
+    {
+      "chance": 0.017,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    "snippet/decorator/grass/dry-grass"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392"
+}

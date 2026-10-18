@@ -1,0 +1,15 @@
+{
+    "surfaceDetail": 0.5,
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_9",
+        "horizontalScale": 8
+    },
+    "seed": 2133,
+    "composite": [{
+        "seed": 12323,
+        "style": {
+            "style": "CLOVER",
+            "zoom": 0.9
+        }
+    }]
+}

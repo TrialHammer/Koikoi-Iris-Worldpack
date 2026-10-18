@@ -1,0 +1,55 @@
+{
+  "packVersion": 4028,
+  "worldSeed": 864242790704001629,
+  "landChance": 0.95,
+  "oceanDefinitionsRetained": true,
+  "mountainWeightAdjustment": {
+    "dappled.json": {
+      "biome": "mountain/hills",
+      "beforeCount": 8,
+      "afterCount": 9
+    },
+    "forests.json": {
+      "biome": "mountain/mountain",
+      "beforeCount": 13,
+      "afterCount": 14
+    },
+    "frozen.json": {
+      "biome": "frozen/mountains/large-mountain",
+      "beforeCount": 21,
+      "afterCount": 22
+    },
+    "hot.json": {
+      "biome": "hot/mountain-middle",
+      "beforeCount": 19,
+      "afterCount": 20
+    },
+    "temperate.json": {
+      "biome": "mountain/plains",
+      "beforeCount": 30,
+      "afterCount": 31
+    },
+    "terralost.json": {
+      "biome": "terralost/alpine-highlands",
+      "beforeCount": 5,
+      "afterCount": 6
+    },
+    "tropical.json": {
+      "biome": "tropical/mountain",
+      "beforeCount": 12,
+      "afterCount": 13
+    }
+  },
+  "irisPackValidation": {
+    "packName": "koikoi",
+    "blockingErrors": [],
+    "warnings": [],
+    "validatedAtMillis": 1791887857546,
+    "minecraftVersion": "26.3",
+    "compatFindings": []
+  },
+  "surfaceReport": "v4028-landchance.json",
+  "sulfurReport": "v4028-sulfur.json",
+  "integrityReport": "v4028-integrity.json",
+  "newSchemaErrors": []
+}

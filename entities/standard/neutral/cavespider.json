@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:cave_spider",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

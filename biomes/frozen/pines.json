@@ -1,0 +1,144 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-surface",
+  "name": "Frozen Pines",
+  "color": "#0D6389",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_taiga",
+  "vanillaDerivative": "minecraft:snowy_taiga",
+  "customDerivitives": [
+    {
+      "category": "taiga",
+      "downfallType": "snow",
+      "foliageColor": "#194569",
+      "id": "winter_mountain_forest1",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "grassColor": "#D0E1FF"
+    },
+    {
+      "category": "taiga",
+      "downfallType": "snow",
+      "foliageColor": "#5F84A2",
+      "id": "winter_mountain_forest2",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "grassColor": "#D0E1FF"
+    },
+    {
+      "category": "taiga",
+      "downfallType": "snow",
+      "foliageColor": "#91AEC4",
+      "id": "winter_mountain_forest3",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "generators": [
+    {
+      "min": 10,
+      "max": 25,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:packed_ice"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "chance": 0.5,
+      "density": 1,
+      "snow": 1,
+      "edit": [
+        "snippet/object-block-replacer/leaves/spruce-to-oak-dark-oak-perlin"
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "trees/spruce/levergreen1",
+        "trees/spruce/levergreen1",
+        "trees/spruce/mevergreen1",
+        "trees/spruce/mevergreen2",
+        "trees/spruce/mevergreen3"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/snow/patchy-layer-c1"
+  ],
+  "childShrinkFactor": 20,
+  "terrain3D": "snippet/terrain-3d/hilly/amp18-simplex-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_snowy_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-frozen-pines",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

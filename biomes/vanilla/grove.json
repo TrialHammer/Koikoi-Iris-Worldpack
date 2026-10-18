@@ -1,0 +1,51 @@
+{
+  "name": "Grove",
+  "color": "#C7D6CE",
+  "rarity": 1,
+  "derivative": "minecraft:grove",
+  "vanillaDerivative": "minecraft:grove",
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "grove",
+      "waterColor": "#3938C9",
+      "downfallType": "snow",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "foliageColor": "#60A17B",
+      "grassColor": "#80B497"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 103,
+      "min": 48
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/snow/block-0-2-flat3-5",
+    "snippet/biome-palette/grass/top-1-1-flat3-5",
+    "snippet/biome-palette/soil/dirt-7-18-flat3-5",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/spruce-pine-c0-12-oak-dark-oak-leaves",
+    "snippet/object-placer/clutter/obelisk-paint-c0-005-no-vine"
+  ],
+  "decorators": [
+    "snippet/decorator/snow/patchy-layer-c1"
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448"
+}

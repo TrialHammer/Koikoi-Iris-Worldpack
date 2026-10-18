@@ -1,0 +1,91 @@
+{
+  "name": "Dappled Forests",
+  "color": "#D17C29",
+  "rarity": 1,
+  "riverPolicy": {
+    "placement": "PREFERRED_HEADWATER",
+    "routing": "PREFER",
+    "outletAdmission": true,
+    "profiles": [
+      "water"
+    ],
+    "surfaceBiomes": [
+      "dappled/lake",
+      "temperate/sea/river",
+      "mountain/sea/river-soft"
+    ],
+    "mouthBiomes": [
+      "temperate/sea/ocean",
+      "ocean/rich-oceans"
+    ],
+    "shoreBiomes": [
+      "dappled/shore"
+    ],
+    "bankBiomes": [
+      "dappled/forest"
+    ],
+    "floodedCaveBiomes": [
+      "carving/rocky-cavebiome",
+      "carving/chalk-gardens"
+    ],
+    "widthMultiplier": 0.85,
+    "depthMultiplier": 1.0,
+    "routingMultiplier": 0.8
+  },
+  "landBiomes": [
+    "dappled/forest",
+    "dappled/activity-golden",
+    "dappled/activity-amber",
+    "dappled/activity-russet",
+    "dappled/activity-emberbark",
+    "temperate/meadows",
+    "mountain/hills",
+    "tundra/forest",
+    "mountain/hills"
+  ],
+  "caveBiomes": [
+    "carving/rocky-cavebiome",
+    "carving/deep",
+    "carving/drip",
+    "carving/chalk-gardens",
+    "carving/moss-pillars",
+    "carving/sulfur"
+  ],
+  "shoreBiomes": [
+    "dappled/shore"
+  ],
+  "seaBiomeZoom": 6,
+  "seaBiomes": [
+    "dappled/lake",
+    "dappled/lake-rocky",
+    "dappled/lake-silt",
+    "ocean/deep",
+    "ocean/dark-depth-ocean",
+    "ocean/rich-oceans",
+    "temperate/sea/ocean",
+    "temperate/sea/ocean-deep",
+    "ocean/warm"
+  ],
+  "shoreBiomeZoom": 0.15,
+  "landBiomeZoom": 3.5,
+  "shoreHeightMin": 1,
+  "shoreHeightMax": 3.2,
+  "shoreHeightZoom": 1.14,
+  "loot": {
+    "mode": "FALLBACK",
+    "multiplier": 0.5,
+    "tables": [
+      "temperate/clutter",
+      "temperate/food"
+    ]
+  },
+  "caveProfile": "snippet/cave-profile/shallow/sealed-tunnels",
+  "caveBiomeZoom": 3.3,
+  "entitySpawners": [
+    "temperate/cave",
+    "temperate/hostile",
+    "temperate/passive",
+    "temperate/water"
+  ],
+  "shoreMinimumWidth": 2
+}

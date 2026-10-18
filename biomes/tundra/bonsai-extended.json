@@ -1,0 +1,113 @@
+{
+  "name": "Tundra Bonsai Forest",
+  "color": "#79CCD5",
+  "rarity": 1,
+  "derivative": "minecraft:taiga",
+  "vanillaDerivative": "minecraft:flower_forest",
+  "customDerivitives": [
+    {
+      "id": "tundra_bonsai_forest",
+      "grassColor": "#CB6E08",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6",
+      "category": "taiga"
+    }
+  ],
+  "children": [
+    "tundra/sequia-redwoods",
+    "tundra/redwood-extended-cliffs"
+  ],
+  "generators": [
+    {
+      "min": 17,
+      "max": 19,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:coarse_dirt"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:podzol"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-2-4",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/camp-c0-00375",
+    "snippet/object-placer/trees/bonsai-med-c0-8-spruce-wood",
+    "snippet/object-placer/clutter/stoneclutt-c0-32",
+    "snippet/object-placer/trees/mixed-tredwoodsmol-c0-75-birch-leaves",
+    "snippet/object-placer/clutter/spruceclutt-c0-35",
+    "snippet/object-placer/trees/mixed-tredwoodbee-c0-01",
+    "snippet/object-placer/clutter/boulder-c0-035",
+    "snippet/object-placer/clutter/stump-paint-c0-075"
+  ],
+  "decorators": [
+    "snippet/decorator/pebbles/stone-c0-003-z1",
+    "snippet/decorator/flowers/cool-mix-c0-003-z1",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.00145,
+      "palette": [
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:orange_tulip"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:poppy"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_flower_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tundra-bonsai-extended",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

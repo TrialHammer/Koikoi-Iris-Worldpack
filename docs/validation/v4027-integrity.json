@@ -1,0 +1,10 @@
+{
+  "packVersion": 4027,
+  "epoch": "20cdc1701f4c3fe47407680fa6edaf9b41321d92e347820f314b15961e4d1a8d",
+  "snapshotMatchesAuthor": true,
+  "resourceCount": 8218,
+  "changedAgainstSnapshot": [],
+  "addedToSnapshot": [],
+  "missingFromSnapshot": [],
+  "note": "Generation resource comparison excludes documentation and workspace metadata; it includes biome, dimension, region, generator, image-map, object and structure JSON/PNG/IOB resources."
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Sandstone Oasis Caverns",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "style": {
+      "style": "FRACTAL_WATER",
+      "zoom": 0.72
+    },
+    "palette": [
+      {
+        "block": "minecraft:sandstone",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:smooth_sandstone",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:cut_sandstone",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:red_sandstone",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:smooth_red_sandstone",
+        "weight": 1
+      },
+      {
+        "block": "minecraft:calcite",
+        "weight": 1
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:sand",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:red_sand",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:smooth_sandstone",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:sandstone",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:terracotta",
+          "weight": 1
+        }
+      ],
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.92
+      }
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:smooth_sandstone",
+          "weight": 8
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/jungleclutt-junglestone-carve-c0-21-d4",
+    "snippet/object-placer/clutter/desertpost-rock-carve-c0-36-d4",
+    "snippet/object-placer/clutter/desertpost-rock-carve-c0-0972-d4",
+    "snippet/object-placer/structures/mlandstone-carve-c0-135-d4"
+  ],
+  "caveProfile": "snippet/cave-profile/sand/open-hollows",
+  "caveMinDepthBelowSurface": 2,
+  "children": [
+    "carving/sand-hollows",
+    "carving/mixed-sandstone",
+    "carving/sandstone-child"
+  ],
+  "childShrinkFactor": 1.3,
+  "childStyle": {
+    "style": "SIMPLEX",
+    "zoom": 0.94
+  },
+  "decorators": [
+    "snippet/decorator/grass/arid-mix-c0-018"
+  ]
+}

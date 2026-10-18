@@ -1,0 +1,90 @@
+{
+  "name": "Temperate Island",
+  "color": "#7ADB51",
+  "rarity": 3,
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "biomeScatter": [
+    "minecraft:forest",
+    "minecraft:plains"
+  ],
+  "customDerivitives": [
+    {
+      "id": "island",
+      "foliageColor": "#69DF51",
+      "waterColor": "#48BFBC",
+      "grassColor": "#BEDF51",
+      "category": "forest"
+    }
+  ],
+  "children": [
+    "temperate/wilds"
+  ],
+  "generators": [
+    {
+      "min": 28,
+      "max": 42,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/oak-hoak-shoak-c0-01",
+    "snippet/object-placer/clutter/obelisk-c0-005"
+  ],
+  "decorators": [
+    {
+      "chance": 0.19,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "forceBlock": {
+        "block": "minecraft:farmland",
+        "data": {
+          "moisture": 7
+        }
+      },
+      "zoom": 0.3,
+      "palette": [
+        {
+          "data": {
+            "age": 7
+          },
+          "block": "minecraft:wheat"
+        }
+      ],
+      "style": {
+        "style": "NOWHERE",
+        "zoom": 0.28
+      }
+    },
+    "snippet/decorator/shrubs/bush"
+  ]
+}

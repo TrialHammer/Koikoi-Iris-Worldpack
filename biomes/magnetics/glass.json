@@ -1,0 +1,236 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/magnetics/magical-glass-spikes-surface",
+  "name": "Magnetics Glass",
+  "color": "#A8D4E8",
+  "rarity": 1,
+  "derivative": "minecraft:meadow",
+  "vanillaDerivative": "minecraft:meadow",
+  "generators": [
+    {
+      "min": -3,
+      "max": 16,
+      "generator": "magnetics/glass"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:calcite"
+      },
+      {
+        "block": "minecraft:smooth_quartz"
+      },
+      {
+        "block": "minecraft:quartz_block"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:calcite"
+        },
+        {
+          "block": "minecraft:smooth_quartz"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:quartz_block"
+        },
+        {
+          "block": "minecraft:smooth_quartz"
+        },
+        {
+          "block": "minecraft:calcite"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:calcite"
+        },
+        {
+          "block": "minecraft:andesite"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 16,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        },
+        {
+          "block": "minecraft:calcite"
+        },
+        {
+          "block": "minecraft:deepslate"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/amethyst-cluster-center-c0-12",
+    "snippet/object-placer/clutter/stoneboulder-center-c0-05"
+  ],
+  "decorators": [
+    {
+      "chance": 0.02,
+      "palette": [
+        {
+          "block": "minecraft:amethyst_cluster"
+        },
+        {
+          "block": "minecraft:small_amethyst_bud"
+        }
+      ]
+    }
+  ],
+  "floatingChildBiomes": [
+    {
+      "biome": "magnetics/glass-shard",
+      "rarity": 1,
+      "footprintStyle": {
+        "style": "CELLULAR_IRIS_THICK",
+        "zoom": 0.38,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.16,
+          "multiplier": 4
+        }
+      },
+      "footprintThreshold": 0.55,
+      "pickerStyle": {
+        "style": "SIMPLEX",
+        "zoom": 4.0
+      },
+      "altitudeStyle": {
+        "style": "SIMPLEX",
+        "zoom": 3.2
+      },
+      "minHeightAboveSurface": 125,
+      "maxHeightAboveSurface": 175,
+      "topShapeMode": "NOISE",
+      "maxTopHeight": 20,
+      "topShapeStyle": {
+        "style": "CELLULAR_HEIGHT_IRIS",
+        "zoom": 0.32,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.14,
+          "multiplier": 5
+        }
+      },
+      "topShapeAmp": 1.0,
+      "edgeTaperWidth": 12,
+      "edgeTaperExponent": 1.7,
+      "edgeTaperVariationStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.16
+      },
+      "edgeTaperVariationAmplitude": 3,
+      "bottomStyle": {
+        "style": "FRACTAL_RM_SIMPLEX",
+        "zoom": 0.24,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 5
+        }
+      },
+      "bottomDepthMin": 4,
+      "bottomDepthMax": 50,
+      "bottomExponent": 2.65,
+      "bottomPaletteMode": "MIRROR_TOP",
+      "maxThickness": 76,
+      "wallWarpStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.2,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 3
+        }
+      },
+      "wallWarpAmplitude": 4,
+      "carving": "carving/amethyst-child",
+      "carveStyle": {
+        "style": "SIMPLEX",
+        "zoom": 0.18,
+        "fracture": {
+          "style": "SIMPLEX",
+          "zoom": 0.1,
+          "multiplier": 3
+        }
+      },
+      "carveThreshold": 0.88,
+      "inheritDecorators": true,
+      "inheritObjects": false,
+      "objectShrinkFactor": 1.0,
+      "topObjectMode": "REPLACE",
+      "topObjectOverrides": [
+        "snippet/object-placer/clutter/amethyst-cluster-center-c0-8-d10-glass"
+      ],
+      "bottomObjectMode": "REPLACE",
+      "bottomObjectOverrides": []
+    }
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30181,
+    "amplitude": 24,
+    "horizontalScale": 128,
+    "verticalScale": 24,
+    "densityStyle": {
+      "style": "HEXAGON"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.18,
+    "slopeFade": 0.32,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_meadow"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-magnetics-glass",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

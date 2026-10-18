@@ -1,0 +1,97 @@
+{
+  "name": "Dripstone Cavern Child",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:dripstone_block",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:stone",
+        "weight": 2
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "style": {
+        "style": "GLOB_IRIS_THICK"
+      },
+      "zoom": 0.4,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:tuff"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:granite"
+        },
+        {
+          "block": "minecraft:dripstone_block",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:stone",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.0759,
+      "scaleStack": true,
+      "stackMin": 25,
+      "stackMax": 80,
+      "absoluteMaxStack": 6,
+      "palette": [
+        {
+          "block": "minecraft:pointed_dripstone",
+          "data": {
+            "vertical_direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.12,
+      "absoluteMaxStack": 6,
+      "scaleStack": true,
+      "stackMin": 25,
+      "stackMax": 80,
+      "palette": [
+        {
+          "block": "minecraft:pointed_dripstone",
+          "data": {
+            "vertical_direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dripstone_block",
+          "weight": 26
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/stoneclutt-carve-c0-21-d6",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-2145-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-13122-d6"
+  ],
+  "caveProfile": "snippet/cave-profile/stone/warped-ravine-chambers",
+  "caveMinDepthBelowSurface": 10
+}

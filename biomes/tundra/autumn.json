@@ -1,0 +1,180 @@
+{
+  "name": "Tundra Autumn",
+  "color": "#8EDEE7",
+  "rarity": 1,
+  "derivative": "minecraft:taiga",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "customDerivitives": [
+    {
+      "id": "tundra_autumn_red",
+      "grassColor": "#bf4d24",
+      "category": "forest",
+      "humidity": 0.3,
+      "downfallType": "rain",
+      "temperature": 0.6,
+      "foliageColor": "#bf2811",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    },
+    {
+      "grassColor": "#BF8924",
+      "id": "tundra_autumn_orange",
+      "category": "forest",
+      "humidity": 0.3,
+      "downfallType": "rain",
+      "temperature": 0.6,
+      "foliageColor": "#eb6e07",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    },
+    {
+      "grassColor": "#bf6724",
+      "id": "tundra_autumn_yellow",
+      "category": "forest",
+      "humidity": 0.3,
+      "downfallType": "rain",
+      "temperature": 0.6,
+      "foliageColor": "#ebc107",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    }
+  ],
+  "children": [
+    "tundra/redwood-extended-cliffs",
+    "tundra/autumn-extended",
+    "tundra/amber-poplar-forest"
+  ],
+  "generators": [
+    {
+      "min": 48,
+      "max": 86,
+      "generator": "smooth-dunes"
+    }
+  ],
+  "biomeStyle": {
+    "style": "STATIC",
+    "zoom": 1
+  },
+  "wall": "snippet/biome-palette/wall/diorite-stone",
+  "layers": [
+    "snippet/biome-palette/grass/podzol-coarse-mix",
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/boulder-paint-c0-4",
+    "snippet/object-placer/clutter/sbush-paint-c0-6",
+    "snippet/object-placer/trees/mixed-tredwood-c0-35-mixed-leaves",
+    "snippet/object-placer/clutter/srock-paint-c0-32-diorite",
+    "snippet/object-placer/trees/mixed-tredwoodsmol-c0-45-mixed-leaves",
+    "snippet/object-placer/clutter/spruceclutt-c0-35-mixed-leaves",
+    "snippet/object-placer/clutter/rshrub-c0-15-mixed-leaves",
+    "snippet/object-placer/trees/mixed-tredwoodbee-c0-01-mixed-leaves",
+    "snippet/object-placer/clutter/stump-paint-c0-075-spruce",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    {
+      "chance": 0.035,
+      "palette": [
+        {
+          "block": "minecraft:red_shrub"
+        }
+      ],
+      "whitelist": [
+        {
+          "block": "minecraft:grass_block"
+        },
+        {
+          "block": "minecraft:coarse_dirt"
+        },
+        {
+          "block": "minecraft:podzol"
+        }
+      ]
+    },
+    "snippet/decorator/flowers/cool-mix-c0-003-z1",
+    "snippet/decorator/shrubs/sweet-berry-c0-01",
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:red_mushroom"
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:large_fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter"
+  ],
+  "childShrinkFactor": 2.4,
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448"
+}

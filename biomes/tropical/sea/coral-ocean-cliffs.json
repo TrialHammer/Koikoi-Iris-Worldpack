@@ -1,0 +1,272 @@
+{
+  "name": "Tropical Coral Ocean Cliffs",
+  "color": "#29449F",
+  "derivative": "minecraft:lukewarm_ocean",
+  "vanillaDerivative": "minecraft:lukewarm_ocean",
+  "children": [
+    "tropical/sea/coral-ocean"
+  ],
+  "generators": [
+    {
+      "min": -71,
+      "max": -37,
+      "generator": "plain-cliffs"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:tube_coral_block"
+      },
+      {
+        "block": "minecraft:brain_coral_block"
+      },
+      {
+        "block": "minecraft:fire_coral_block"
+      },
+      {
+        "block": "minecraft:horn_coral_block"
+      },
+      {
+        "block": "minecraft:bubble_coral_block"
+      }
+    ],
+    "zoom": 0.1
+  },
+  "layers": [
+    {
+      "minHeight": 2,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:sand"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt2-coarse-1-3"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/stonedirtsetter-c0-0025-coral-fire-bubble",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-fire-horn",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-fire-tube",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-fire-brain",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-fire",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-005-coral-bubble",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-0025-coral-bubble-horn",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-0025-coral-bubble-tube",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-0025-coral-bubble-brain",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-0025-coral-bubble",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-0025-coral-horn-bubble",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-horn",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-horn-tube",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-horn-brain",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-horn",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-tube-bubble",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-tube-horn",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-tube",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-tube-brain",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-tube",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-brain-bubble",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-brain-horn",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-brain-tube",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-brain",
+    "snippet/object-placer/clutter/stonedirtsetter-c0-025-coral-brain"
+  ],
+  "decorators": [
+    {
+      "chance": 0.05,
+      "stackMax": 3,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:tube_coral_block"
+        },
+        {
+          "block": "minecraft:brain_coral_block"
+        },
+        {
+          "block": "minecraft:fire_coral_block"
+        },
+        {
+          "block": "minecraft:horn_coral_block"
+        },
+        {
+          "block": "minecraft:bubble_coral_block"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.0006,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:soul_sand"
+        },
+        {
+          "block": "minecraft:magma_block"
+        },
+        {
+          "block": "minecraft:melon"
+        }
+      ]
+    },
+    {
+      "chance": 0.07,
+      "zoom": 5,
+      "palette": [
+        {
+          "block": "minecraft:seagrass"
+        }
+      ]
+    },
+    {
+      "chance": 0.025,
+      "stackMax": 24,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:kelp_plant"
+        }
+      ],
+      "heightVariance": {
+        "style": "NOWHERE"
+      },
+      "stackMin": 2
+    },
+    {
+      "chance": 0.225,
+      "stackMax": 9,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:kelp_plant"
+        }
+      ],
+      "stackMin": 1
+    },
+    {
+      "chance": 0.2,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:tube_coral"
+        },
+        {
+          "block": "minecraft:tube_coral_fan"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:brain_coral"
+        },
+        {
+          "block": "minecraft:brain_coral_fan"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:bubble_coral"
+        },
+        {
+          "block": "minecraft:bubble_coral_fan"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:fire_coral"
+        },
+        {
+          "block": "minecraft:fire_coral_fan"
+        }
+      ]
+    },
+    {
+      "chance": 0.2,
+      "zoom": 1,
+      "palette": [
+        {
+          "block": "minecraft:horn_coral"
+        },
+        {
+          "block": "minecraft:horn_coral_fan"
+        }
+      ]
+    },
+    {
+      "chance": 0.004,
+      "zoom": 1,
+      "palette": [
+        {
+          "data": {
+            "waterlogged": true,
+            "pickles": 2
+          },
+          "block": "minecraft:sea_pickle"
+        },
+        {
+          "data": {
+            "waterlogged": true,
+            "pickles": 3
+          },
+          "block": "minecraft:sea_pickle"
+        },
+        {
+          "data": {
+            "waterlogged": true,
+            "pickles": 4
+          },
+          "block": "minecraft:sea_pickle"
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.3,
+      "particleAltY": 1.960885,
+      "particleAltZ": 0.3,
+      "particleDistanceWidth": 8,
+      "chance": 1,
+      "particleEffect": "BUBBLE_COLUMN_UP",
+      "particleDistance": 5,
+      "particleOffset": 2,
+      "interval": 250,
+      "particleCount": 0
+    }
+  ],
+  "slab": {
+    "palette": [
+      {
+        "data": {
+          "waterlogged": true,
+          "type": "bottom"
+        },
+        "block": "minecraft:prismarine_slab"
+      },
+      {
+        "weight": 2,
+        "block": "minecraft:air"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "center": {
+    "x": 0,
+    "z": 0
+  },
+  "waterLevel": 50,
+  "authoredSubmergedColumns": 46080,
+  "designChunkArea": 180.0,
+  "targetChunkArea": 180.0,
+  "rectangularClipping": false,
+  "lakeBoundingRectangle": {
+    "minX": -187,
+    "maxX": 153,
+    "minZ": -111,
+    "maxZ": 118,
+    "width": 341,
+    "length": 230
+  },
+  "layoutSeed": 3560224932,
+  "worldSeed": 864242790704001629,
+  "terrainAlgorithm": "connected-lobes-forest-background-v12",
+  "biomeAlgorithm": "dappled-without-authored-range-v2",
+  "lakeMaterialAlgorithm": "lake-sediment-patches-v1",
+  "naturalOutline": {
+    "style": "v4017-connected-rotated-lobes",
+    "scale": 2.1213203435596424,
+    "cutoff": 0.39226315732322564,
+    "columns": 46080,
+    "rectangularClipping": false
+  },
+  "heightRange": {
+    "min": 4,
+    "max": 256
+  },
+  "authoredHeightRange": [
+    27.704105581209294,
+    117.79732186785114
+  ],
+  "shore": "Two-dimensional 2–6 block hummock/swale uplift; continuous bank admission and a direction-dependent exponential rise into independent upland noise.",
+  "shoreWidthRange": [
+    17.53527321542481,
+    28.6692109276839
+  ],
+  "shoreReliefRange": [
+    2,
+    6
+  ],
+  "submergedTransition": "Two-dimensional varying exponential descent scale and curvature; dry-bank noise continues as submerged ridges and shelves; shared waterline height and first derivative.",
+  "lakeFloorMaterials": "Existing sand/gravel/dirt/clay background, with coherent stone/andesite/granite/gravel and clay/mud/coarse-dirt sediment patches; all retain minecraft:dappled_forest identity.",
+  "directionalUplandMeans": {
+    "N": 98,
+    "NE": 106,
+    "E": 84,
+    "SE": 68,
+    "S": 58,
+    "SW": 63,
+    "W": 75,
+    "NW": 90
+  },
+  "directionalInterpolation": "Regularized periodic Fourier field; no octant boundaries; north high and south low.",
+  "uplandRiseLength": "104 + 66*southness + continuous noise; gentler south-facing lowlands.",
+  "northeastMountain": {
+    "enabled": false,
+    "note": "Authored ridge, foothills, biome patch and extended masks removed; original Iris mountains remain reachable."
+  },
+  "terrainMask": "Full influence to roughly 178 shore blocks, then a noise-varying roughly 155-block quintic fade; zero at every image edge.",
+  "materials": "Lake, shore and forest retain minecraft:dappled_forest identity; lake-floor block patches retained; all original overworld definitions remain reachable.",
+  "surfaceBiomeColumns": {
+    "dappled/activity-russet": 78508,
+    "dappled/activity-amber": 53440,
+    "dappled/activity-golden": 109503,
+    "dappled/activity-emberbark": 67056,
+    "dappled/shore": 32378,
+    "dappled/lake-rocky": 7036,
+    "dappled/lake": 26467,
+    "dappled/lake-silt": 12577
+  },
+  "note": "Authored estimates only; validate against new saved Minecraft chunks."
+}

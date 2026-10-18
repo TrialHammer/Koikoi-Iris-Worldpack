@@ -1,0 +1,150 @@
+{
+  "name": "Osaka Violet Forest",
+  "color": "#47B019",
+  "rarity": 4,
+  "derivative": "minecraft:flower_forest",
+  "vanillaDerivative": "minecraft:forest",
+  "biomeScatter": [
+    "minecraft:forest"
+  ],
+  "customDerivitives": [
+    {
+      "id": "sakura_pink",
+      "foliageColor": "#E78DFD",
+      "waterColor": "#A5FFED",
+      "grassColor": "#A8FF98",
+      "category": "forest"
+    },
+    {
+      "id": "sakura_child_forest",
+      "foliageColor": "#D260EE",
+      "waterColor": "#A5FFED",
+      "grassColor": "#64A522",
+      "category": "forest"
+    }
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/oak-hoak-shoak-c0-2-birch-jungle",
+    "snippet/object-placer/clutter/camp-min-height-c0-008",
+    {
+      "chance": 0.35,
+      "mode": "MIN_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        "snippet/object-block-replacer/leaves/oak-birch-to-jungle-c0-05"
+      ],
+      "place": [
+        "trees/sakura/genericsak1",
+        "trees/sakura/genericsak2",
+        "trees/sakura/genericsak3",
+        "trees/sakura/genericsak4",
+        "trees/sakura/genericsak5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/clutter/obelisk-c0-003",
+    "snippet/object-placer/clutter/literalgarbage-paint-c0-001",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/grass/short-c0-6",
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:oak_leaves"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:allium"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-osaka-violet-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

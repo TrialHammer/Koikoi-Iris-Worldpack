@@ -1,0 +1,221 @@
+{
+  "name": "Long tree forest",
+  "color": "#74D64A",
+  "rarity": 7,
+  "derivative": "minecraft:forest",
+  "vanillaDerivative": "minecraft:forest",
+  "customDerivitives": [
+    {
+      "id": "longtree_forest",
+      "foliageColor": "#58AB24",
+      "grassColor": "#4AB71C",
+      "category": "forest"
+    }
+  ],
+  "children": [
+    "temperate/longtree-forest-extended"
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 10,
+      "min": 4
+    }
+  ],
+  "layers": [
+    {
+      "zoom": 0.656,
+      "palette": [
+        {
+          "weight": 19,
+          "block": "minecraft:grass_block"
+        },
+        {
+          "block": "minecraft:gravel"
+        },
+        {
+          "weight": 59,
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/stoneclutt-boulder-c0-5",
+    {
+      "mode": "PAINT",
+      "chance": 0.00995,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/camp1"
+      ]
+    },
+    "snippet/object-placer/clutter/log-c0-3-dark-oak-wood",
+    {
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2"
+      ],
+      "chance": 0.3,
+      "density": 2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    },
+    "snippet/object-placer/trees/oak-toak-c0-55",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    {
+      "chance": 0.0015,
+      "stackMax": 6,
+      "palette": [
+        {
+          "block": "minecraft:sugar_cane"
+        }
+      ],
+      "stackMin": 1
+    },
+    "snippet/decorator/pebbles/stone-c0-003",
+    {
+      "chance": 0.006,
+      "stackMax": 6,
+      "palette": [
+        {
+          "block": "minecraft:sunflower"
+        }
+      ],
+      "stackMin": 3
+    },
+    "snippet/decorator/plants/bamboo-c0-0049",
+    {
+      "chance": 0.4,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:oak_leaves"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:rose_bush"
+        },
+        {
+          "block": "minecraft:peony"
+        },
+        {
+          "block": "minecraft:lilac"
+        },
+        {
+          "block": "minecraft:dandelion"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:poppy"
+        },
+        {
+          "block": "minecraft:dandelion"
+        },
+        {
+          "block": "minecraft:oxeye_daisy"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "effects": [
+    {
+      "particleAltX": 0.301,
+      "particleAltY": -0.33885,
+      "particleAltZ": 0.301,
+      "chance": 3,
+      "particleEffect": "TOTEM_OF_UNDYING",
+      "particleOffset": 12,
+      "interval": 550,
+      "particleCount": 3
+    }
+  ],
+  "slab": {
+    "palette": [
+      {
+        "weight": 1,
+        "block": "minecraft:cobblestone_slab"
+      },
+      {
+        "weight": 10,
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-longtree-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Old Growth Pine Taiga",
+  "color": "#6B8A5A",
+  "derivative": "minecraft:old_growth_pine_taiga",
+  "vanillaDerivative": "minecraft:old_growth_pine_taiga",
+  "children": [
+    "mountain/cute_cliffs+"
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 175,
+      "min": 106
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite-gravel-cyan-terracotta",
+  "layers": [
+    "snippet/biome-palette/grass/top-1-1-flat2-6",
+    "snippet/biome-palette/gravel/cyan-terracotta-2-4-steep3-95",
+    "snippet/biome-palette/stone/cobble-2-4-steep3-95",
+    "snippet/biome-palette/grass/top-1-1-flat4",
+    "snippet/biome-palette/soil/dirt-3-3-flat3"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/meadow-mix-c0-2-trioctave-z0-3",
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "childStyle": {
+    "style": "STATIC",
+    "exponent": 0.625,
+    "zoom": 1,
+    "fracture": {
+      "style": "SIMPLEX",
+      "multiplier": 4,
+      "zoom": 0.9
+    }
+  },
+  "slab": "snippet/biome-palette/slab/stone-cobble-sparse",
+  "customDerivitives": [
+    {
+      "category": "taiga",
+      "id": "old_growth_pine_taiga",
+      "grassColor": "#86B783",
+      "foliageColor": "#68A464",
+      "waterColor": "#287082",
+      "downfallType": "none"
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rugged/amp30-perlin-crack448",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_pine_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-vanilla-old_growth_pine_taiga",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Ember Rifts",
+  "derivative": "minecraft:deep_dark",
+  "vanillaDerivative": "minecraft:deep_dark",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:deepslate"
+      },
+      {
+        "block": "minecraft:basalt"
+      },
+      {
+        "block": "minecraft:blackstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:blackstone"
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.022,
+      "partOf": "CEILING",
+      "stackMin": 1,
+      "stackMax": 2,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "absoluteMaxStack": 1,
+      "palette": [
+        {
+          "block": "minecraft:fire"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/lava-cup-carve-organic-stilt-floor-c0-01-d1",
+    "snippet/object-placer/clutter/magmaspire-carve-c0-21-d4",
+    "snippet/object-placer/clutter/magmaspire-rock-boulder-carve-c0-165-d4",
+    "snippet/object-placer/clutter/magmaspire-rock-boulder-carve-c0-0972-d4"
+  ],
+  "caveProfile": "snippet/cave-profile/volcanic/ember-rifts",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/ember-rifts-child"
+  ],
+  "childStyle": {
+    "style": "CELLULAR_IRIS_DOUBLE",
+    "zoom": 0.74
+  },
+  "childShrinkFactor": 1.54
+}

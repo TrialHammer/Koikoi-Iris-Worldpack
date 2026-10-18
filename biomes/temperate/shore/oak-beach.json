@@ -1,0 +1,88 @@
+{
+  "name": "Temperate Oak Beach",
+  "color": "#8D8F70",
+  "rarity": 1,
+  "derivative": "minecraft:deep_lukewarm_ocean",
+  "vanillaDerivative": "minecraft:forest",
+  "biomeScatter": [
+    "minecraft:forest",
+    "minecraft:plains"
+  ],
+  "generators": [
+    {
+      "min": 0,
+      "max": 0,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:sand"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/obelisk-c0-001",
+    "snippet/object-placer/clutter/literalgarbage-c0-001"
+  ],
+  "decorators": [
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:white_tulip"
+        },
+        {
+          "block": "minecraft:allium"
+        },
+        {
+          "block": "minecraft:lily_of_the_valley"
+        }
+      ]
+    },
+    {
+      "chance": 0.35,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/plants/sugar-cane-shore-c0-18"
+  ],
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-shore-oak-beach",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Frozen Spruce Plains",
+  "color": "#06405B",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_taiga",
+  "vanillaDerivative": "minecraft:snowy_taiga",
+  "customDerivitives": [
+    {
+      "category": "icy",
+      "id": "frozen_spruce_plains",
+      "waterFogColor": "#216FC4",
+      "foliageColor": "#B8D0E1",
+      "downfallType": "snow",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "children": [
+    "frozen/spruce-hills"
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 10,
+      "min": 4
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 0,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 4,
+      "maxHeight": 7,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/spruce-l-m-evergreen-c0-8-oak-dark-oak-leaves"
+  ],
+  "decorators": [
+    {
+      "chance": 1,
+      "variance": {
+        "style": "NOWHERE",
+        "zoom": 0.5
+      },
+      "palette": [
+        {
+          "data": {
+            "layers": 1
+          },
+          "block": "minecraft:snow"
+        },
+        {
+          "block": "minecraft:air"
+        },
+        {
+          "data": {
+            "layers": 2
+          },
+          "block": "minecraft:snow"
+        },
+        {
+          "data": {
+            "layers": 3
+          },
+          "block": "minecraft:snow"
+        }
+      ]
+    }
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_snowy_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-frozen-spruce-plains",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

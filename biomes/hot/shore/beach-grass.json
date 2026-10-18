@@ -1,0 +1,82 @@
+{
+  "name": "Hot Beach Grass",
+  "color": "#F0E880",
+  "rarity": 1,
+  "derivative": "minecraft:forest",
+  "vanillaDerivative": "minecraft:desert",
+  "generators": [
+    {
+      "min": 0,
+      "max": 1,
+      "generator": "plain"
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:smooth_sandstone"
+      },
+      {
+        "block": "minecraft:sand"
+      },
+      {
+        "block": "minecraft:smooth_sandstone"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "density": 3,
+      "mode": "MIN_HEIGHT",
+      "chance": 0.62,
+      "place": [
+        "trees/jungle/palm1",
+        "trees/jungle/palm2",
+        "trees/jungle/palm3",
+        "trees/jungle/palm4",
+        "trees/jungle/palm6",
+        "trees/jungle/palm7"
+      ]
+    }
+  ],
+  "decorators": [
+    "snippet/decorator/twigs/jungle-c0-01",
+    "snippet/decorator/plants/sugar-cane-shore-c0-18",
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ]
+}

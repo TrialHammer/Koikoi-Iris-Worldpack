@@ -1,0 +1,188 @@
+{
+  "version": 4023,
+  "seed": 1737781858057768739,
+  "worldSeed": 1737781858057768739,
+  "world": "iris:koikoi_preview",
+  "layoutSeed": 3560224932,
+  "packVersion": 4023,
+  "requestedChunks": 2025,
+  "fullChunks": 3268,
+  "missingRequestedChunks": [],
+  "mainLake": {
+    "waterLevel": 50,
+    "columns": 46075,
+    "chunkArea": 179.98046875,
+    "bounds": {
+      "minX": -187,
+      "maxX": 153,
+      "minZ": -111,
+      "maxZ": 118,
+      "width": 341,
+      "length": 230
+    },
+    "authorColumns": 46080,
+    "missingAuthorColumns": 5,
+    "unexpectedConnectedColumns": 0,
+    "floorHeightRange": [
+      29,
+      49
+    ]
+  },
+  "biomeConvergence": {
+    "definition": "陆地列统计范围为主湖作者岸线外 150 格；排除作者湖面及实际 Y=50 的水列，保留地表破洞列；所有目标列均已加载。",
+    "core30": {
+      "columns": 39983,
+      "fullAuthorColumns": 39983,
+      "fullAuthorDappledFamily": 1.0,
+      "authorDappledFamily": 1.0,
+      "actualNativeDappled": 0.9749143385939024,
+      "actualDappledPlusRiver": 1.0,
+      "actualGroundBiomes": {
+        "minecraft:dappled_forest": 38980,
+        "minecraft:river": 1003
+      },
+      "authorBiomes": {
+        "dappled/activity-russet": 2262,
+        "dappled/activity-amber": 633,
+        "dappled/activity-emberbark": 3389,
+        "dappled/activity-golden": 1321,
+        "dappled/shore": 32378
+      }
+    },
+    "landWithin150": {
+      "columns": 227353,
+      "fullAuthorColumns": 229103,
+      "fullAuthorDappledFamily": 0.9669449985377756,
+      "authorDappledFamily": 0.96669056489248,
+      "actualNativeDappled": 0.9579464533126899,
+      "actualDappledPlusRiver": 0.9623580951208033,
+      "actualGroundBiomes": {
+        "minecraft:old_growth_spruce_taiga": 7705,
+        "minecraft:dappled_forest": 217792,
+        "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 305,
+        "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 530,
+        "minecraft:river": 1003,
+        "minecraft:deep_ocean": 5,
+        "minecraft:lukewarm_ocean": 13
+      },
+      "authorBiomes": {
+        "mountain/hills": 7573,
+        "dappled/activity-amber": 36110,
+        "dappled/activity-golden": 61837,
+        "dappled/activity-russet": 46089,
+        "dappled/activity-emberbark": 43366,
+        "dappled/shore": 32378
+      },
+      "actualWaterExcludedColumns": 1750,
+      "minimumRequired": 0.85,
+      "passes": true
+    },
+    "surfaceMaskLand": {
+      "columns": 376772,
+      "fullAuthorColumns": 406292,
+      "fullAuthorDappledFamily": 0.9193831037775787,
+      "authorDappledFamily": 0.9130667884025352,
+      "actualNativeDappled": 0.8054340556092279,
+      "actualGroundBiomes": {
+        "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 26776,
+        "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 11299,
+        "minecraft:dappled_forest": 303465,
+        "minecraft:old_growth_spruce_taiga": 33296,
+        "iris:biomes/a13fa1c4115e8c5fc784dee5be749dce90d1d1769ce5f2380c53427e8f752648": 17,
+        "iris:biomes/4434cddd2d188b67bb9eff57e90b253af42c035d3b1164a2a672e08f093d421c": 714,
+        "minecraft:plains": 19,
+        "minecraft:deep_ocean": 140,
+        "minecraft:river": 1003,
+        "minecraft:lukewarm_ocean": 43
+      },
+      "authorBiomes": {
+        "dappled/activity-golden": 95875,
+        "dappled/activity-amber": 59473,
+        "dappled/activity-russet": 91439,
+        "dappled/activity-emberbark": 64853,
+        "mountain/hills": 32699,
+        "tundra/forest": 55,
+        "dappled/shore": 32378
+      }
+    },
+    "landWithin180": {
+      "columns": 275749,
+      "fullAuthorColumns": 289537,
+      "fullAuthorDappledFamily": 0.9409263755582188,
+      "actualNativeDappled": 0.8744075227834008,
+      "actualGroundBiomes": {
+        "minecraft:old_growth_spruce_taiga": 17844,
+        "minecraft:dappled_forest": 241117,
+        "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 10099,
+        "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 5298,
+        "iris:biomes/4434cddd2d188b67bb9eff57e90b253af42c035d3b1164a2a672e08f093d421c": 272,
+        "minecraft:river": 1003,
+        "minecraft:deep_ocean": 76,
+        "minecraft:lukewarm_ocean": 40
+      }
+    }
+  },
+  "lowBank": {
+    "columns": 32378,
+    "groundHeightRange": [
+      28,
+      53
+    ],
+    "fractionAtY50To52": 0.953641361418247
+  },
+  "northeastRange": {
+    "highestMeasuredGround": {
+      "y": 231,
+      "x": 216,
+      "z": -232
+    },
+    "biome": "minecraft:old_growth_spruce_taiga"
+  },
+  "surfaceBiomes": {
+    "minecraft:plains": 19408,
+    "minecraft:dappled_forest": 403072,
+    "iris:biomes/18846eab90e67d33a93db332b05b502d9ef6962b4a06031547bb4930401cfb19": 131184,
+    "iris:biomes/f742030661ae4569ebda5768c55c2a700e43b970f249d6d829e0dee9bd6afab9": 4336,
+    "iris:biomes/cc5c1982d00144548980a46361055223b35be420b49aee4108bb387e83fc769f": 67936,
+    "iris:biomes/a47bc72f4cd6d6acf494d58c0332dbc44be0108520978823c8907d4970203459": 8224,
+    "minecraft:forest": 15040,
+    "minecraft:old_growth_spruce_taiga": 44368,
+    "iris:biomes/a13fa1c4115e8c5fc784dee5be749dce90d1d1769ce5f2380c53427e8f752648": 5216,
+    "iris:biomes/c2796cde0b1262d50c8fe61046c50bb7b68c1862718200c4a7e4780166a2062d": 200,
+    "iris:biomes/2ef6db4c0bb70c66b200aa0be8a18670ced63b7403100a956dd1621c532e04e3": 8,
+    "iris:biomes/4434cddd2d188b67bb9eff57e90b253af42c035d3b1164a2a672e08f093d421c": 8864,
+    "minecraft:beach": 48,
+    "minecraft:deep_ocean": 70336,
+    "minecraft:river": 46144,
+    "minecraft:lukewarm_ocean": 12224
+  },
+  "groundHeightRange": [
+    -25,
+    231
+  ],
+  "verification": {
+    "schemaFiles": 21,
+    "epoch": "68f7ed9899ec7360f6fd36bcac25fa039380edaf7ad20fcd9598dcda17353c43",
+    "snapshotFilesCompared": 429,
+    "snapshotMismatches": [],
+    "generationFilesUnchanged": 8216,
+    "generationFilesChanged": [
+      "images/activity/surface-biomes.png",
+      "dimensions/koikoi.json"
+    ],
+    "imageMapsChanged": [
+      "surface-biomes.png"
+    ],
+    "maps": {
+      "forest-region.png": "6a1cbe3428068ee576d482741859ac07dc34f567ba50f90d319e032711d95fee",
+      "lake-biome.png": "26f2eb30a01d1cc0396434fa8dae0adefb8bd44fafdaeb972f09d605ec14f5fc",
+      "lake-height.png": "0c85e6973d945e83e7970899ff922a1168e3976356d7575ecc593bc40f2c93e5",
+      "surface-biomes.png": "7650bcc8a5ea7bcf247364fb46439cf5d61d72f15cf7169788c4e5201f453fc9",
+      "terrain-mask.png": "06b2f2ed6c0a69ec2d930a61a6eca86a1534e5d9762bac86819bc5b1462be9ee"
+    },
+    "surfaceBiomeMapRequiredChunks": 1856,
+    "missingSurfaceBiomeMapChunks": [],
+    "surfaceBreakEnabled": true
+  },
+  "worldStatus": "Saved, retained; surface-breaking caves enabled; server left running."
+}

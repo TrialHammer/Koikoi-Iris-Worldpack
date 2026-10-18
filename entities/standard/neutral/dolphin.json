@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:dolphin",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "WATER"
+}

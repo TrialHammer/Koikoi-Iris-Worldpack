@@ -1,0 +1,111 @@
+{
+  "riverPolicy": {
+    "placement": "PREFERRED_HEADWATER",
+    "routing": "PREFER",
+    "outletAdmission": false,
+    "profiles": [
+      "water"
+    ],
+    "surfaceBiomes": [
+      "frozen/sea/frozen-river-ice",
+      "frozen/sea/river"
+    ],
+    "widthMultiplier": 0.8,
+    "depthMultiplier": 0.85,
+    "routingMultiplier": 0.75
+  },
+  "name": "Large Mountain",
+  "color": "#3B98C2",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_taiga",
+  "vanillaDerivative": "minecraft:snowy_taiga",
+  "customDerivitives": [
+    {
+      "category": "icy",
+      "id": "frozen_hills",
+      "waterColor": "#216FC4",
+      "downfallType": "snow",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "foliageColor": "#B8D0E1",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 103,
+      "min": 60
+    }
+  ],
+  "children": [
+    "frozen/mountains/large-mountain-top"
+  ],
+  "childShrinkFactor": 2,
+  "childStyle": {
+    "style": "CELLULAR_BICUBIC",
+    "zoom": 0.5
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/snow/block-0-2-flat3-5",
+    "snippet/biome-palette/grass/top-1-1-flat3-5",
+    "snippet/biome-palette/soil/dirt-7-18-flat3-5",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/spruce-pine-c0-12-oak-dark-oak-leaves",
+    "snippet/object-placer/clutter/obelisk-paint-c0-005-no-vine"
+  ],
+  "decorators": [
+    "snippet/decorator/snow/patchy-layer-c1"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30133,
+    "amplitude": 40,
+    "horizontalScale": 176,
+    "verticalScale": 56,
+    "densityStyle": {
+      "style": "SIMPLEX"
+    },
+    "crackDepth": 4,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.22,
+    "slopeFade": 0.36,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_snowy_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-frozen-mountains-large-mountain",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Mountain",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "color": "#404040",
+  "generators": [
+    {
+      "generator": "mountain-large",
+      "max": 300,
+      "min": 150
+    }
+  ],
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        },
+        {
+          "block": "minecraft:powder_snow"
+        }
+      ],
+      "style": {
+        "style": "IRIS"
+      },
+      "maxHeight": 4,
+      "minHeight": 3,
+      "slopeCondition": {
+        "maximumSlope": 4
+      }
+    }
+  ],
+  "wall": "snippet/biome-palette/wall/stone-andesite-gravel",
+  "terrain3D": "snippet/terrain-3d/rugged/amp36-simplex-crack416"
+}

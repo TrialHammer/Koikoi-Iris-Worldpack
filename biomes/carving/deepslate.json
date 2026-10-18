@@ -1,0 +1,56 @@
+{
+  "name": "Deepslate Cavern",
+  "derivative": "minecraft:deep_dark",
+  "vanillaDerivative": "minecraft:deep_dark",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:deepslate"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "STATIC",
+        "zoom": 0.5
+      },
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:deepslate"
+        },
+        {
+          "block": "minecraft:tuff"
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:deepslate"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/stoneclutt-carve-c0-21-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-165-d4",
+    "snippet/object-placer/clutter/stoneclutt-rock-boulder-carve-c0-0972-d4-set1-3"
+  ],
+  "caveProfile": "snippet/cave-profile/stone/veined-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/deepslate-child"
+  ],
+  "childStyle": {
+    "style": "CELLULAR_IRIS_DOUBLE",
+    "zoom": 0.74
+  },
+  "childShrinkFactor": 1.54
+}

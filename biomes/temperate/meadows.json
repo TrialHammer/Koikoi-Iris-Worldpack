@@ -1,0 +1,159 @@
+{
+  "name": "Meadows",
+  "color": "#5CC62E",
+  "rarity": 4,
+  "derivative": "minecraft:forest",
+  "vanillaDerivative": "minecraft:forest",
+  "customDerivitives": [
+    {
+      "category": "plains",
+      "humidity": 0.8,
+      "temperature": 0.5,
+      "id": "meadow",
+      "downfallType": "rain",
+      "grassColor": "#83BB6D"
+    }
+  ],
+  "generators": [
+    {
+      "min": 5,
+      "max": 12,
+      "generator": "highplains"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/camp-paint-c0-009",
+    "snippet/object-placer/trees/oak-hoak-shoak-generic-c0-01",
+    "snippet/object-placer/clutter/obelisk-genericpeak-statue-c0-004"
+  ],
+  "decorators": [
+    {
+      "chance": 0.04,
+      "variance": {
+        "style": "TRIOCTAVE_SIMPLEX",
+        "zoom": 6,
+        "fracture": {
+          "style": "STATIC",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:cornflower"
+        },
+        {
+          "block": "minecraft:allium"
+        },
+        {
+          "block": "minecraft:cornflower"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "variance": {
+        "style": "TRIOCTAVE_SIMPLEX",
+        "zoom": 6,
+        "fracture": {
+          "style": "STATIC",
+          "zoom": 0.2,
+          "multiplier": 10
+        }
+      },
+      "palette": [
+        {
+          "block": "minecraft:poppy"
+        },
+        {
+          "block": "minecraft:pink_tulip"
+        },
+        {
+          "block": "minecraft:lily_of_the_valley"
+        }
+      ]
+    },
+    {
+      "chance": 0.005,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    "snippet/decorator/plants/leaf-litter",
+    "snippet/decorator/flowers/wildflowers",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-meadows",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

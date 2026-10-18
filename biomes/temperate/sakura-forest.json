@@ -1,0 +1,221 @@
+{
+  "name": "Sakura Forest",
+  "color": "#47B019",
+  "rarity": 4,
+  "derivative": "minecraft:flower_forest",
+  "vanillaDerivative": "minecraft:forest",
+  "biomeScatter": [
+    "minecraft:birch_forest"
+  ],
+  "customDerivitives": [
+    {
+      "category": "plains",
+      "downfallType": "rain",
+      "foliageColor": "#562135",
+      "humidity": 0.4,
+      "id": "sakura_forest_pink1"
+    },
+    {
+      "category": "plains",
+      "downfallType": "rain",
+      "foliageColor": "#c3829e",
+      "humidity": 0.4,
+      "id": "sakura_forest_pink2"
+    },
+    {
+      "category": "plains",
+      "downfallType": "rain",
+      "foliageColor": "#e9b1cd",
+      "humidity": 0.4,
+      "id": "sakura_forest_pink3"
+    },
+    {
+      "category": "plains",
+      "downfallType": "rain",
+      "foliageColor": "#ffe7de",
+      "humidity": 0.4,
+      "id": "sakura_forest_pink4"
+    },
+    {
+      "category": "plains",
+      "downfallType": "rain",
+      "foliageColor": "#fcd1d7",
+      "humidity": 0.4,
+      "id": "sakura_forest_pink5"
+    }
+  ],
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/trees/oak-hoak-shoak-c0-2-birch-jungle",
+    "snippet/object-placer/clutter/camp-min-height-c0-008",
+    {
+      "chance": 0.2,
+      "mode": "MIN_HEIGHT",
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        "snippet/object-block-replacer/leaves/oak-birch-to-jungle-c0-05"
+      ],
+      "place": [
+        "trees/sakura/genericsak1",
+        "trees/sakura/genericsak2",
+        "trees/sakura/genericsak3",
+        "trees/sakura/genericsak4",
+        "trees/sakura/genericsak5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -1,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/clutter/obelisk-c0-003",
+    "snippet/object-placer/clutter/literalgarbage-paint-c0-001"
+  ],
+  "decorators": [
+    "snippet/decorator/grass/short-c0-6",
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:stone_button",
+          "data": {
+            "face": "floor",
+            "facing": "east"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:stone_button",
+          "data": {
+            "face": "floor",
+            "facing": "north"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:stone_button",
+          "data": {
+            "face": "floor",
+            "facing": "west"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:stone_button",
+          "data": {
+            "face": "floor",
+            "facing": "south"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:oak_leaves"
+        }
+      ]
+    },
+    {
+      "chance": 0.02,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:allium"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "zoom": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    },
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-sakura-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

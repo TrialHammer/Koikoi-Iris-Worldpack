@@ -1,0 +1,40 @@
+{
+  "name": "Hot Mountains",
+  "color": "#C3A02A",
+  "rarity": 1,
+  "derivative": "minecraft:desert",
+  "vanillaDerivative": "minecraft:desert",
+  "generators": [
+    {
+      "min": 120,
+      "max": 214,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "NOWHERE",
+    "zoom": 0.7,
+    "exponent": 4
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:gray_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/sand/red-1-1-flat3",
+    "snippet/biome-palette/terracotta/brown-gray-2-4-steep3-95",
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ]
+}

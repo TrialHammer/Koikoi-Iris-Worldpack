@@ -1,0 +1,132 @@
+{
+  "name": "Lush Plains Yellow",
+  "color": "#67CB3C",
+  "rarity": 3,
+  "derivative": "minecraft:flower_forest",
+  "vanillaDerivative": "minecraft:flower_forest",
+  "generators": [
+    {
+      "min": 4,
+      "max": 7,
+      "generator": "plain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/soil/dirt-coarse-1-3",
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/camp-paint-c0-009",
+    "snippet/object-placer/trees/oak-hoak-shoak-generic-c0-01",
+    "snippet/object-placer/clutter/obelisk-genericpeak-statue-c0-004",
+    "snippet/object-placer/clutter/pumpkins-melons-paint-c0-004"
+  ],
+  "decorators": [
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:dandelion",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:sunflower",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.5,
+      "palette": [
+        {
+          "block": "minecraft:short_grass",
+          "weight": 15
+        },
+        {
+          "block": "minecraft:fern",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "chance": 0.08,
+      "palette": [
+        {
+          "block": "minecraft:oak_leaves",
+          "data": {
+            "persistent": true
+          }
+        }
+      ]
+    },
+    "snippet/decorator/flowers/wildflowers-lush-plains",
+    "snippet/decorator/shrubs/bush"
+  ],
+  "terrain3D": "snippet/terrain-3d/rolling/amp10-perlin-crack392",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_flower_forest"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-temperate-lush-plains-yellow",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

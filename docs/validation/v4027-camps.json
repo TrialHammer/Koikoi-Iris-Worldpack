@@ -1,0 +1,1975 @@
+{
+  "packVersion": 4027,
+  "world": "iris:koikoi_preview_v4027",
+  "worldSeed": 864242790704001629,
+  "coreCriterion": "Main lake plus 150 blocks from its authored shoreline; tent center controls membership. Distances are bilinearly sampled from the unchanged authored shoreline distance field.",
+  "requestedCandidateDensityRelativeToV4026": 5,
+  "nativeMultiplierBefore": 4,
+  "nativeMultiplierAfter": 16,
+  "nativeApiSpacingChunksBefore": 19,
+  "nativeApiSpacingChunksAfter": 9,
+  "supplementalDensity": 0.001504736500119695,
+  "comparisonChunks": 3091,
+  "beforeCount": 6,
+  "afterCount": 33,
+  "beforeCoreCount": 2,
+  "afterCoreCount": 8,
+  "afterCoreFullyContainedCount": 8,
+  "afterCoreOverlapCount": 10,
+  "afterCore": [
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -18,
+        0
+      ],
+      "pieceBounds": [
+        [
+          -295,
+          64,
+          0,
+          -288,
+          71,
+          7
+        ],
+        [
+          -296,
+          64,
+          -10,
+          -287,
+          66,
+          -1
+        ]
+      ],
+      "tentCenter": [
+        -291.5,
+        64,
+        3.5
+      ],
+      "distanceToAuthoredShore": 104.05979153424563,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 99.5,
+      "pieceMaxShoreDistance": 108.72453936730518,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -9,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          -151,
+          76,
+          -151,
+          -144,
+          84,
+          -144
+        ],
+        [
+          -147,
+          77,
+          -148,
+          -147,
+          77,
+          -148
+        ],
+        [
+          -143,
+          76,
+          -152,
+          -134,
+          78,
+          -143
+        ]
+      ],
+      "tentCenter": [
+        -147.5,
+        76,
+        -147.5
+      ],
+      "distanceToAuthoredShore": 102.82741996724357,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 90.10905032059435,
+      "pieceMaxShoreDistance": 106.1770828247567,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -9,
+        9
+      ],
+      "pieceBounds": [
+        [
+          -151,
+          56,
+          144,
+          -144,
+          63,
+          149
+        ],
+        [
+          -152,
+          55,
+          134,
+          -143,
+          58,
+          143
+        ],
+        [
+          -145,
+          57,
+          146,
+          -145,
+          57,
+          146
+        ]
+      ],
+      "tentCenter": [
+        -147.5,
+        56,
+        146.5
+      ],
+      "distanceToAuthoredShore": 69.01798327364153,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 58.5592922409336,
+      "pieceMaxShoreDistance": 73.31734213584231,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        0,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          -7,
+          65,
+          -151,
+          0,
+          72,
+          -144
+        ],
+        [
+          -6,
+          66,
+          -145,
+          -6,
+          66,
+          -145
+        ],
+        [
+          1,
+          65,
+          -152,
+          10,
+          67,
+          -143
+        ]
+      ],
+      "tentCenter": [
+        -3.5,
+        65,
+        -147.5
+      ],
+      "distanceToAuthoredShore": 63.14157467415037,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 50.72499389946279,
+      "pieceMaxShoreDistance": 68.09300255857006,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        9,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          137,
+          55,
+          -144,
+          144,
+          62,
+          -137
+        ],
+        [
+          143,
+          56,
+          -138,
+          143,
+          56,
+          -138
+        ],
+        [
+          136,
+          55,
+          -154,
+          145,
+          57,
+          -145
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        55,
+        -140.5
+      ],
+      "distanceToAuthoredShore": 29.512498365523456,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 25.576809620810597,
+      "pieceMaxShoreDistance": 43.64748010928823,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        9,
+        0
+      ],
+      "pieceBounds": [
+        [
+          137,
+          57,
+          -7,
+          144,
+          64,
+          0
+        ],
+        [
+          145,
+          57,
+          -8,
+          154,
+          59,
+          1
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        57,
+        -3.5
+      ],
+      "distanceToAuthoredShore": 30.204234066935456,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 25.30697580112788,
+      "pieceMaxShoreDistance": 42.68564576337837,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        9,
+        9
+      ],
+      "pieceBounds": [
+        [
+          137,
+          55,
+          137,
+          144,
+          62,
+          144
+        ],
+        [
+          145,
+          55,
+          136,
+          154,
+          57,
+          145
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        55,
+        140.5
+      ],
+      "distanceToAuthoredShore": 38.21369260427632,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 33.33784863137726,
+      "pieceMaxShoreDistance": 50.41168824543142,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        18,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          281,
+          97,
+          -144,
+          288,
+          104,
+          -137
+        ],
+        [
+          287,
+          98,
+          -138,
+          287,
+          98,
+          -138
+        ],
+        [
+          280,
+          96,
+          -154,
+          289,
+          99,
+          -145
+        ]
+      ],
+      "tentCenter": [
+        284.5,
+        97,
+        -140.5
+      ],
+      "distanceToAuthoredShore": 138.32633036188807,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 133.90610105199838,
+      "pieceMaxShoreDistance": 147.35127662620977,
+      "authoredWetAtTentCenter": false
+    }
+  ],
+  "before": [
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        -18,
+        9
+      ],
+      "pieceBounds": [
+        [
+          -288,
+          65,
+          144,
+          -281,
+          73,
+          151
+        ],
+        [
+          -284,
+          66,
+          148,
+          -284,
+          66,
+          148
+        ],
+        [
+          -298,
+          65,
+          143,
+          -289,
+          67,
+          152
+        ]
+      ],
+      "tentCenter": [
+        -284.5,
+        65,
+        147.5
+      ],
+      "distanceToAuthoredShore": 156.480094277479,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 151.529602380589,
+      "pieceMaxShoreDistance": 169.35287751463028,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -9,
+        -13
+      ],
+      "pieceBounds": [
+        [
+          -144,
+          82,
+          -215,
+          -137,
+          89,
+          -208
+        ],
+        [
+          -145,
+          82,
+          -207,
+          -136,
+          84,
+          -198
+        ]
+      ],
+      "tentCenter": [
+        -140.5,
+        82,
+        -211.5
+      ],
+      "distanceToAuthoredShore": 147.33352123268975,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 133.48880550254935,
+      "pieceMaxShoreDistance": 152.14337522473747,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        4,
+        -16
+      ],
+      "pieceBounds": [
+        [
+          64,
+          86,
+          -256,
+          69,
+          93,
+          -249
+        ],
+        [
+          54,
+          86,
+          -257,
+          63,
+          88,
+          -248
+        ]
+      ],
+      "tentCenter": [
+        66.5,
+        86,
+        -252.5
+      ],
+      "distanceToAuthoredShore": 143.071410813634,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 138.5,
+      "pieceMaxShoreDistance": 147.53040228277433,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        7,
+        19
+      ],
+      "pieceBounds": [
+        [
+          112,
+          54,
+          297,
+          119,
+          61,
+          304
+        ],
+        [
+          111,
+          54,
+          305,
+          120,
+          56,
+          314
+        ]
+      ],
+      "tentCenter": [
+        115.5,
+        54,
+        300.5
+      ],
+      "distanceToAuthoredShore": 187.1932337665798,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 183.56792224611002,
+      "pieceMaxShoreDistance": 200.91995928904365,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        20,
+        2
+      ],
+      "pieceBounds": [
+        [
+          320,
+          74,
+          25,
+          327,
+          81,
+          32
+        ],
+        [
+          319,
+          74,
+          33,
+          328,
+          76,
+          42
+        ]
+      ],
+      "tentCenter": [
+        323.5,
+        74,
+        28.5
+      ],
+      "distanceToAuthoredShore": 182.0999726220397,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 175.63914953808538,
+      "pieceMaxShoreDistance": 186.20297265978385,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        23,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          368,
+          98,
+          -144,
+          375,
+          105,
+          -137
+        ],
+        [
+          358,
+          98,
+          -145,
+          367,
+          100,
+          -136
+        ]
+      ],
+      "tentCenter": [
+        371.5,
+        98,
+        -140.5
+      ],
+      "distanceToAuthoredShore": 222.48598610903028,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 208.36598574205422,
+      "pieceMaxShoreDistance": 226.6299187689724,
+      "authoredWetAtTentCenter": false
+    }
+  ],
+  "after": [
+    {
+      "key": "minecraft:abandoned_camp_bamboo_jungle",
+      "chunk": [
+        -27,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          -432,
+          102,
+          -151,
+          -425,
+          109,
+          -144
+        ],
+        [
+          -429,
+          103,
+          -151,
+          -429,
+          103,
+          -151
+        ],
+        [
+          -428,
+          103,
+          -149,
+          -428,
+          103,
+          -149
+        ],
+        [
+          -430,
+          103,
+          -147,
+          -430,
+          103,
+          -147
+        ],
+        [
+          -426,
+          103,
+          -145,
+          -426,
+          103,
+          -145
+        ],
+        [
+          -433,
+          102,
+          -143,
+          -424,
+          104,
+          -134
+        ],
+        [
+          -428,
+          103,
+          -145,
+          -428,
+          103,
+          -145
+        ]
+      ],
+      "tentCenter": [
+        -428.5,
+        102,
+        -147.5
+      ],
+      "distanceToAuthoredShore": 274.5140905485435,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 265.0484889808262,
+      "pieceMaxShoreDistance": 279.1515689210415,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_forest",
+      "chunk": [
+        -18,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          -288,
+          80,
+          -151,
+          -281,
+          88,
+          -144
+        ],
+        [
+          -289,
+          79,
+          -143,
+          -280,
+          82,
+          -134
+        ],
+        [
+          -284,
+          81,
+          -148,
+          -284,
+          81,
+          -148
+        ]
+      ],
+      "tentCenter": [
+        -284.5,
+        80,
+        -147.5
+      ],
+      "distanceToAuthoredShore": 154.35719227516827,
+      "centerInCore": false,
+      "overlapsCore": true,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 141.71462653327893,
+      "pieceMaxShoreDistance": 159.30613254815975,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -18,
+        0
+      ],
+      "pieceBounds": [
+        [
+          -295,
+          64,
+          0,
+          -288,
+          71,
+          7
+        ],
+        [
+          -296,
+          64,
+          -10,
+          -287,
+          66,
+          -1
+        ]
+      ],
+      "tentCenter": [
+        -291.5,
+        64,
+        3.5
+      ],
+      "distanceToAuthoredShore": 104.05979153424563,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 99.5,
+      "pieceMaxShoreDistance": 108.72453936730518,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        -18,
+        9
+      ],
+      "pieceBounds": [
+        [
+          -288,
+          65,
+          144,
+          -281,
+          73,
+          151
+        ],
+        [
+          -284,
+          66,
+          148,
+          -284,
+          66,
+          148
+        ],
+        [
+          -298,
+          65,
+          143,
+          -289,
+          67,
+          152
+        ]
+      ],
+      "tentCenter": [
+        -284.5,
+        65,
+        147.5
+      ],
+      "distanceToAuthoredShore": 156.480094277479,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 151.529602380589,
+      "pieceMaxShoreDistance": 169.35287751463028,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_sparse_jungle",
+      "chunk": [
+        -9,
+        -18
+      ],
+      "pieceBounds": [
+        [
+          -144,
+          86,
+          -295,
+          -137,
+          93,
+          -288
+        ],
+        [
+          -141,
+          87,
+          -291,
+          -141,
+          87,
+          -291
+        ],
+        [
+          -145,
+          86,
+          -287,
+          -136,
+          97,
+          -278
+        ],
+        [
+          -144,
+          87,
+          -286,
+          -144,
+          87,
+          -286
+        ],
+        [
+          -138,
+          87,
+          -285,
+          -138,
+          87,
+          -285
+        ]
+      ],
+      "tentCenter": [
+        -140.5,
+        86,
+        -291.5
+      ],
+      "distanceToAuthoredShore": 219.71523562325336,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 205.4927183179056,
+      "pieceMaxShoreDistance": 224.22205054244233,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -9,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          -151,
+          76,
+          -151,
+          -144,
+          84,
+          -144
+        ],
+        [
+          -147,
+          77,
+          -148,
+          -147,
+          77,
+          -148
+        ],
+        [
+          -143,
+          76,
+          -152,
+          -134,
+          78,
+          -143
+        ]
+      ],
+      "tentCenter": [
+        -147.5,
+        76,
+        -147.5
+      ],
+      "distanceToAuthoredShore": 102.82741996724357,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 90.10905032059435,
+      "pieceMaxShoreDistance": 106.1770828247567,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -9,
+        9
+      ],
+      "pieceBounds": [
+        [
+          -151,
+          56,
+          144,
+          -144,
+          63,
+          149
+        ],
+        [
+          -152,
+          55,
+          134,
+          -143,
+          58,
+          143
+        ],
+        [
+          -145,
+          57,
+          146,
+          -145,
+          57,
+          146
+        ]
+      ],
+      "tentCenter": [
+        -147.5,
+        56,
+        146.5
+      ],
+      "distanceToAuthoredShore": 69.01798327364153,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 58.5592922409336,
+      "pieceMaxShoreDistance": 73.31734213584231,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        -9,
+        18
+      ],
+      "pieceBounds": [
+        [
+          -144,
+          62,
+          288,
+          -137,
+          69,
+          295
+        ],
+        [
+          -154,
+          62,
+          287,
+          -145,
+          64,
+          296
+        ]
+      ],
+      "tentCenter": [
+        -140.5,
+        62,
+        291.5
+      ],
+      "distanceToAuthoredShore": 187.65618512547223,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 183.23078130786905,
+      "pieceMaxShoreDistance": 196.3654362756449,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        -7,
+        -15
+      ],
+      "pieceBounds": [
+        [
+          -117,
+          78,
+          -247,
+          -112,
+          85,
+          -240
+        ],
+        [
+          -111,
+          78,
+          -248,
+          -102,
+          80,
+          -239
+        ]
+      ],
+      "tentCenter": [
+        -114.5,
+        78,
+        -243.5
+      ],
+      "distanceToAuthoredShore": 165.85128494037474,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 158.11904047118682,
+      "pieceMaxShoreDistance": 169.9494059831245,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        0,
+        -27
+      ],
+      "pieceBounds": [
+        [
+          0,
+          127,
+          -432,
+          7,
+          134,
+          -425
+        ],
+        [
+          -10,
+          127,
+          -433,
+          -1,
+          129,
+          -424
+        ]
+      ],
+      "tentCenter": [
+        3.5,
+        127,
+        -428.5
+      ],
+      "distanceToAuthoredShore": 323.4486842086514,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 319.431242613159,
+      "pieceMaxShoreDistance": 330.35495311389855,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        0,
+        -18
+      ],
+      "pieceBounds": [
+        [
+          -7,
+          92,
+          -288,
+          0,
+          99,
+          -281
+        ],
+        [
+          -8,
+          92,
+          -298,
+          1,
+          94,
+          -289
+        ]
+      ],
+      "tentCenter": [
+        -3.5,
+        92,
+        -284.5
+      ],
+      "distanceToAuthoredShore": 184.52094476323012,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 180.146062785769,
+      "pieceMaxShoreDistance": 198.74858845171275,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        0,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          -7,
+          65,
+          -151,
+          0,
+          72,
+          -144
+        ],
+        [
+          -6,
+          66,
+          -145,
+          -6,
+          66,
+          -145
+        ],
+        [
+          1,
+          65,
+          -152,
+          10,
+          67,
+          -143
+        ]
+      ],
+      "tentCenter": [
+        -3.5,
+        65,
+        -147.5
+      ],
+      "distanceToAuthoredShore": 63.14157467415037,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 50.72499389946279,
+      "pieceMaxShoreDistance": 68.09300255857006,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        0,
+        18
+      ],
+      "pieceBounds": [
+        [
+          -7,
+          59,
+          281,
+          0,
+          66,
+          288
+        ],
+        [
+          1,
+          59,
+          280,
+          10,
+          61,
+          289
+        ]
+      ],
+      "tentCenter": [
+        -3.5,
+        59,
+        284.5
+      ],
+      "distanceToAuthoredShore": 166.21757556484408,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 162.0207679036744,
+      "pieceMaxShoreDistance": 171.90939649566667,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_birch_forest",
+      "chunk": [
+        0,
+        27
+      ],
+      "pieceBounds": [
+        [
+          0,
+          141,
+          427,
+          7,
+          148,
+          432
+        ],
+        [
+          -1,
+          141,
+          433,
+          8,
+          143,
+          442
+        ]
+      ],
+      "tentCenter": [
+        3.5,
+        141,
+        429.5
+      ],
+      "distanceToAuthoredShore": 311.38579640733013,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 308.73292192132453,
+      "pieceMaxShoreDistance": 324.1166970443757,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        2,
+        18
+      ],
+      "pieceBounds": [
+        [
+          32,
+          57,
+          281,
+          39,
+          64,
+          288
+        ],
+        [
+          31,
+          57,
+          289,
+          40,
+          59,
+          298
+        ]
+      ],
+      "tentCenter": [
+        35.5,
+        57,
+        284.5
+      ],
+      "distanceToAuthoredShore": 172.06520507195825,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 167.84488409215172,
+      "pieceMaxShoreDistance": 186.25384868858794,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        3,
+        -24
+      ],
+      "pieceBounds": [
+        [
+          41,
+          115,
+          -391,
+          48,
+          122,
+          -384
+        ],
+        [
+          49,
+          115,
+          -392,
+          58,
+          117,
+          -383
+        ]
+      ],
+      "tentCenter": [
+        44.5,
+        115,
+        -387.5
+      ],
+      "distanceToAuthoredShore": 278.28082789316073,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 273.5,
+      "pieceMaxShoreDistance": 282.6130516242584,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        9,
+        -27
+      ],
+      "pieceBounds": [
+        [
+          137,
+          120,
+          -432,
+          144,
+          128,
+          -425
+        ],
+        [
+          136,
+          119,
+          -442,
+          145,
+          122,
+          -433
+        ],
+        [
+          140,
+          121,
+          -428,
+          140,
+          121,
+          -428
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        120,
+        -428.5
+      ],
+      "distanceToAuthoredShore": 317.0480278644773,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 313.50636936215164,
+      "pieceMaxShoreDistance": 330.65102294874464,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        9,
+        -18
+      ],
+      "pieceBounds": [
+        [
+          144,
+          100,
+          -288,
+          151,
+          107,
+          -281
+        ],
+        [
+          134,
+          100,
+          -289,
+          143,
+          102,
+          -280
+        ]
+      ],
+      "tentCenter": [
+        147.5,
+        100,
+        -284.5
+      ],
+      "distanceToAuthoredShore": 173.4504239776738,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 168.5,
+      "pieceMaxShoreDistance": 177.6796845883391,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        9,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          137,
+          55,
+          -144,
+          144,
+          62,
+          -137
+        ],
+        [
+          143,
+          56,
+          -138,
+          143,
+          56,
+          -138
+        ],
+        [
+          136,
+          55,
+          -154,
+          145,
+          57,
+          -145
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        55,
+        -140.5
+      ],
+      "distanceToAuthoredShore": 29.512498365523456,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 25.576809620810597,
+      "pieceMaxShoreDistance": 43.64748010928823,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        9,
+        0
+      ],
+      "pieceBounds": [
+        [
+          137,
+          57,
+          -7,
+          144,
+          64,
+          0
+        ],
+        [
+          145,
+          57,
+          -8,
+          154,
+          59,
+          1
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        57,
+        -3.5
+      ],
+      "distanceToAuthoredShore": 30.204234066935456,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 25.30697580112788,
+      "pieceMaxShoreDistance": 42.68564576337837,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        9,
+        9
+      ],
+      "pieceBounds": [
+        [
+          137,
+          55,
+          137,
+          144,
+          62,
+          144
+        ],
+        [
+          145,
+          55,
+          136,
+          154,
+          57,
+          145
+        ]
+      ],
+      "tentCenter": [
+        140.5,
+        55,
+        140.5
+      ],
+      "distanceToAuthoredShore": 38.21369260427632,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 33.33784863137726,
+      "pieceMaxShoreDistance": 50.41168824543142,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        9,
+        18
+      ],
+      "pieceBounds": [
+        [
+          144,
+          61,
+          281,
+          151,
+          68,
+          288
+        ],
+        [
+          143,
+          61,
+          289,
+          152,
+          63,
+          298
+        ]
+      ],
+      "tentCenter": [
+        147.5,
+        61,
+        284.5
+      ],
+      "distanceToAuthoredShore": 175.6157290011949,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 171.50290695217916,
+      "pieceMaxShoreDistance": 189.75246384738358,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        18,
+        -18
+      ],
+      "pieceBounds": [
+        [
+          281,
+          113,
+          -295,
+          288,
+          120,
+          -288
+        ],
+        [
+          289,
+          111,
+          -296,
+          298,
+          115,
+          -287
+        ]
+      ],
+      "tentCenter": [
+        284.5,
+        113,
+        -291.5
+      ],
+      "distanceToAuthoredShore": 231.83327355288412,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 226.92251427684113,
+      "pieceMaxShoreDistance": 243.79490375363952,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        18,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          281,
+          97,
+          -144,
+          288,
+          104,
+          -137
+        ],
+        [
+          287,
+          98,
+          -138,
+          287,
+          98,
+          -138
+        ],
+        [
+          280,
+          96,
+          -154,
+          289,
+          99,
+          -145
+        ]
+      ],
+      "tentCenter": [
+        284.5,
+        97,
+        -140.5
+      ],
+      "distanceToAuthoredShore": 138.32633036188807,
+      "centerInCore": true,
+      "overlapsCore": true,
+      "fullyInsideCore": true,
+      "pieceMinShoreDistance": 133.90610105199838,
+      "pieceMaxShoreDistance": 147.35127662620977,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        18,
+        0
+      ],
+      "pieceBounds": [
+        [
+          281,
+          87,
+          -7,
+          288,
+          95,
+          0
+        ],
+        [
+          289,
+          87,
+          -8,
+          298,
+          89,
+          1
+        ],
+        [
+          285,
+          88,
+          -4,
+          285,
+          88,
+          -4
+        ]
+      ],
+      "tentCenter": [
+        284.5,
+        87,
+        -3.5
+      ],
+      "distanceToAuthoredShore": 154.5185472796519,
+      "centerInCore": false,
+      "overlapsCore": true,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 149.8761949245957,
+      "pieceMaxShoreDistance": 166.95148551147582,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_dappled_forest",
+      "chunk": [
+        18,
+        9
+      ],
+      "pieceBounds": [
+        [
+          281,
+          67,
+          137,
+          288,
+          74,
+          144
+        ],
+        [
+          289,
+          67,
+          136,
+          298,
+          69,
+          145
+        ]
+      ],
+      "tentCenter": [
+        284.5,
+        67,
+        140.5
+      ],
+      "distanceToAuthoredShore": 155.8097885628838,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 151.1377261765686,
+      "pieceMaxShoreDistance": 169.92593699317015,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_windswept_forest",
+      "chunk": [
+        18,
+        18
+      ],
+      "pieceBounds": [
+        [
+          281,
+          73,
+          288,
+          288,
+          80,
+          293
+        ],
+        [
+          280,
+          73,
+          278,
+          289,
+          75,
+          287
+        ]
+      ],
+      "tentCenter": [
+        284.5,
+        73,
+        290.5
+      ],
+      "distanceToAuthoredShore": 245.80215183743718,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 233.60467744152402,
+      "pieceMaxShoreDistance": 250.01147678300092,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_windswept_forest",
+      "chunk": [
+        21,
+        12
+      ],
+      "pieceBounds": [
+        [
+          329,
+          110,
+          185,
+          336,
+          117,
+          192
+        ],
+        [
+          337,
+          110,
+          184,
+          346,
+          112,
+          193
+        ]
+      ],
+      "tentCenter": [
+        332.5,
+        110,
+        188.5
+      ],
+      "distanceToAuthoredShore": 221.09591602734918,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 216.28099547700208,
+      "pieceMaxShoreDistance": 234.96761985462035,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        27,
+        -18
+      ],
+      "pieceBounds": [
+        [
+          425,
+          91,
+          -295,
+          432,
+          98,
+          -288
+        ],
+        [
+          433,
+          90,
+          -296,
+          442,
+          93,
+          -287
+        ]
+      ],
+      "tentCenter": [
+        428.5,
+        91,
+        -291.5
+      ],
+      "distanceToAuthoredShore": 336.92073143177333,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 332.0567620722814,
+      "pieceMaxShoreDistance": 350.62533374850636,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        27,
+        -9
+      ],
+      "pieceBounds": [
+        [
+          432,
+          114,
+          -144,
+          439,
+          121,
+          -137
+        ],
+        [
+          422,
+          114,
+          -145,
+          431,
+          116,
+          -136
+        ]
+      ],
+      "tentCenter": [
+        435.5,
+        114,
+        -140.5
+      ],
+      "distanceToAuthoredShore": 285.4838282152925,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 271.4577173017894,
+      "pieceMaxShoreDistance": 289.5,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        27,
+        0
+      ],
+      "pieceBounds": [
+        [
+          425,
+          112,
+          0,
+          432,
+          119,
+          7
+        ],
+        [
+          424,
+          112,
+          -10,
+          433,
+          114,
+          -1
+        ]
+      ],
+      "tentCenter": [
+        428.5,
+        112,
+        3.5
+      ],
+      "distanceToAuthoredShore": 289.903624046761,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 281.78000283406544,
+      "pieceMaxShoreDistance": 293.2822322741796,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        27,
+        9
+      ],
+      "pieceBounds": [
+        [
+          432,
+          172,
+          137,
+          439,
+          180,
+          144
+        ],
+        [
+          431,
+          170,
+          145,
+          440,
+          174,
+          154
+        ],
+        [
+          436,
+          173,
+          140,
+          436,
+          173,
+          140
+        ]
+      ],
+      "tentCenter": [
+        435.5,
+        172,
+        140.5
+      ],
+      "distanceToAuthoredShore": 298.94072869354994,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 294.74396691549856,
+      "pieceMaxShoreDistance": 306.64817271147814,
+      "authoredWetAtTentCenter": false
+    },
+    {
+      "key": "minecraft:abandoned_camp_old_growth_spruce_taiga",
+      "chunk": [
+        27,
+        18
+      ],
+      "pieceBounds": [
+        [
+          425,
+          198,
+          288,
+          432,
+          205,
+          295
+        ],
+        [
+          424,
+          198,
+          278,
+          433,
+          207,
+          287
+        ],
+        [
+          426,
+          199,
+          280,
+          426,
+          199,
+          280
+        ]
+      ],
+      "tentCenter": [
+        428.5,
+        198,
+        291.5
+      ],
+      "distanceToAuthoredShore": 358.6027011871729,
+      "centerInCore": false,
+      "overlapsCore": false,
+      "fullyInsideCore": false,
+      "pieceMinShoreDistance": 346.9665451521916,
+      "pieceMaxShoreDistance": 363.5054944640259,
+      "authoredWetAtTentCenter": false
+    }
+  ],
+  "fullChunksBefore": 4225,
+  "fullChunksAfter": 4225,
+  "chunkStatusesAfter": {
+    "minecraft:full": 4225,
+    "minecraft:structure_starts": 2528,
+    "minecraft:biomes": 280,
+    "minecraft:terrain": 272,
+    "minecraft:initialize_light": 264
+  },
+  "measurementSource": "Actual saved Minecraft structure starts and generated piece bounds, including both native structure-set and Iris nativeStructures starts.",
+  "candidateDensityRelativeToVanillaApprox": 18.9612188365651
+}

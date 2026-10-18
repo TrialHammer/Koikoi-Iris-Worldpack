@@ -1,0 +1,76 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-cave",
+  "name": "Frost Shards",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "style": {
+      "style": "SIMPLEX",
+      "zoom": 0.7
+    },
+    "palette": [
+      {
+        "block": "minecraft:deepslate"
+      },
+      {
+        "block": "minecraft:packed_ice"
+      },
+      {
+        "block": "minecraft:calcite"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "style": {
+        "style": "CELLULAR"
+      },
+      "minHeight": 1,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:snow_block"
+        },
+        {
+          "block": "minecraft:packed_ice"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.028,
+      "partOf": "CEILING",
+      "stackMin": 1,
+      "stackMax": 2,
+      "palette": [
+        {
+          "block": "minecraft:pointed_dripstone"
+        }
+      ]
+    },
+    {
+      "chance": 0.03,
+      "stackMin": 1,
+      "stackMax": 1,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/rock-boulder-carve-c0-0972-d4-size0-375"
+  ],
+  "caveProfile": "snippet/cave-profile/frozen/shard-caverns",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/frost-shards-child"
+  ],
+  "childStyle": {
+    "style": "CELLULAR_IRIS_DOUBLE",
+    "zoom": 0.82
+  },
+  "childShrinkFactor": 1.54
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Mountain Beach",
+  "color": "#365B8F",
+  "rarity": 1,
+  "derivative": "minecraft:old_growth_spruce_taiga",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "generators": [
+    {
+      "min": 0,
+      "max": 2,
+      "generator": "plain"
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 6,
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/bincluster-paint-c0-0025"
+  ],
+  "slab": {
+    "palette": [
+      {
+        "block": "minecraft:stone_slab"
+      },
+      {
+        "block": "minecraft:air"
+      }
+    ]
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-mountain-shore-beach",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Savanna Plateau",
+  "color": "#9E621E",
+  "rarity": 1,
+  "derivative": "minecraft:savanna_plateau",
+  "vanillaDerivative": "minecraft:savanna",
+  "biomeScatter": [
+    "minecraft:savanna",
+    "minecraft:desert"
+  ],
+  "customDerivitives": [
+    {
+      "category": "savanna",
+      "id": "savanna_plateau",
+      "grassColor": "#FFCB31",
+      "foliageColor": "#D6A513",
+      "waterColor": "#33CB99",
+      "downfallType": "none"
+    }
+  ],
+  "generators": [
+    {
+      "min": 13,
+      "max": 26,
+      "generator": "mountain"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 6.9
+      },
+      "palette": [
+        {
+          "block": "minecraft:granite"
+        }
+      ]
+    },
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 4.6
+      },
+      "palette": [
+        {
+          "block": "minecraft:coarse_dirt"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "zoom": 0.75,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 4,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/camp-c0-00175",
+    "snippet/object-placer/clutter/bincluster-paint-c0-005",
+    "snippet/object-placer/trees/acacia-savannad-c0-07",
+    "snippet/object-placer/trees/acacia-savannaf-c0-2",
+    "snippet/object-placer/trees/acacia-savannas-c0-04",
+    "snippet/object-placer/clutter/savrock-c0-1"
+  ],
+  "decorators": [
+    {
+      "chance": 0.001,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:dead_bush"
+        }
+      ]
+    },
+    {
+      "chance": 0.0005,
+      "stackMax": 2,
+      "palette": [
+        {
+          "block": "minecraft:cactus"
+        }
+      ],
+      "stackMin": 1
+    },
+    "snippet/decorator/plants/cactus-flowering-max2-c0-0005",
+    {
+      "chance": 0.3,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    "snippet/decorator/grass/dry-grass"
+  ],
+  "biomeSkyScatter": [
+    "minecraft:desert",
+    "minecraft:savanna"
+  ],
+  "terrain3D": "snippet/terrain-3d/hilly/amp22-perlin-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_savanna"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-savanna-plateau",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Volcanic Cavern",
+  "derivative": "minecraft:deep_dark",
+  "vanillaDerivative": "minecraft:deep_dark",
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:smooth_basalt",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:magma_block"
+      }
+    ]
+  },
+  "layers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "y"
+          },
+          "weight": 7
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "maxHeight": 2,
+      "minHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:smooth_basalt",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:basalt",
+          "data": {
+            "axis": "y"
+          },
+          "weight": 7
+        },
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/lava-cup-carve-organic-stilt-floor-c0-01-d1",
+    "snippet/object-placer/clutter/magmaspire-carve-c0-21-d4",
+    "snippet/object-placer/clutter/magmaspire-rock-boulder-carve-c0-165-d4",
+    "snippet/object-placer/clutter/magmaspire-rock-boulder-carve-c0-0972-d4"
+  ],
+  "caveProfile": "snippet/cave-profile/volcanic/ember-rifts",
+  "caveMinDepthBelowSurface": 10,
+  "children": [
+    "carving/volcanic-child"
+  ],
+  "childStyle": {
+    "style": "PERLIN_IRIS",
+    "zoom": 1.34
+  },
+  "childShrinkFactor": 1.42
+}

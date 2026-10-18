@@ -1,0 +1,57 @@
+{
+  "name": "Deep Cold Ocean",
+  "color": "#1F4480",
+  "derivative": "minecraft:deep_cold_ocean",
+  "vanillaDerivative": "minecraft:deep_cold_ocean",
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": -70,
+      "min": -80
+    }
+  ],
+  "layers": [
+    "snippet/biome-palette/sand/clay-gravel-dirt-2-2-flat3",
+    {
+      "minHeight": 2,
+      "maxHeight": 10,
+      "palette": [
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    }
+  ],
+  "decorators": [
+    {
+      "chance": 0.09,
+      "palette": [
+        {
+          "block": "minecraft:kelp_plant"
+        }
+      ],
+      "stackMin": 2,
+      "stackMax": 12,
+      "partOf": "SEA_FLOOR"
+    },
+    {
+      "chance": 0.2,
+      "palette": [
+        {
+          "block": "minecraft:seagrass"
+        }
+      ]
+    },
+    "snippet/decorator/sea/tall-seagrass-c0-2"
+  ],
+  "customDerivitives": [
+    {
+      "category": "ocean",
+      "id": "deep_cold_ocean",
+      "grassColor": "#8AB689",
+      "foliageColor": "#6DA36B",
+      "waterColor": "#3D57D6",
+      "downfallType": "none"
+    }
+  ]
+}

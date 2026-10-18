@@ -1,0 +1,324 @@
+{
+  "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-surface",
+  "name": "Winter Forest",
+  "color": "#8EDEE7",
+  "rarity": 1,
+  "derivative": "minecraft:taiga",
+  "vanillaDerivative": "minecraft:dark_forest",
+  "customDerivitives": [
+    {
+      "category": "taiga",
+      "downfallType": "snow",
+      "foliageColor": "#194569",
+      "id": "winter_mountain_forest1",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "grassColor": "#D0E1FF"
+    },
+    {
+      "category": "taiga",
+      "downfallType": "snow",
+      "foliageColor": "#5F84A2",
+      "id": "winter_mountain_forest2",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "grassColor": "#D0E1FF"
+    },
+    {
+      "category": "taiga",
+      "downfallType": "snow",
+      "foliageColor": "#91AEC4",
+      "id": "winter_mountain_forest3",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "generators": [
+    {
+      "min": 48,
+      "max": 86,
+      "generator": "smooth-dunes"
+    }
+  ],
+  "biomeStyle": {
+    "style": "STATIC",
+    "zoom": 1
+  },
+  "wall": "snippet/biome-palette/wall/diorite-stone",
+  "layers": [
+    {
+      "style": {
+        "style": "SIMPLEX",
+        "fracture": {
+          "style": "NOWHERE",
+          "zoom": 0.39,
+          "multiplier": 23
+        }
+      },
+      "zoom": 0.7,
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        },
+        {
+          "block": "minecraft:snow_block"
+        },
+        {
+          "block": "minecraft:powder_snow"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    },
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "mode": "PAINT",
+      "density": 1,
+      "place": [
+        "clutter/boulder1",
+        "clutter/boulder2",
+        "clutter/boulder3",
+        "clutter/boulder4",
+        "clutter/boulder5",
+        "clutter/boulder6",
+        "clutter/boulder7",
+        "clutter/boulder8",
+        "clutter/boulder9",
+        "clutter/boulder10"
+      ],
+      "chance": 0.4,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      },
+      "translate": {
+        "x": 0,
+        "y": -3,
+        "z": 0
+      }
+    },
+    {
+      "mode": "PAINT",
+      "density": 1,
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ],
+      "chance": 0.6,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      }
+    },
+    {
+      "chance": 0.35,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        "snippet/object-block-replacer/leaves/birch-spruce-to-jungle-acacia-oak-dark-oak"
+      ],
+      "place": [
+        "trees/mixed/tredwood1",
+        "trees/mixed/tredwood2",
+        "trees/mixed/tredwood3",
+        "trees/mixed/tredwood4",
+        "trees/mixed/tredwood5",
+        "trees/mixed/tredwood6",
+        "trees/mixed/tredwood7",
+        "trees/mixed/tredwood8",
+        "trees/mixed/tredwood9",
+        "trees/mixed/tredwood10"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -12,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/clutter/srock-paint-c0-32-diorite",
+    {
+      "chance": 0.45,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        "snippet/object-block-replacer/leaves/birch-spruce-to-jungle-acacia-oak-dark-oak"
+      ],
+      "place": [
+        "trees/mixed/tredwoodsmol1",
+        "trees/mixed/tredwoodsmol2",
+        "trees/mixed/tredwoodsmol3",
+        "trees/mixed/tredwoodsmol1",
+        "trees/mixed/tredwoodsmol2",
+        "trees/mixed/tredwoodsmol3",
+        "trees/mixed/tredwoodsmol4",
+        "trees/mixed/tredwoodsmol5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      }
+    },
+    {
+      "chance": 0.35,
+      "density": 1,
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "edit": [
+        "snippet/object-block-replacer/leaves/birch-spruce-to-jungle-acacia-oak-dark-oak"
+      ],
+      "place": [
+        "clutter/spruceclutt1",
+        "clutter/spruceclutt2",
+        "clutter/spruceclutt3",
+        "clutter/spruceclutt4",
+        "clutter/spruceclutt5"
+      ],
+      "translate": {
+        "x": 0,
+        "y": -8,
+        "z": 0
+      }
+    },
+    "snippet/object-placer/clutter/rshrub-c0-15-mixed-leaves",
+    "snippet/object-placer/trees/mixed-tredwoodbee-c0-01-mixed-leaves",
+    "snippet/object-placer/clutter/stump-paint-c0-075-spruce",
+    "snippet/object-placer/clutter/pumpkins-paint-c0-008"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/cool-mix-c0-003-z1",
+    "snippet/decorator/shrubs/sweet-berry-c0-01",
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:snow"
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:stone_button",
+          "data": {
+            "Facing": "north",
+            "face": "floor"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.01,
+      "palette": [
+        {
+          "block": "minecraft:stone_button",
+          "data": {
+            "Facing": "east",
+            "face": "floor"
+          }
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.25,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    },
+    {
+      "chance": 0.06,
+      "palette": [
+        {
+          "block": "minecraft:fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.1,
+      "palette": [
+        {
+          "block": "minecraft:large_fern"
+        }
+      ]
+    },
+    {
+      "chance": 0.05,
+      "palette": [
+        {
+          "block": "minecraft:cobblestone_slab"
+        }
+      ]
+    }
+  ],
+  "childShrinkFactor": 2.4,
+  "terrain3D": "snippet/terrain-3d/hilly/amp24-simplex-crack448"
+}

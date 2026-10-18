@@ -1,0 +1,53 @@
+{
+  "schemaFilesPassed": 23,
+  "schemaFiles": [
+    "biomes/dappled/activity-amber.json",
+    "biomes/dappled/emberbark-grove.json",
+    "biomes/dappled/activity-russet.json",
+    "biomes/dappled/forest.json",
+    "biomes/dappled/russet-woods.json",
+    "biomes/dappled/shore.json",
+    "biomes/dappled/activity-golden.json",
+    "biomes/dappled/lake-silt.json",
+    "biomes/dappled/lake.json",
+    "biomes/dappled/amber-highlands.json",
+    "biomes/dappled/lake-rocky.json",
+    "biomes/dappled/golden-grove.json",
+    "biomes/dappled/activity-emberbark.json",
+    "image-maps/activity/lake-biome.json",
+    "image-maps/activity/lake-height.json",
+    "image-maps/activity/terrain-mask.json",
+    "image-maps/activity/forest-region-mask.json",
+    "image-maps/activity/lake-biome-mask.json",
+    "image-maps/activity/surface-biomes.json",
+    "image-maps/activity/forest-region.json",
+    "image-maps/activity/surface-biomes-mask.json",
+    "dimensions/koikoi.json",
+    "regions/dappled.json"
+  ],
+  "epoch": "d55944ceefc28aba6be6aba259b6749a4ebf22edbc6703f86dc7bd9d85c99bda",
+  "snapshotFilesCompared": 8220,
+  "snapshotMismatches": [],
+  "generationFilesUnchanged": 8213,
+  "generationFilesChanged": [
+    "dimensions/koikoi.json",
+    "image-maps/activity/surface-biomes.json",
+    "images/activity/lake-height.png",
+    "images/activity/surface-biomes.png",
+    "regions/dappled.json"
+  ],
+  "generationFilesAdded": [
+    "biomes/dappled/lake-rocky.json",
+    "biomes/dappled/lake-silt.json"
+  ],
+  "generationFilesDeleted": [],
+  "surfaceBreakEnabled": true,
+  "canonicalPackValidation": {
+    "packName": "koikoi",
+    "blockingErrors": [],
+    "warnings": [],
+    "validatedAtMillis": 1791820739792,
+    "minecraftVersion": "26.3",
+    "compatFindings": []
+  }
+}

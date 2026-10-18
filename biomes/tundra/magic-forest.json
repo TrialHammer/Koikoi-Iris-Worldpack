@@ -1,0 +1,105 @@
+{
+  "name": "Tundra Magic Forest",
+  "color": "#49AEB9",
+  "rarity": 7,
+  "derivative": "minecraft:windswept_hills",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "biomeScatter": [
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:windswept_hills"
+  ],
+  "customDerivitives": [
+    {
+      "grassColor": "#4E83CF",
+      "foliageColor": "#2F99DC",
+      "id": "tunmagforest",
+      "waterColor": "#5C3BEF",
+      "waterFogColor": "#7A768F",
+      "category": "forest",
+      "fogColor": "#686090"
+    }
+  ],
+  "children": [
+    "tundra/magic-forest-extended"
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "max": 34,
+      "min": 22
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/stone/andesite-gravel-3-5-steep6-9",
+    "snippet/biome-palette/soil/dirt-coarse-gravel-3-5-steep5-3",
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/gravelsplotch-paint-c0-35",
+    "snippet/object-placer/trees/mixed-dotree-c0-8",
+    "snippet/object-placer/clutter/obelisk-c0-01-sunk4"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-orchid-poppy-c0-01",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.2,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "childShrinkFactor": 2.4,
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30103,
+    "amplitude": 18,
+    "horizontalScale": 144,
+    "verticalScale": 44,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 0,
+    "crackWidth": 2,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.3,
+    "slopeFade": 0.4,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tundra-magic-forest",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Hot Mountain Cliffs",
+  "color": "#E7C34B",
+  "rarity": 3,
+  "derivative": "minecraft:desert",
+  "vanillaDerivative": "minecraft:desert",
+  "generators": [
+    {
+      "min": 59,
+      "max": 123,
+      "generator": "cracked-cliffs"
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:gray_terracotta"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/sand/red-1-1-flat3",
+    "snippet/biome-palette/terracotta/brown-gray-2-4-steep3-95",
+    {
+      "minHeight": 2,
+      "maxHeight": 3,
+      "palette": [
+        {
+          "block": "minecraft:brown_terracotta"
+        }
+      ]
+    },
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30113,
+    "amplitude": 40,
+    "horizontalScale": 144,
+    "verticalScale": 48,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 4,
+    "crackWidth": 2.25,
+    "crackScale": 336,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.2,
+    "slopeFade": 0.34,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

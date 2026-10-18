@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:zombie",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "LAND"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:turtle",
+  "reason": "NATURAL",
+  "removable": true,
+  "surface": "OVERWORLD"
+}

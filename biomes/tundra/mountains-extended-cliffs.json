@@ -1,0 +1,185 @@
+{
+  "name": "Tundra Magic Forest Cliffs",
+  "color": "#3EADB9",
+  "rarity": 1,
+  "derivative": "minecraft:windswept_hills",
+  "vanillaDerivative": "minecraft:old_growth_spruce_taiga",
+  "biomeScatter": [
+    "minecraft:plains",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:windswept_hills",
+    "minecraft:swamp"
+  ],
+  "customDerivitives": [
+    {
+      "category": "forest",
+      "id": "tundra_magical_forest_cliffs",
+      "grassColor": "#B0A747",
+      "waterColor": "#80B4C6",
+      "waterFogColor": "#80B4C6",
+      "fogColor": "#8091C6"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "smooth-dunes",
+      "min": 97,
+      "max": 132
+    },
+    {
+      "generator": "mountain",
+      "max": 14,
+      "min": 8
+    }
+  ],
+  "biomeStyle": {
+    "style": "SIMPLEX"
+  },
+  "wall": "snippet/biome-palette/wall/stone-andesite",
+  "layers": [
+    "snippet/biome-palette/stone/andesite-gravel-3-5-steep6-9",
+    {
+      "minHeight": 3,
+      "maxHeight": 5,
+      "slopeCondition": {
+        "minimumSlope": 5.2
+      },
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        },
+        {
+          "block": "minecraft:coarse_dirt"
+        },
+        {
+          "block": "minecraft:gravel"
+        }
+      ]
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 6,
+      "maxHeight": 18,
+      "style": {
+        "style": "NOWHERE"
+      },
+      "palette": [
+        {
+          "block": "minecraft:stone"
+        },
+        {
+          "block": "minecraft:andesite"
+        },
+        {
+          "block": "minecraft:stone"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    "snippet/object-placer/clutter/gravelsplotch-paint-c0-75",
+    "snippet/object-placer/trees/spruce-l-m-evergreen-c0-8",
+    "snippet/object-placer/clutter/obelisk-c0-005",
+    "snippet/object-placer/clutter/boulder-c0-035",
+    {
+      "chance": 0.075,
+      "edit": [
+        {
+          "find": [
+            {
+              "block": "minecraft:oak_wood"
+            }
+          ],
+          "replace": {
+            "palette": [
+              {
+                "block": "minecraft:spruce_wood"
+              }
+            ]
+          }
+        }
+      ],
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "max": 270,
+          "interval": 90,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "place": [
+        "clutter/stump1",
+        "clutter/stump2",
+        "clutter/stump3",
+        "clutter/stump4",
+        "clutter/stump5",
+        "clutter/stump6"
+      ],
+      "mode": "PAINT"
+    },
+    "snippet/object-placer/trees/spruce-pine-c0-125"
+  ],
+  "decorators": [
+    "snippet/decorator/flowers/tulip-orchid-poppy-c0-01",
+    "snippet/decorator/flowers/cool-mix-c0-003-z0-02",
+    "snippet/decorator/shrubs/sweet-berry-c0-001",
+    {
+      "chance": 0.2,
+      "zoom": 0.3,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        }
+      ]
+    }
+  ],
+  "biomeSkyScatter": [
+    "minecraft:snowy_taiga",
+    "minecraft:frozen_peaks"
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30113,
+    "amplitude": 44,
+    "horizontalScale": 160,
+    "verticalScale": 48,
+    "densityStyle": {
+      "style": "IRIS_HALF"
+    },
+    "crackDepth": 5,
+    "crackWidth": 2.25,
+    "crackScale": 336,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.16,
+    "slopeFade": 0.3,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  },
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_old_growth_spruce_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-tundra-mountains-extended-cliffs",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

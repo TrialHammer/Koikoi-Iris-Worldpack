@@ -1,0 +1,114 @@
+{
+  "name": "Frozen Hills",
+  "color": "#3B98C2",
+  "rarity": 1,
+  "derivative": "minecraft:snowy_taiga",
+  "vanillaDerivative": "minecraft:snowy_taiga",
+  "customDerivitives": [
+    {
+      "category": "icy",
+      "id": "frozen_hills",
+      "waterColor": "#216FC4",
+      "downfallType": "snow",
+      "temperature": -3,
+      "fogColor": "#A6D1FF",
+      "waterFogColor": "#216FC4",
+      "foliageColor": "#B8D0E1",
+      "grassColor": "#D0E1FF"
+    }
+  ],
+  "children": [
+    "frozen/hills-extended",
+    "frozen/vander"
+  ],
+  "generators": [
+    {
+      "generator": "plain",
+      "max": 36,
+      "min": 28
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:andesite"
+      }
+    ]
+  },
+  "layers": [
+    "snippet/biome-palette/snow/block-0-2-flat3-5",
+    "snippet/biome-palette/grass/top-1-1-flat3-5",
+    "snippet/biome-palette/soil/dirt-7-18-flat3-5",
+    "snippet/biome-palette/stone/andesite-blend-6-18"
+  ],
+  "objects": [
+    {
+      "edit": [
+        "snippet/object-block-replacer/leaves/spruce-to-oak-dark-oak-perlin"
+      ],
+      "place": [
+        "trees/spruce/lfrostgeneric1",
+        "trees/spruce/lfrostgeneric2",
+        "trees/spruce/lfrostgeneric3",
+        "trees/spruce/lfrostgeneric4",
+        "trees/spruce/lfrostgeneric5",
+        "trees/spruce/lfrostgeneric6",
+        "trees/spruce/lfrostgeneric7",
+        "trees/spruce/lfrostgeneric8",
+        "trees/spruce/lfrostgeneric9",
+        "trees/spruce/lfrostgeneric10",
+        "trees/spruce/lfrostgeneric11",
+        "trees/spruce/lfrostgeneric12",
+        "trees/spruce/lfrostgeneric13",
+        "trees/spruce/lfrostgeneric14",
+        "trees/spruce/lfrostgeneric15",
+        "trees/spruce/lfrostgeneric16",
+        "trees/spruce/lfrostgeneric17",
+        "trees/spruce/lfrostgeneric18",
+        "trees/spruce/lfrostgeneric19",
+        "trees/spruce/lfrostgeneric20"
+      ],
+      "chance": 0.62,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": 0,
+          "max": 270
+        }
+      },
+      "warp": {
+        "style": "IRIS_DOUBLE",
+        "exponent": 1.2,
+        "zoom": 0.4
+      }
+    },
+    "snippet/object-placer/clutter/obelisk-paint-c0-005-no-vine"
+  ],
+  "decorators": [
+    "snippet/decorator/snow/patchy-layer-c1"
+  ],
+  "terrain3D": "snippet/terrain-3d/hilly/amp18-simplex-crack416",
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:abandoned_camp_snowy_taiga"
+        }
+      ],
+      "placementId": "koikoi-camp-supplement-frozen-hills",
+      "nativeSuppression": "NONE",
+      "distribution": "DENSITY",
+      "density": 0.013850415512465374,
+      "underground": false,
+      "underwater": false,
+      "terrain": {
+        "mode": "PRESERVE"
+      }
+    }
+  ]
+}

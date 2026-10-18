@@ -1,0 +1,44 @@
+{
+  "version": 4022,
+  "layoutSeed": 3560224932,
+  "lakeColumns": 46080,
+  "lakeChunkArea": 180.0,
+  "bounds": {
+    "minX": -187,
+    "maxX": 153,
+    "minZ": -111,
+    "maxZ": 118,
+    "width": 341,
+    "length": 230
+  },
+  "shorelinePerimeterBlocks": 1590,
+  "perimeterDivSqrtArea": 7.406975175468053,
+  "lowBank": {
+    "columns": 32378,
+    "physicalWidthRange": [
+      17.53527321542481,
+      28.6692109276839
+    ],
+    "heightRange": [
+      49.520347905699246,
+      51.94287022201877
+    ],
+    "gradientPercentiles": [
+      0.0499885557335773,
+      0.1999542229343092,
+      0.4768139162279681,
+      1.1074387731746427
+    ],
+    "dappledFamilyAcross30Blocks": true
+  },
+  "mountainContribution5BlockNearestShore": [
+    60.302960454241045,
+    184,
+    -152,
+    5.114853083817235
+  ],
+  "heightRange": [
+    29.125017166399637,
+    232.02856488899062
+  ]
+}

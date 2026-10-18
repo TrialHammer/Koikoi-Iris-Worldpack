@@ -1,0 +1,48 @@
+{
+  "name": "Stony Peaks",
+  "color": "#A0A0A0",
+  "rarity": 12,
+  "derivative": "minecraft:stony_peaks",
+  "vanillaDerivative": "minecraft:stony_peaks",
+  "generators": [
+    {
+      "min": 23,
+      "max": 200,
+      "generator": "spikes"
+    }
+  ],
+  "wall": "snippet/biome-palette/ice/blue-packed-1-1-flat2-6",
+  "layers": [
+    "snippet/biome-palette/ice/blue-packed-1-1-flat2-6"
+  ],
+  "customDerivitives": [
+    {
+      "category": "extreme_hills",
+      "id": "stony_peaks",
+      "grassColor": "#9ABE4B",
+      "foliageColor": "#82AC1E",
+      "waterColor": "#3F76E4",
+      "downfallType": "none"
+    }
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30109,
+    "amplitude": 38,
+    "horizontalScale": 112,
+    "verticalScale": 52,
+    "densityStyle": {
+      "style": "SIMPLEX"
+    },
+    "crackDepth": 4,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.22,
+    "slopeFade": 0.36,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Tropical Mountain Extreme",
+  "color": "#3EBC8B",
+  "rarity": 1,
+  "derivative": "minecraft:sparse_jungle",
+  "vanillaDerivative": "minecraft:jungle",
+  "customDerivitives": [
+    {
+      "id": "tropical_mountain_extreme",
+      "foliageColor": "#478F04",
+      "grassColor": "#41A726",
+      "waterColor": "#3AB2A2",
+      "waterFogColor": "#3FE727",
+      "category": "jungle"
+    }
+  ],
+  "generators": [
+    {
+      "generator": "mountain",
+      "max": 195,
+      "min": 112
+    }
+  ],
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 4.5
+      },
+      "palette": [
+        {
+          "weight": 1,
+          "block": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "minHeight": 2,
+      "maxHeight": 2,
+      "slopeCondition": {
+        "minimumSlope": 0,
+        "maximumSlope": 4.5
+      },
+      "palette": [
+        {
+          "block": "minecraft:dirt"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "place": [
+        "clutter/sbush1",
+        "clutter/sbush2",
+        "clutter/sbush3"
+      ],
+      "chance": 0.87,
+      "density": 5
+    },
+    {
+      "place": [
+        "trees/jungle/lgeneric1",
+        "trees/jungle/lgeneric2",
+        "trees/jungle/lgeneric3",
+        "trees/jungle/lgeneric4",
+        "trees/jungle/lgeneric5",
+        "trees/jungle/lgeneric6",
+        "trees/jungle/lgeneric7",
+        "trees/jungle/lgeneric8",
+        "trees/jungle/lgeneric9"
+      ],
+      "chance": 0.85,
+      "density": 2,
+      "rotation": {
+        "enabled": true,
+        "yAxis": {
+          "enabled": true,
+          "interval": 90,
+          "min": -360,
+          "max": 360
+        }
+      },
+      "translate": {
+        "y": -2
+      }
+    },
+    "snippet/object-placer/clutter/pumpkins-melons-paint-c0-004"
+  ],
+  "decorators": [
+    {
+      "chance": 0.7,
+      "palette": [
+        {
+          "weight": 2,
+          "block": "minecraft:short_grass"
+        },
+        {
+          "weight": 1,
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    },
+    "snippet/decorator/flowers/meadow-mix-c0-2-trioctave-z0-3",
+    "snippet/decorator/grass/jungle-undergrowth-c0-45",
+    {
+      "chance": 0.5,
+      "zoom": 10,
+      "palette": [
+        {
+          "block": "minecraft:short_grass"
+        },
+        {
+          "block": "minecraft:tall_grass"
+        }
+      ]
+    }
+  ],
+  "terrain3D": {
+    "enabled": true,
+    "seed": 30109,
+    "amplitude": 44,
+    "horizontalScale": 176,
+    "verticalScale": 52,
+    "densityStyle": {
+      "style": "NOWHERE"
+    },
+    "crackDepth": 5,
+    "crackWidth": 2.25,
+    "crackScale": 416,
+    "crackStyle": {
+      "style": "SIMPLEX"
+    },
+    "minimumSlope": 0.22,
+    "slopeFade": 0.36,
+    "fluidClearance": 8,
+    "fluidFade": 24
+  }
+}
